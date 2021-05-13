@@ -18,7 +18,7 @@ export const AuthContextProvider = ({ children }) => {
     netlifyIdentity.on("login", (user) => {
       setUser(user);
       netlifyIdentity.close();
-      router.push("/webinar");
+      // router.push("/webinar");
 
       console.log("login event");
     });
