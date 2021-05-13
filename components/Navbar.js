@@ -7,9 +7,7 @@ export default function Navbar() {
   //DATE Logic
   let myDate = new Date();
   let hrs = myDate.getHours();
-
   let greet;
-
   if (hrs < 12) greet = "Good Morning ";
   else if (hrs >= 12 && hrs <= 17) greet = "Good Afternoon ";
   else if (hrs >= 17 && hrs <= 24) greet = "Good Evening ";
@@ -20,38 +18,39 @@ export default function Navbar() {
 
   return (
     <div className="container">
-      <nav>
-        {/* <Image src="/rupee.png" width={50} height={48} /> */}
-        <h1>Da Meet</h1>
-        {authReady && (
-          <ul>
-            <li>
-              <Link href="/">
-                <a>Home</a>
-              </Link>
-            </li>
-            <li>
-              <Link href="/webinar">
-                <a>Webinar</a>
-              </Link>
-            </li>
-            {!user && (
-              <li onClick={login} className="btn">
-                Login/Signup
+      <header>
+        <nav className="nav">
+          {/* <Image src="/rupee.png" width={50} height={48} /> */}
+          <Link href="/">
+            <a className="logo">Da meet</a>
+          </Link>
+          {authReady && (
+            <ul className="nav__list">
+              <li>
+                <Link href="/">
+                  <a>Schedule</a>
+                </Link>
               </li>
-            )}
-            {user && <li>{greet + user.user_metadata.full_name + " 🚀"}</li>}
-            {user && (
-              <li onClick={logout} className="btn">
-                Logout
+              <li>
+                <Link href="/webinar">
+                  <a>Mainstage</a>
+                </Link>
               </li>
-            )}
-          </ul>
-        )}
-      </nav>
-      <div className="banner">
-        <Image src="/banner.png" width={966} height={276} />
-      </div>
+              {!user && (
+                <li onClick={login}>
+                  <a className="btn nav__btn">Login</a>
+                </li>
+              )}
+              {user && <li>{greet + user.user_metadata.full_name + " 🚀"}</li>}
+              {user && (
+                <li onClick={logout}>
+                  <a className="btn nav__btn">Logout</a>
+                </li>
+              )}
+            </ul>
+          )}
+        </nav>
+      </header>
     </div>
   );
 }
