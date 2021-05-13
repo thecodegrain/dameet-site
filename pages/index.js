@@ -16,7 +16,7 @@ export default function Home() {
               <h1>The ultimate design conference experience. ✌</h1>
               <a className="btn">Secure a Spot</a>
             </div>
-            <div className="ml">
+            <div className="pl">
               <Image src="/hero.jpg" width={495} height={727}></Image>
             </div>
           </div>
@@ -25,7 +25,7 @@ export default function Home() {
       <section className="gray-bg">
         <div className="container">
           <div className="split">
-            <div className="flow-content flow-content--large">
+            <div className="flow-content">
               <h2>Ambitious creatives coming together virtually.</h2>
               <p>
                 For our third year running, Frontrow is more than a conference.
@@ -34,8 +34,8 @@ export default function Home() {
               </p>
               <a className="btn">Sign up now</a>
             </div>
-            <div className="ml xl-space">
-              <Image src="/all-access-01.jpg" width={120} height={120}></Image>
+            <div className="pl">
+              <Image src="/second.png" width={500} height={414}></Image>
             </div>
           </div>
         </div>

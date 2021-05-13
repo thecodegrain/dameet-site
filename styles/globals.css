@@ -154,8 +154,8 @@ a:focus {
   font-weight: var(--fw-400);
 }
 
-.ml {
-  margin-left: 12rem;
+.pl {
+  padding-left: 12rem;
 }
 
 .text-500 {
@@ -219,6 +219,10 @@ section {
 
 .flow-content--large {
   --flow-space: 3rem;
+}
+
+.flow-content--xl {
+  --flow-space: 6rem;
 }
 
 .split {
@@ -295,7 +299,7 @@ header {
 .gray-bg {
   background: #efeeee;
   border-radius: var(--br);
-  padding: 4rem 4rem;
+  padding: 8rem 4rem;
   margin: 8rem 4rem;
   display: flex;
   align-self: center;
