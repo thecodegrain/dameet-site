@@ -1,8 +1,14 @@
 import Head from "next/head";
 import Image from "next/image";
+import { useContext } from "react";
 import AuthContext from "../stores/authContext";
+import Link from "next/link";
+import { useRouter } from "next/router";
 
 export default function Home() {
+  const { user, login, logout, authReady } = useContext(AuthContext);
+  const router = useRouter();
+
   return (
     <>
       <Head>
@@ -14,7 +20,16 @@ export default function Home() {
           <div className="split">
             <div className="container flow-content flow-content--large xl-space">
               <h1>The ultimate design conference experience. ✌</h1>
-              <a className="btn">Secure a Spot</a>
+              {!user && (
+                <a className="btn" onClick={login}>
+                  Secure a Spot
+                </a>
+              )}
+              {user && (
+                <Link href="/webinar">
+                  <a className="btn">Mainstage</a>
+                </Link>
+              )}
             </div>
             <div className="pl">
               <Image src="/hero.jpg" width={495} height={727}></Image>
@@ -32,7 +47,16 @@ export default function Home() {
                 It's an experience that brings the most talented & passionate
                 creatives in the world together, virtually.
               </p>
-              <a className="btn">Sign up now</a>
+              {!user && (
+                <a className="btn" onClick={login}>
+                  Sign up now
+                </a>
+              )}
+              {user && (
+                <Link href="/webinar">
+                  <a className="btn">Mainstage</a>
+                </Link>
+              )}
             </div>
             <div className="pl">
               <Image src="/second.png" width={500} height={414}></Image>
