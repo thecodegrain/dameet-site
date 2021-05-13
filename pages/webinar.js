@@ -2,10 +2,18 @@ import { useContext, useEffect, useState } from "react";
 import AuthContext from "../stores/authContext";
 
 export default function Guides() {
+  //DATE Logic
+  let myDate = new Date();
+  let hrs = myDate.getHours();
+  let greet;
+  if (hrs < 12) greet = "Good Morning ";
+  else if (hrs >= 12 && hrs <= 17) greet = "Good Afternoon ";
+  else if (hrs >= 17 && hrs <= 24) greet = "Good Evening ";
+  //username
+
   const { user, authReady } = useContext(AuthContext);
   const [guides, setGuides] = useState(null);
   const [error, setError] = useState(null);
-  const { user: greeting } = useContext(AuthContext);
 
   useEffect(() => {
     if (authReady) {
@@ -43,10 +51,10 @@ export default function Guides() {
             <p>{error}</p>
           </div>
         )}
+
         {guides &&
           guides.map((guide) => (
             <div key={guide.title} className="card">
-              <h2>{greeting.user_metadata.full_name}</h2>
               <h3>{guide.title}</h3>
               <h4>Written by {guide.author}</h4>
               <p>

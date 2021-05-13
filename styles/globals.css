@@ -155,7 +155,7 @@ a:focus {
 }
 
 .pl {
-  padding-left: 12rem;
+  padding-left: 4rem;
 }
 
 .text-500 {
@@ -276,7 +276,7 @@ header {
   margin: 0;
   padding: 0;
   list-style: none;
-  gap: 4rem;
+  gap: 3rem;
 
   display: flex;
   flex-grow: 1;
