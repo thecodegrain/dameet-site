@@ -78,54 +78,52 @@ export default function Home() {
             <div className="flow-content">
               <h3>Our 2021 Speakers</h3>
               <p>We have shakers of the industry</p>
+              {!user && (
+                <a className="btn" onClick={login}>
+                  Secure a Spot
+                </a>
+              )}
+              {user && (
+                <Link href="/webinar">
+                  <a className="btn">Mainstage</a>
+                </Link>
+              )}
             </div>
           </div>
           <div className="speaker-cards large-space">
-            <div class="speaker bg-light">
+            <div className="speaker bg-light">
               <img src="/img/team-01.jpg" alt="" />
-              <div class="info">
-                <h3 class="name">Adriana Ramirez</h3>
-                <p class="position">Lead UI/UX</p>
+              <div className="info">
+                <h3 className="name">Adriana Ramirez</h3>
+                <p className="position">Lead UI/UX</p>
                 <p>Sed sit tellus sit mauris sit hendrerit pellentesque.</p>
               </div>
             </div>
-            <div class="speaker bg-light">
+            <div className="speaker bg-light">
               <img src="/img/team-02.jpg" alt="" />
-              <div class="info">
-                <h3 class="name">Calvin Miles</h3>
-                <p class="position">UI/UX Designer</p>
+              <div className="info">
+                <h3 className="name">Calvin Miles</h3>
+                <p className="position">UI/UX Designer</p>
                 <p>Sed sit tellus sit mauris sit hendrerit pellentesque.</p>
               </div>
             </div>
-            <div class="speaker bg-dark speaker--mirrored">
+            <div className="speaker bg-dark speaker--mirrored">
               <img src="/img/team-03.jpg" alt="" />
-              <div class="info">
-                <h3 class="name">Hardy Smith</h3>
-                <p class="position">Lead developer</p>
+              <div className="info">
+                <h3 className="name">Hardy Smith</h3>
+                <p className="position">Lead developer</p>
                 <p>Sed sit tellus sit mauris sit hendrerit pellentesque.</p>
               </div>
             </div>
 
-            <div class="speaker bg-dark speaker--mirrored">
+            <div className="speaker bg-dark speaker--mirrored">
               <img src="/img/team-04.jpg" alt="" />
-              <div class="info">
-                <h3 class="name">Janae Watts</h3>
-                <p class="position">Front-end developer</p>
+              <div className="info">
+                <h3 className="name">Janae Watts</h3>
+                <p className="position">Front-end developer</p>
                 <p>Sed sit tellus sit mauris sit hendrerit pellentesque.</p>
               </div>
             </div>
-          </div>
-          <div className="a-self">
-            {!user && (
-              <a className="btn xl-space" onClick={login}>
-                Secure a Spot
-              </a>
-            )}
-            {user && (
-              <Link href="/webinar">
-                <a className="btn xl-space">Mainstage</a>
-              </Link>
-            )}
           </div>
         </div>
       </section>
