@@ -214,6 +214,10 @@ a:focus {
   padding: 10rem 0;
 }
 
+.a-center {
+  margin: 0 auto;
+}
+
 /* !=====General layout===== */
 
 section {

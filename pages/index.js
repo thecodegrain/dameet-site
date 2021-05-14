@@ -23,13 +23,13 @@ export default function Home() {
             <div className="container flow-content flow-content--large xl-space">
               <h1>The ultimate design conference experience. ✌</h1>
               {!user && (
-                <a className="btn" onClick={login}>
+                <a className="btn large-space" onClick={login}>
                   Secure a Spot
                 </a>
               )}
               {user && (
                 <Link href="/webinar">
-                  <a className="btn">Mainstage</a>
+                  <a className="btn large-space">Mainstage</a>
                 </Link>
               )}
             </div>
@@ -53,13 +53,13 @@ export default function Home() {
                 creatives in the world together, virtually.
               </p>
               {!user && (
-                <a className="btn" onClick={login}>
+                <a className="btn large-space" onClick={login}>
                   Sign up now
                 </a>
               )}
               {user && (
                 <Link href="/webinar">
-                  <a className="btn">Mainstage</a>
+                  <a className="btn large-space">Mainstage</a>
                 </Link>
               )}
             </div>
@@ -114,6 +114,16 @@ export default function Home() {
                 <p>Sed sit tellus sit mauris sit hendrerit pellentesque.</p>
               </div>
             </div>
+            {!user && (
+              <a className="btn xl-space a-center" onClick={login}>
+                Secure a Spot
+              </a>
+            )}
+            {user && (
+              <Link href="/webinar">
+                <a className="btn xl-space a-center">Mainstage</a>
+              </Link>
+            )}
           </div>
         </div>
       </section>
