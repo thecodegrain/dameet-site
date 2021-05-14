@@ -20,7 +20,7 @@ export default function Home() {
       <section className="intro eq-space">
         <div className="container">
           <div className="split">
-            <div className="container flow-content flow-content--large">
+            <div className="flow-content flow-content--large">
               <h1>The ultimate design conference experience. ✌</h1>
               {!user && (
                 <a className="btn large-space" onClick={login}>
