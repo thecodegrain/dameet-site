@@ -30,7 +30,7 @@
   --br: 1rem;
 }
 
-@media (min-width: 40em) {
+@media (min-width: 40rem) {
   :root {
     --fs-500: 1.75rem;
     --fs-600: 2.125rem;
@@ -98,7 +98,6 @@ body {
   font-family: var(--ff-body);
   font-size: var(--fs-400);
   font-weight: 300;
-  padding: 1rem;
 }
 
 .bg-primary-300 {
@@ -149,6 +148,8 @@ a:focus {
   color: var(--clr-neutral-500);
 }
 
+/* !=====Utilites===== */
+
 .logo {
   font-size: 2rem;
   font-weight: var(--fw-400);
@@ -156,6 +157,10 @@ a:focus {
 
 .pl {
   padding-left: 4rem;
+}
+
+.br {
+  border-radius: var(--br);
 }
 
 .text-500 {
@@ -181,7 +186,7 @@ a:focus {
 
 .btn {
   display: inline-block;
-  padding: 8px 24px;
+  padding: 8px 34px;
   border: 2px solid #252422;
   border-radius: 30px;
   font-weight: 600;
@@ -196,13 +201,26 @@ a:focus {
   background: white;
 }
 
+.bg-light {
+  background: #efeeee;
+}
+
+.bg-dark {
+  background: #3a3b42;
+  color: #fff;
+}
+
+.eq-space {
+  padding: 10rem 0;
+}
+
 /* !=====General layout===== */
 
 section {
   padding: 2.5rem 0;
 }
 
-@media (min-width: 40em) {
+@media (min-width: 40rem) {
   section {
     padding: 3.5rem 0;
   }
@@ -215,6 +233,10 @@ section {
 
 .flow-content > * + * {
   margin-top: var(--flow-space, var(--br));
+}
+
+.flow-content--small {
+  --flow-space: 1rem;
 }
 
 .flow-content--large {
@@ -238,7 +260,7 @@ section {
   flex-basis: 100%;
 }
 
-@media (min-width: 40em) {
+@media (min-width: 40rem) {
   .split {
     flex-direction: row;
   }
@@ -248,6 +270,10 @@ section {
   }
 }
 
+.large-space {
+  margin-top: 4rem;
+}
+
 .xl-space {
   margin-top: 8rem;
 }
@@ -255,9 +281,8 @@ section {
 /* ! =====Navbar===== */
 
 header {
-  padding: 1rem;
-
   display: flex;
+  margin-top: var(--br);
 }
 
 .nav {
@@ -291,16 +316,61 @@ header {
 }
 
 .nav__btn {
-  padding: 8px 34px;
+  padding: 8px 24px;
 }
 
 /* !=====Second section===== */
 
-.gray-bg {
-  background: #efeeee;
+.card-section {
   border-radius: var(--br);
-  padding: 8rem 4rem;
-  margin: 8rem 4rem;
+  margin: 0 4rem;
   display: flex;
-  align-self: center;
 }
+
+/* !=====Third section===== */
+
+.speaker-cards {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.speaker {
+  text-align: left;
+  flex: 1 1 45%;
+  margin: 1em;
+  display: flex;
+  border-radius: var(--br);
+  align-items: center;
+  padding: 0.5em 2em 0.5em 0.5em;
+
+  gap: 1rem;
+}
+
+.speaker img {
+  width: 10rem;
+  border-radius: var(--br);
+}
+
+.speaker .name {
+  font-size: 1.75rem;
+  line-height: 1;
+  font-weight: 900;
+  color: var(--pop);
+  margin: 0;
+}
+
+.speaker .position {
+  margin-top: 0;
+  font-weight: 700;
+  opacity: 0.8;
+}
+
+.speaker--mirrored {
+  padding: 0.5em 0.5em 0.5em 2em;
+}
+
+.speaker--mirrored img {
+  order: 2;
+}
+
+/* !=====FAQ===== */
