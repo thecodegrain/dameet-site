@@ -17,10 +17,10 @@ export default function Home() {
       </Head>
 
       {/* INTRO SECTION */}
-      <section className="intro">
+      <section className="intro eq-space">
         <div className="container">
           <div className="split">
-            <div className="container flow-content flow-content--large xl-space">
+            <div className="container flow-content flow-content--large">
               <h1>The ultimate design conference experience. ✌</h1>
               {!user && (
                 <a className="btn large-space" onClick={login}>
@@ -34,7 +34,7 @@ export default function Home() {
               )}
             </div>
             <div className="pl">
-              <Image src="/hero.jpg" width={495} height={727}></Image>
+              <Image src="/b.jpg" width={760} height={760}></Image>
             </div>
           </div>
         </div>

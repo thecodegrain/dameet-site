@@ -3,7 +3,7 @@ import Image from "next/image";
 import { useContext } from "react";
 import AuthContext from "../stores/authContext";
 
-export default function Navbar() {
+const Navbar = () => {
   //DATE Logic
   let myDate = new Date();
   let hrs = myDate.getHours();
@@ -53,4 +53,5 @@ export default function Navbar() {
       </header>
     </div>
   );
-}
+};
+export default Navbar;
