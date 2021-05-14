@@ -5,12 +5,11 @@
   --ff-body: "Inter", sans-serif;
 
   /* !=====small screen font-sizes===== */
-  --fs-200: 0.75rem;
-  --fs-300: 1rem;
-  --fs-400: 1.25rem;
-  --fs-500: 1.375rem;
-  --fs-600: 1.75rem;
-  --fs-900: 2.125rem;
+  --fs-h5: 1.125rem;
+  --fs-h4: 1.375rem;
+  --fs-h3: 2.25rem;
+  --fs-h2: 3rem;
+  --fs-h1: 3.75rem;
 
   --fw-200: 200;
   --fw-300: 300;
@@ -31,10 +30,27 @@
 }
 
 @media (min-width: 40rem) {
-  :root {
+  /* :root {
     --fs-500: 1.75rem;
     --fs-600: 2.125rem;
     --fs-900: 4.25rem;
+  } */
+}
+
+@media (max-width: 30rem) {
+  :root {
+    --fs-h5: 1.25rem;
+    --fs-h4: 1.75rem;
+    --fs-h3: 2rem;
+    --fs-h2: 2.5rem;
+    --fs-h1: 3rem;
+  }
+  .nav {
+    display: none;
+  }
+  .card-section {
+    margin: 0;
+    padding: 0 2rem;
   }
 }
 
@@ -121,23 +137,23 @@ h6 {
 }
 
 h1 {
-  font-size: 3.5rem;
+  font-size: var(--fs-h1);
 }
 
 h2 {
-  font-size: 3rem;
+  font-size: var(--fs-h2);
 }
 
 h3 {
-  font-size: 2.5rem;
+  font-size: var(--fs-h3);
 }
 
 h4 {
-  font-size: 2rem;
+  font-size: var(--fs-h4);
 }
 
 h5 {
-  font-size: 1.5rem;
+  font-size: var(--fs-h5);
 }
 
 a {
@@ -170,15 +186,7 @@ a:focus {
 .a-self {
   display: flex;
   flex-direction: column;
-  align-items: flex-end;
-}
-
-.text-500 {
-  font-size: var(--fs-500);
-}
-
-.page-title {
-  font-size: var(--fs-900);
+  align-items: center;
 }
 
 .page-intro {
@@ -224,7 +232,7 @@ a:focus {
   padding: 10rem 0;
 }
 
-.a-center {
+.margin-auto {
   margin: 0 auto;
 }
 
@@ -241,7 +249,8 @@ section {
 }
 
 .container {
-  max-width: 70rem;
+  max-width: 75rem;
+  padding: 0 2rem;
   margin: 0 auto;
 }
 
@@ -326,6 +335,10 @@ header {
 }
 
 .nav__list li:nth-of-type(1) {
+  margin-left: auto;
+}
+
+.nav__list li:nth-of-type(3) {
   margin-left: auto;
 }
 

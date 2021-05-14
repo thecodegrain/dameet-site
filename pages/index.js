@@ -34,7 +34,7 @@ export default function Home() {
               )}
             </div>
             <div className="pl">
-              <Image src="/b.jpg" width={760} height={760}></Image>
+              <Image src="/hero.png" width={587} height={726}></Image>
             </div>
           </div>
         </div>
@@ -114,14 +114,16 @@ export default function Home() {
                 <p>Sed sit tellus sit mauris sit hendrerit pellentesque.</p>
               </div>
             </div>
+          </div>
+          <div className="a-self">
             {!user && (
-              <a className="btn xl-space a-center" onClick={login}>
+              <a className="btn xl-space" onClick={login}>
                 Secure a Spot
               </a>
             )}
             {user && (
               <Link href="/webinar">
-                <a className="btn xl-space a-center">Mainstage</a>
+                <a className="btn xl-space">Mainstage</a>
               </Link>
             )}
           </div>
