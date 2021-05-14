@@ -35,9 +35,12 @@
     --fs-600: 2.125rem;
     --fs-900: 4.25rem;
   } */
+  .speaker-cards {
+    grid-template-columns: 1fr 1fr;
+  }
 }
 
-@media (max-width: 30rem) {
+@media (min-width: 30rem) {
   :root {
     --fs-h5: 1.25rem;
     --fs-h4: 1.75rem;
@@ -45,12 +48,17 @@
     --fs-h2: 2.5rem;
     --fs-h1: 3rem;
   }
+
   .nav {
     display: none;
   }
+
   .card-section {
-    margin: 0;
     padding: 0 2rem;
+  }
+
+  .speaker-cards {
+    grid-template-columns: 1fr;
   }
 }
 
@@ -187,6 +195,12 @@ a:focus {
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+
+.a-self__end {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
 }
 
 .page-intro {
@@ -357,47 +371,19 @@ header {
 /* !=====Speaker list section===== */
 
 .speaker-cards {
-  display: flex;
-  flex-wrap: wrap;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
 }
 
-.speaker {
-  text-align: left;
-  flex: 1 1 45%;
-  margin: 1em;
-  display: flex;
+.single-card {
+  background: #fff;
+  margin: 1rem;
   border-radius: var(--br);
-  align-items: center;
-  padding: 0.5em 2em 0.5em 0.5em;
-
-  gap: 1rem;
+  padding: 1rem 0.5rem;
 }
 
-.speaker img {
-  width: 10rem;
-  border-radius: var(--br);
-}
-
-.speaker .name {
-  font-size: 1.75rem;
-  line-height: 1;
-  font-weight: 900;
-  color: var(--pop);
-  margin: 0;
-}
-
-.speaker .position {
-  margin-top: 0;
-  font-weight: 700;
-  opacity: 0.8;
-}
-
-.speaker--mirrored {
-  padding: 0.5em 0.5em 0.5em 2em;
-}
-
-.speaker--mirrored img {
-  order: 2;
+.single-card h4 {
+  margin-top: 0.5rem;
 }
 
 /* !=====FAQ===== */

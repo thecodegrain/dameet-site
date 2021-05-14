@@ -37,82 +37,76 @@ export default function Home() {
 
       {/* SECOND SECTION */}
 
-      <section className="card-section bg-light eq-space">
-        <div className="container">
-          <div className="split">
-            <div className="flow-content">
-              <h2>Ambitious creatives coming together virtually.</h2>
-              <p>
-                For our third year running, Frontrow is more than a conference.
-                It's an experience that brings the most talented & passionate
-                creatives in the world together, virtually.
-              </p>
-              {!user && (
-                <a className="btn large-space" onClick={login}>
-                  Sign up now
-                </a>
-              )}
-            </div>
-            <div className="pl">
-              <Image src="/second.png" width={500} height={414}></Image>
+      <section className="eq-space">
+        <section className="eq-space card-section bg-light">
+          <div className="container">
+            <div className="split">
+              <div className="flow-content">
+                <h2>Ambitious creatives coming together virtually.</h2>
+                <p>
+                  For our third year running, Frontrow is more than a
+                  conference. It's an experience that brings the most talented &
+                  passionate creatives in the world together, virtually.
+                </p>
+                {!user && (
+                  <a className="btn large-space" onClick={login}>
+                    Sign up now
+                  </a>
+                )}
+              </div>
+              <div className="pl">
+                <Image src="/second.png" width={500} height={414}></Image>
+              </div>
             </div>
           </div>
-        </div>
+        </section>
       </section>
 
-      {/* THIRD SECTION */}
+      {/* Info Section some icons and shit */}
+      <section className="eq-space"></section>
+
+      {/* Speaker SECTION */}
 
       <section className="eq-space">
-        <div className="container">
-          <div className="split">
-            <div className="flow-content">
-              <h3>Our 2021 Speakers</h3>
-              <p>We have shakers of the industry</p>
-            </div>
-            <div>
-              {!user && (
-                <a className="btn" onClick={login}>
-                  Secure a Spot
-                </a>
-              )}
-            </div>
-          </div>
-          <div className="speaker-cards large-space">
-            <div className="speaker bg-light">
-              <img src="/img/team-01.jpg" alt="" />
-              <div className="info">
-                <h3 className="name">Adriana Ramirez</h3>
-                <p className="position">Lead UI/UX</p>
-                <p>Sed sit tellus sit mauris sit hendrerit pellentesque.</p>
+        <section className="eq-space card-section bg-light">
+          <div className="container">
+            <div className="split">
+              <div className="flow-content">
+                <h3>Our 2021 Speakers</h3>
+                <p>We have shakers of the industry</p>
+              </div>
+              <div className="a-self__end">
+                {!user && (
+                  <a className="btn" onClick={login}>
+                    Secure a Spot
+                  </a>
+                )}
               </div>
             </div>
-            <div className="speaker bg-light">
-              <img src="/img/team-02.jpg" alt="" />
-              <div className="info">
-                <h3 className="name">Calvin Miles</h3>
-                <p className="position">UI/UX Designer</p>
-                <p>Sed sit tellus sit mauris sit hendrerit pellentesque.</p>
+            <div className="speaker-cards large-space">
+              <div className="single-card a-self">
+                <Image src="/img/team-01.jpg" width={320} height={300} alt="" />
+                <h4 className="">Hardy Smith</h4>
+                <p>Lead Developer</p>
               </div>
-            </div>
-            <div className="speaker bg-dark speaker--mirrored">
-              <img src="/img/team-03.jpg" alt="" />
-              <div className="info">
-                <h3 className="name">Hardy Smith</h3>
-                <p className="position">Lead developer</p>
-                <p>Sed sit tellus sit mauris sit hendrerit pellentesque.</p>
+              <div className="single-card a-self">
+                <Image src="/img/team-02.jpg" width={320} height={300} alt="" />
+                <h4>Hardy Smith</h4>
+                <p>Lead Developer</p>
               </div>
-            </div>
-
-            <div className="speaker bg-dark speaker--mirrored">
-              <img src="/img/team-04.jpg" alt="" />
-              <div className="info">
-                <h3 className="name">Janae Watts</h3>
-                <p className="position">Front-end developer</p>
-                <p>Sed sit tellus sit mauris sit hendrerit pellentesque.</p>
+              <div className="single-card a-self">
+                <Image src="/img/team-03.jpg" width={320} height={300} alt="" />
+                <h4>Hardy Smith</h4>
+                <p>Lead Developer</p>
+              </div>
+              <div className="single-card a-self">
+                <Image src="/img/team-04.jpg" width={320} height={300} alt="" />
+                <h4>Hardy Smith</h4>
+                <p>Lead Developer</p>
               </div>
             </div>
           </div>
-        </div>
+        </section>
       </section>
 
       {/* FOURTH SECTION */}
