@@ -27,11 +27,6 @@ export default function Home() {
                   Secure a Spot
                 </a>
               )}
-              {user && (
-                <Link href="/webinar">
-                  <a className="btn large-space">Mainstage</a>
-                </Link>
-              )}
             </div>
             <div className="pl">
               <Image src="/hero.png" width={587} height={726}></Image>
@@ -57,11 +52,6 @@ export default function Home() {
                   Sign up now
                 </a>
               )}
-              {user && (
-                <Link href="/webinar">
-                  <a className="btn large-space">Mainstage</a>
-                </Link>
-              )}
             </div>
             <div className="pl">
               <Image src="/second.png" width={500} height={414}></Image>
@@ -78,15 +68,12 @@ export default function Home() {
             <div className="flow-content">
               <h3>Our 2021 Speakers</h3>
               <p>We have shakers of the industry</p>
+            </div>
+            <div>
               {!user && (
                 <a className="btn" onClick={login}>
                   Secure a Spot
                 </a>
-              )}
-              {user && (
-                <Link href="/webinar">
-                  <a className="btn">Mainstage</a>
-                </Link>
               )}
             </div>
           </div>
@@ -156,6 +143,11 @@ export default function Home() {
                   featuring top designers like Chris Do. Workshops, mentoring,
                   networking & so much more!
                 </p>
+                {!user && (
+                  <a className="btn large-space" onClick={login}>
+                    Secure a Spot
+                  </a>
+                )}
               </div>
             </div>
           </div>
