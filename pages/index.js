@@ -37,29 +37,27 @@ export default function Home() {
 
       {/* SECOND SECTION */}
 
-      <section className="eq-space">
-        <section className="eq-space card-section bg-light">
-          <div className="container">
-            <div className="split">
-              <div className="flow-content">
-                <h2>Ambitious creatives coming together virtually.</h2>
-                <p>
-                  For our third year running, Frontrow is more than a
-                  conference. It's an experience that brings the most talented &
-                  passionate creatives in the world together, virtually.
-                </p>
-                {!user && (
-                  <a className="btn large-space" onClick={login}>
-                    Sign up now
-                  </a>
-                )}
-              </div>
-              <div className="pl">
-                <Image src="/second.png" width={500} height={414}></Image>
-              </div>
+      <section className="eq-space card-section bg-light">
+        <div className="container">
+          <div className="split">
+            <div className="flow-content">
+              <h2>Ambitious creatives coming together virtually.</h2>
+              <p>
+                For our third year running, Frontrow is more than a conference.
+                It's an experience that brings the most talented & passionate
+                creatives in the world together, virtually.
+              </p>
+              {!user && (
+                <a className="btn large-space" onClick={login}>
+                  Sign up now
+                </a>
+              )}
+            </div>
+            <div className="pl">
+              <Image src="/second.png" width={500} height={414}></Image>
             </div>
           </div>
-        </section>
+        </div>
       </section>
 
       {/* Info Section some icons and shit */}
