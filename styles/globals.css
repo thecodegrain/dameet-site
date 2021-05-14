@@ -406,6 +406,11 @@ header {
 footer {
   color: var(--clr-neutral-200);
 }
+
+.footer-bg {
+  border-radius: 80px 80px 0 0;
+}
+
 .footer__logo {
   color: var(--clr-neutral-200);
 }
