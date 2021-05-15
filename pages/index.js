@@ -22,11 +22,10 @@ export default function Home() {
           <div className="split">
             <div className="flow-content flow-content--large">
               <h1>The ultimate design conference experience. ✌</h1>
-              {!user && (
-                <a className="btn large-space" onClick={login}>
-                  Secure a Spot
-                </a>
-              )}
+
+              <a className="btn large-space" onClick={login}>
+                Secure a Spot
+              </a>
             </div>
             <div className="pl">
               <Image src="/hero.png" width={587} height={726}></Image>
@@ -47,11 +46,10 @@ export default function Home() {
                 It's an experience that brings the most talented & passionate
                 creatives in the world together, virtually.
               </p>
-              {!user && (
-                <a className="btn large-space" onClick={login}>
-                  Sign up now
-                </a>
-              )}
+
+              <a className="btn large-space" onClick={login}>
+                Sign up now
+              </a>
             </div>
             <div className="pl">
               <Image src="/second.png" width={500} height={414}></Image>
@@ -74,11 +72,9 @@ export default function Home() {
                 <p>We have shakers of the industry</p>
               </div>
               <div className="a-self__end">
-                {!user && (
-                  <a className="btn" onClick={login}>
-                    Secure a Spot
-                  </a>
-                )}
+                <a className="btn" onClick={login}>
+                  Secure a Spot
+                </a>
               </div>
             </div>
             <div className="speaker-cards large-space">
@@ -135,11 +131,10 @@ export default function Home() {
                   featuring top designers like Chris Do. Workshops, mentoring,
                   networking & so much more!
                 </p>
-                {!user && (
-                  <a className="btn large-space" onClick={login}>
-                    Secure a Spot
-                  </a>
-                )}
+
+                <a className="btn large-space" onClick={login}>
+                  Secure a Spot
+                </a>
               </div>
             </div>
           </div>

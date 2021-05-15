@@ -30,11 +30,11 @@
 }
 
 @media (min-width: 40rem) {
-  /* :root {
+  :root {
     --fs-500: 1.75rem;
     --fs-600: 2.125rem;
     --fs-900: 4.25rem;
-  } */
+  }
   .speaker-cards {
     grid-template-columns: 1fr 1fr;
   }
@@ -368,7 +368,7 @@ header {
   display: flex;
 }
 
-/* !=====Speaker list section===== */
+/* !=====Speaker Card section===== */
 
 .speaker-cards {
   display: grid;
