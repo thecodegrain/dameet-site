@@ -51,7 +51,7 @@ export default function Home() {
                 Sign up now
               </a>
             </div>
-            <div className="pl">
+            <div>
               <Image src="/img/second.png" width={500} height={414}></Image>
             </div>
           </div>
@@ -151,7 +151,7 @@ export default function Home() {
                 </a>
               </div>
             </div>
-            <div className="pl vertical-center">
+            <div className="vertical-center">
               <Image src="/img/second.png" width={500} height={414}></Image>
             </div>
           </div>

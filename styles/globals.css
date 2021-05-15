@@ -462,4 +462,13 @@ footer {
   .footer-bg {
     margin: 0;
   }
+
+  .speaker-cards {
+    gap: 4rem;
+  }
+
+  .speaker-cards img {
+    width: 300px;
+    height: 250px;
+  }
 }
