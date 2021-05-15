@@ -350,12 +350,12 @@ details {
 details p {
   /* border-top: 1px solid #e2e8f0; */
   border-radius: 0 0 var(--section-br) var(--section-br);
-  padding: 24px 48px;
+  padding: 24px 70px;
   cursor: default;
 }
 
 summary {
-  padding: 24px 24px;
+  padding: 24px 48px;
   border-radius: var(--section-br) var(--section-br) 0 0;
 }
 

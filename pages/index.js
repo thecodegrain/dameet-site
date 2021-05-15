@@ -120,27 +120,29 @@ export default function Home() {
                   </p>
                 </details>
                 <details>
-                  <summary className="h4 bg-light">
-                    When is The Dain Walker Experience?
-                  </summary>
+                  <summary className="h4 bg-light">How do I attend?</summary>
                   <p className="bg-light">
-                    The workshop is happening at 5pm EST on May 12th
+                    We built our own platform! No Youtube links, no Zoom calls.
+                    Simply sign up and everything is there!
                   </p>
                 </details>
                 <details>
                   <summary className="h4 bg-light">
-                    When is The Dain Walker Experience?
+                    What if I miss the session?
                   </summary>
                   <p className="bg-light">
-                    The workshop is happening at 5pm EST on May 12th
+                    We get it, things get in the way. If you have a VIP pass,
+                    you can rewatch sessions at any time.
                   </p>
                 </details>
                 <details>
                   <summary className="h4 bg-light">
-                    When is The Dain Walker Experience?
+                    What is Frontrow2021?
                   </summary>
                   <p className="bg-light">
-                    The workshop is happening at 5pm EST on May 12th
+                    Frontrow is a virtual conference happening on May 10 - 14
+                    featuring top designers like Chris Do. Workshops, mentoring,
+                    networking & so much more!
                   </p>
                 </details>
 
