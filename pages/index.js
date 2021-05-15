@@ -110,32 +110,47 @@ export default function Home() {
             <div className="flow-content">
               <h2>Frequently Asked Questions. 🤔 </h2>
 
-              <div className="flow-content flow-content--small">
-                <h4 className="large-space">
-                  When is The Dain Walker Experience?
-                </h4>
-                <p>The workshop is happening at 5pm EST on May 12th</p>
-                <h4>How do I attend?</h4>
-                <p>
-                  We built our own platform! No Youtube links, no Zoom calls.
-                  Simply sign up and everything is there!
-                </p>
-                <h4>What if I miss the session?</h4>
-                <p>
-                  We get it, things get in the way. If you have a VIP pass, you
-                  can rewatch sessions at any time.
-                </p>
-                <h4>What is Frontrow2021?</h4>
-                <p>
-                  Frontrow is a virtual conference happening on May 10 - 14
-                  featuring top designers like Chris Do. Workshops, mentoring,
-                  networking & so much more!
-                </p>
+              <div className="flow-content flow-content--large">
+                <details className="accordion">
+                  <summary className="h4 bg-light large-space">
+                    When is The Dain Walker Experience?
+                  </summary>
+                  <p className="bg-light">
+                    The workshop is happening at 5pm EST on May 12th
+                  </p>
+                </details>
+                <details>
+                  <summary className="h4 bg-light">
+                    When is The Dain Walker Experience?
+                  </summary>
+                  <p className="bg-light">
+                    The workshop is happening at 5pm EST on May 12th
+                  </p>
+                </details>
+                <details>
+                  <summary className="h4 bg-light">
+                    When is The Dain Walker Experience?
+                  </summary>
+                  <p className="bg-light">
+                    The workshop is happening at 5pm EST on May 12th
+                  </p>
+                </details>
+                <details>
+                  <summary className="h4 bg-light">
+                    When is The Dain Walker Experience?
+                  </summary>
+                  <p className="bg-light">
+                    The workshop is happening at 5pm EST on May 12th
+                  </p>
+                </details>
 
                 <a className="btn bg-accent large-space" onClick={login}>
                   Secure a Spot
                 </a>
               </div>
+            </div>
+            <div className="pl vertical-center">
+              <Image src="/img/second.png" width={500} height={414}></Image>
             </div>
           </div>
         </div>

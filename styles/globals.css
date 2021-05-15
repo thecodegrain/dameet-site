@@ -57,6 +57,11 @@ h4,
   line-height: 1.3;
 }
 
+.h4 {
+  font-size: var(--fs-h4);
+  font-weight: var(--fw-700);
+}
+
 ul,
 ol {
   list-style: none;
@@ -149,6 +154,11 @@ a:focus {
   display: flex;
   flex-direction: column;
   align-items: flex-end;
+}
+
+.vertical-center {
+  display: flex;
+  align-self: center;
 }
 
 .page-intro {
@@ -333,6 +343,21 @@ header {
 }
 
 /* !=====FAQ===== */
+details {
+  cursor: pointer;
+}
+
+details p {
+  /* border-top: 1px solid #e2e8f0; */
+  border-radius: 0 0 var(--section-br) var(--section-br);
+  padding: 24px 48px;
+  cursor: default;
+}
+
+summary {
+  padding: 24px 24px;
+  border-radius: var(--section-br) var(--section-br) 0 0;
+}
 
 /* !Footer */
 footer {
