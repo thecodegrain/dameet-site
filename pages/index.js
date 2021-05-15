@@ -70,9 +70,9 @@ export default function Home() {
         <div className="container">
           <div className="split">
             <div className="flow-content">
-              <h3>
+              <h2>
                 Our <span className="bg-accent accent-bg">2021</span> Speakers
-              </h3>
+              </h2>
               <p>We have shakers of the industry</p>
             </div>
             <div className="a-self__end">

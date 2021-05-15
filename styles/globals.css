@@ -319,11 +319,11 @@ header {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  gap: 1rem;
 }
 
 .speaker-card__single {
   background: #fff;
-  margin: 1rem;
   border-radius: var(--br);
   padding: 1rem 1rem;
 }
@@ -345,7 +345,7 @@ footer {
 }
 
 .footer__logo {
-  font-size: 4rem;
+  font-size: var(--fs-h1);
   font-weight: var(--fw-700);
   color: var(--clr-neutral-200);
 }
