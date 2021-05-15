@@ -9,8 +9,13 @@ export default function Home() {
   return (
     <>
       <Head>
+        <html lang="en" />
         <title>Da Meet by Codegrain | Home</title>
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
+        <meta
+          content="Da meet, The ultimate design conference experience by Codegrain"
+          name="description"
+        />
       </Head>
 
       {/* INTRO SECTION */}
@@ -25,7 +30,12 @@ export default function Home() {
               </a>
             </div>
             <div>
-              <Image src="/img/hero.png" width={587} height={726}></Image>
+              <Image
+                src="/img/hero.png"
+                width={587}
+                height={726}
+                alt="abstract"
+              ></Image>
             </div>
           </div>
         </div>
@@ -52,7 +62,12 @@ export default function Home() {
               </a>
             </div>
             <div>
-              <Image src="/img/second.png" width={500} height={414}></Image>
+              <Image
+                src="/img/second.png"
+                width={500}
+                height={414}
+                alt="instagram stories"
+              ></Image>
             </div>
           </div>
         </div>
@@ -80,22 +95,42 @@ export default function Home() {
           </div>
           <div className="speaker-cards large-space">
             <div className="speaker-card__single a-self">
-              <Image src="/img/team-01.jpg" width={220} height={220} alt="" />
+              <Image
+                src="/img/team-01.jpg"
+                width={220}
+                height={220}
+                alt="speaker"
+              />
               <h5 className="">Manan Gouhari</h5>
               <p>Lead Developer</p>
             </div>
             <div className="speaker-card__single a-self">
-              <Image src="/img/team-02.jpg" width={220} height={220} alt="" />
+              <Image
+                src="/img/team-02.jpg"
+                width={220}
+                height={220}
+                alt="speaker"
+              />
               <h5>Hardy Smith</h5>
               <p>Lead Developer</p>
             </div>
             <div className="speaker-card__single a-self">
-              <Image src="/img/team-03.jpg" width={220} height={220} alt="" />
+              <Image
+                src="/img/team-03.jpg"
+                width={220}
+                height={220}
+                alt="speaker"
+              />
               <h5>Shubhang Rajput</h5>
               <p>Lead Developer</p>
             </div>
             <div className="speaker-card__single a-self">
-              <Image src="/img/team-04.jpg" width={220} height={220} alt="" />
+              <Image
+                src="/img/team-04.jpg"
+                width={220}
+                height={220}
+                alt="speaker"
+              />
               <h5>Rahul Mane</h5>
               <p>Lead Developer</p>
             </div>
@@ -152,7 +187,12 @@ export default function Home() {
               </div>
             </div>
             <div className="vertical-center">
-              <Image src="/img/second.png" width={500} height={414}></Image>
+              <Image
+                src="/img/second.png"
+                width={500}
+                height={414}
+                alt="instgram stories"
+              ></Image>
             </div>
           </div>
         </div>
