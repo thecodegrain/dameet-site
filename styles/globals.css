@@ -29,39 +29,6 @@
   --br: 1rem;
 }
 
-@media (min-width: 40rem) {
-  :root {
-    --fs-500: 1.75rem;
-    --fs-600: 2.125rem;
-    --fs-900: 4.25rem;
-  }
-  .speaker-cards {
-    grid-template-columns: 1fr 1fr;
-  }
-}
-
-@media (min-width: 30rem) {
-  :root {
-    --fs-h5: 1.25rem;
-    --fs-h4: 1.75rem;
-    --fs-h3: 2rem;
-    --fs-h2: 2.5rem;
-    --fs-h1: 3rem;
-  }
-
-  .nav {
-    display: none;
-  }
-
-  .card-section {
-    padding: 0 2rem;
-  }
-
-  .speaker-cards {
-    grid-template-columns: 1fr;
-  }
-}
-
 /* !=====Reset===== */
 
 *,
@@ -256,12 +223,6 @@ section {
   padding: 2.5rem 0;
 }
 
-@media (min-width: 40rem) {
-  section {
-    padding: 3.5rem 0;
-  }
-}
-
 .container {
   max-width: 75rem;
   padding: 0 2rem;
@@ -286,25 +247,19 @@ section {
 
 .split {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
 }
 
-.split > * + * {
+/* .split > * + * {
   margin: 4rem 0 0 0;
+} */
+
+.split > * + * {
+  margin: 0 0 0 2.5rem;
 }
 
 .split > * {
   flex-basis: 100%;
-}
-
-@media (min-width: 40rem) {
-  .split {
-    flex-direction: row;
-  }
-
-  .split > * + * {
-    margin: 0 0 0 2.5rem;
-  }
 }
 
 .large-space {
@@ -375,14 +330,14 @@ header {
   grid-template-columns: 1fr 1fr 1fr 1fr;
 }
 
-.single-card {
+.speaker-card__single {
   background: #fff;
   margin: 1rem;
   border-radius: var(--br);
   padding: 1rem 1rem;
 }
 
-.single-card h5 {
+.speaker-card__single h5 {
   margin-top: 0.5rem;
 }
 
@@ -421,4 +376,80 @@ footer {
 .social-links a {
   text-decoration: underline;
   font-weight: var(--fw-400);
+}
+
+/* !Media Quries */
+
+/* !Laptops */
+@media (max-width: 991.98px) {
+  .eq-space {
+    padding: 5rem 0;
+  }
+
+  .card-section {
+    margin: 0;
+  }
+
+  .speaker-cards {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .split > * + * {
+    margin: 0 0 0 2.5rem;
+  }
+}
+
+/* !Tablets */
+
+@media (max-width: 767.98px) {
+  :root {
+    --fs-500: 1.75rem;
+    --fs-600: 2.125rem;
+    --fs-900: 4.25rem;
+  }
+
+  .speaker-cards {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+/* !Mobiles */
+
+@media (max-width: 575.98px) {
+  :root {
+    --fs-h5: 1.25rem;
+    --fs-h4: 1.75rem;
+    --fs-h3: 2rem;
+    --fs-h2: 2.5rem;
+    --fs-h1: 3rem;
+  }
+
+  .split {
+    flex-direction: column;
+  }
+
+  .split > * + * {
+    margin: 4rem 0 0 0;
+  }
+
+  .hidden {
+    display: none;
+  }
+
+  .eq-space {
+    text-align: center;
+    padding: 5rem 0;
+  }
+
+  .card-section {
+    margin: 0;
+  }
+
+  .speaker-cards {
+    grid-template-columns: 1fr;
+  }
+
+  .btn {
+    align-self: center;
+  }
 }

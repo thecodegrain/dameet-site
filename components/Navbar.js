@@ -28,12 +28,12 @@ const Navbar = () => {
             <ul className="nav__list">
               <li>
                 <Link href="/">
-                  <a>Schedule</a>
+                  <a className="hidden">Schedule</a>
                 </Link>
               </li>
               <li>
                 <Link href="/webinar">
-                  <a>Mainstage</a>
+                  <a className="hidden">Mainstage</a>
                 </Link>
               </li>
               {!user && (

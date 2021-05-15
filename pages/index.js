@@ -20,7 +20,7 @@ export default function Home() {
       <section className="intro eq-space">
         <div className="container">
           <div className="split">
-            <div className="flow-content flow-content--large">
+            <div className="flow-content flow-content--large large-space">
               <h1>The ultimate design conference experience. ✌</h1>
 
               <a className="btn large-space" onClick={login}>
@@ -78,24 +78,24 @@ export default function Home() {
               </div>
             </div>
             <div className="speaker-cards large-space">
-              <div className="single-card a-self">
+              <div className="speaker-card__single a-self">
                 <Image src="/img/team-01.jpg" width={220} height={220} alt="" />
-                <h5 className="">Hardy Smith</h5>
+                <h5 className="">Manan Gouhari</h5>
                 <p>Lead Developer</p>
               </div>
-              <div className="single-card a-self">
+              <div className="speaker-card__single a-self">
                 <Image src="/img/team-02.jpg" width={220} height={220} alt="" />
                 <h5>Hardy Smith</h5>
                 <p>Lead Developer</p>
               </div>
-              <div className="single-card a-self">
+              <div className="speaker-card__single a-self">
                 <Image src="/img/team-03.jpg" width={220} height={220} alt="" />
-                <h5>Hardy Smith</h5>
+                <h5>Shubhang Rajput</h5>
                 <p>Lead Developer</p>
               </div>
-              <div className="single-card a-self">
+              <div className="speaker-card__single a-self">
                 <Image src="/img/team-04.jpg" width={220} height={220} alt="" />
-                <h5>Hardy Smith</h5>
+                <h5>Rahul Mane</h5>
                 <p>Lead Developer</p>
               </div>
             </div>
