@@ -2,12 +2,9 @@ import Head from "next/head";
 import Image from "next/image";
 import { useContext } from "react";
 import AuthContext from "../stores/authContext";
-import Link from "next/link";
-import { useRouter } from "next/router";
 
 export default function Home() {
-  const { user, login, logout, authReady } = useContext(AuthContext);
-  const router = useRouter();
+  const { login } = useContext(AuthContext);
 
   return (
     <>
@@ -28,7 +25,7 @@ export default function Home() {
               </a>
             </div>
             <div>
-              <Image src="/hero.png" width={587} height={726}></Image>
+              <Image src="/img/hero.png" width={587} height={726}></Image>
             </div>
           </div>
         </div>
@@ -55,7 +52,7 @@ export default function Home() {
               </a>
             </div>
             <div className="pl">
-              <Image src="/second.png" width={500} height={414}></Image>
+              <Image src="/img/second.png" width={500} height={414}></Image>
             </div>
           </div>
         </div>
