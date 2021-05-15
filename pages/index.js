@@ -27,7 +27,7 @@ export default function Home() {
                 Secure a Spot
               </a>
             </div>
-            <div className="pl">
+            <div>
               <Image src="/hero.png" width={587} height={726}></Image>
             </div>
           </div>
@@ -40,7 +40,10 @@ export default function Home() {
         <div className="container">
           <div className="split">
             <div className="flow-content">
-              <h2>Ambitious creatives coming together virtually.</h2>
+              <h2>
+                <span className="bg-accent accent-bg">Ambitious</span> creatives
+                coming together virtually.
+              </h2>
               <p>
                 For our third year running, Frontrow is more than a conference.
                 It's an experience that brings the most talented & passionate
@@ -68,7 +71,9 @@ export default function Home() {
           <div className="container">
             <div className="split">
               <div className="flow-content">
-                <h3>Our 2021 Speakers</h3>
+                <h3>
+                  Our <span className="bg-accent accent-bg">2021</span> Speakers
+                </h3>
                 <p>We have shakers of the industry</p>
               </div>
               <div className="a-self__end">
@@ -104,7 +109,7 @@ export default function Home() {
       </section>
 
       {/* FOURTH SECTION */}
-      <section className="bg-light eq-space">
+      <section className="eq-space">
         <div className="container">
           <div className="split">
             <div className="flow-content">
@@ -132,7 +137,7 @@ export default function Home() {
                   networking & so much more!
                 </p>
 
-                <a className="btn large-space" onClick={login}>
+                <a className="btn bg-accent large-space" onClick={login}>
                   Secure a Spot
                 </a>
               </div>
