@@ -315,8 +315,9 @@ header {
 /* !=====Speaker Card section===== */
 
 .speaker-cards {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 .speaker-card__single {
@@ -382,10 +383,6 @@ footer {
     margin: 0;
   }
 
-  .speaker-cards {
-    grid-template-columns: 1fr 1fr;
-  }
-
   .split > * + * {
     margin: 0 0 0 2.5rem;
   }
@@ -408,10 +405,6 @@ footer {
     --fs-500: 1.75rem;
     --fs-600: 2.125rem;
     --fs-900: 4.25rem;
-  }
-
-  .speaker-cards {
-    grid-template-columns: 1fr 1fr;
   }
 }
 
@@ -449,10 +442,6 @@ footer {
 
   .card-section {
     margin: 0;
-  }
-
-  .speaker-cards {
-    grid-template-columns: 1fr;
   }
 
   .btn {

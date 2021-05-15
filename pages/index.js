@@ -66,46 +66,44 @@ export default function Home() {
 
       {/* Speaker SECTION */}
 
-      <section className="eq-space">
-        <section className="eq-space card-section bg-light">
-          <div className="container">
-            <div className="split">
-              <div className="flow-content">
-                <h3>
-                  Our <span className="bg-accent accent-bg">2021</span> Speakers
-                </h3>
-                <p>We have shakers of the industry</p>
-              </div>
-              <div className="a-self__end">
-                <a className="btn" onClick={login}>
-                  Secure a Spot
-                </a>
-              </div>
+      <section className="eq-space card-section bg-light">
+        <div className="container">
+          <div className="split">
+            <div className="flow-content">
+              <h3>
+                Our <span className="bg-accent accent-bg">2021</span> Speakers
+              </h3>
+              <p>We have shakers of the industry</p>
             </div>
-            <div className="speaker-cards large-space">
-              <div className="speaker-card__single a-self">
-                <Image src="/img/team-01.jpg" width={220} height={220} alt="" />
-                <h5 className="">Manan Gouhari</h5>
-                <p>Lead Developer</p>
-              </div>
-              <div className="speaker-card__single a-self">
-                <Image src="/img/team-02.jpg" width={220} height={220} alt="" />
-                <h5>Hardy Smith</h5>
-                <p>Lead Developer</p>
-              </div>
-              <div className="speaker-card__single a-self">
-                <Image src="/img/team-03.jpg" width={220} height={220} alt="" />
-                <h5>Shubhang Rajput</h5>
-                <p>Lead Developer</p>
-              </div>
-              <div className="speaker-card__single a-self">
-                <Image src="/img/team-04.jpg" width={220} height={220} alt="" />
-                <h5>Rahul Mane</h5>
-                <p>Lead Developer</p>
-              </div>
+            <div className="a-self__end">
+              <a className="btn" onClick={login}>
+                Secure a Spot
+              </a>
             </div>
           </div>
-        </section>
+          <div className="speaker-cards large-space">
+            <div className="speaker-card__single a-self">
+              <Image src="/img/team-01.jpg" width={220} height={220} alt="" />
+              <h5 className="">Manan Gouhari</h5>
+              <p>Lead Developer</p>
+            </div>
+            <div className="speaker-card__single a-self">
+              <Image src="/img/team-02.jpg" width={220} height={220} alt="" />
+              <h5>Hardy Smith</h5>
+              <p>Lead Developer</p>
+            </div>
+            <div className="speaker-card__single a-self">
+              <Image src="/img/team-03.jpg" width={220} height={220} alt="" />
+              <h5>Shubhang Rajput</h5>
+              <p>Lead Developer</p>
+            </div>
+            <div className="speaker-card__single a-self">
+              <Image src="/img/team-04.jpg" width={220} height={220} alt="" />
+              <h5>Rahul Mane</h5>
+              <p>Lead Developer</p>
+            </div>
+          </div>
+        </div>
       </section>
 
       {/* FOURTH SECTION */}
