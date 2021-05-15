@@ -372,17 +372,17 @@ header {
 
 .speaker-cards {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
 }
 
 .single-card {
   background: #fff;
   margin: 1rem;
   border-radius: var(--br);
-  padding: 1rem 0.5rem;
+  padding: 1rem 1rem;
 }
 
-.single-card h4 {
+.single-card h5 {
   margin-top: 0.5rem;
 }
 
