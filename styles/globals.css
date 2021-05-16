@@ -2,13 +2,13 @@
 :root {
   --ff-worksans: "Work Sans", sans-serif;
 
-  --fs-h5: clamp(1rem, 5vw, 1.125rem);
-  --fs-h4: clamp(1.28rem, 5vw, 1.5rem);
-  --fs-h3: clamp(1.38rem, 5vw, 2.25rem);
-  --fs-h2: clamp(1.5rem, 5vw, 3rem);
-  --fs-h1: clamp(2.25rem, 5vw, 3.75rem);
+  --fs-h5: clamp(1rem, 1vw, 1.125rem); /* 16 min 18 max */
+  --fs-h4: clamp(1.28rem, 2vw, 1.5rem); /* 20.48 min 24 max */
+  --fs-h3: clamp(1.4rem, 3vw, 2.25rem); /* 22.04 min 36 max */
+  --fs-h2: clamp(1.75rem, 4vw, 3rem); /* 28 min 48 max */
+  --fs-h1: clamp(2.25rem, 5vw, 3.75rem); /* 36 min 60 max */
 
-  --fs-body: clamp(0.75rem, 5vw, 1rem);
+  --fs-body: 1rem;
 
   --btn-clamp-v: clamp(6px, 0.75vw, 12px);
   --btn-clamp-h: clamp(18px, 2.5vw, 36px);
@@ -238,8 +238,8 @@ section {
   margin-top: var(--flow-space, var(--br));
 }
 
-.flow-content--small {
-  --flow-space: 1rem;
+.flow-content--med {
+  --flow-space: 1.5rem;
 }
 
 .flow-content--large {
@@ -320,7 +320,7 @@ header {
   padding: var(--btn-nav-clamp-v) var(--btn-nav-clamp-h);
 }
 
-/* !=====Second section===== */
+/* !=====ABOUT section===== */
 
 .card-section {
   border-radius: var(--section-br);
@@ -328,7 +328,7 @@ header {
   display: flex;
 }
 
-/* !=====Speaker Card section===== */
+/* !=====SPEAKER section===== */
 
 .speaker-cards {
   display: flex;
@@ -352,53 +352,8 @@ header {
 }
 
 /* !=====FAQ===== */
-/* details {
-  cursor: pointer;
-}
 
-details p {
-  border-radius: var(--section-br) var(--section-br);
-  padding: 24px 70px;
-  cursor: default;
-}
-
-summary {
-  padding: 24px 48px;
-  border-radius: var(--section-br) var(--section-br);
-} */
-
-.accordion input[type="radio"] {
-  display: none;
-}
-.accordion input[type="radio"]:checked + .accordion-section {
-  max-height: 40rem;
-}
-.accordion input[type="radio"]:checked + .accordion-section .accordion-header {
-  background: #efeeee;
-}
-
-.accordion-section {
-  max-height: 3rem;
-  overflow: hidden;
-  display: block;
-  margin: 8px 0;
-  cursor: pointer;
-  border-radius: 15px;
-}
-.accordion-section p {
-  padding: var(--btn-clamp-v) var(--btn-clamp-h);
-  background: #efeeee;
-}
-
-.accordion-header {
-  margin: 0;
-  padding: var(--btn-clamp-v) var(--btn-clamp-h);
-  /* height: 3rem; */
-  line-height: 3rem;
-  background: #efeeee;
-}
-
-/* !Footer */
+/* !FOOTER */
 footer {
   color: var(--clr-neutral-200);
 }
@@ -467,6 +422,10 @@ footer {
 /* !Mobiles */
 
 @media (max-width: 575.98px) {
+  :root {
+    --fs-body: 0.875rem; /* 14px */
+  }
+
   .container {
     padding: 0 1rem;
   }

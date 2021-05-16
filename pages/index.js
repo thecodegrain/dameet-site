@@ -34,7 +34,7 @@ export default function Home() {
             </div>
             <div>
               <Image
-                src="/img/hero.png"
+                src="/img/Hero.svg"
                 width={587}
                 height={726}
                 alt="abstract"
@@ -44,7 +44,7 @@ export default function Home() {
         </div>
       </section>
 
-      {/* SECOND SECTION */}
+      {/* ABOUT SECTION */}
 
       <section className="eq-space card-section bg-light">
         <div className="container">
@@ -55,9 +55,10 @@ export default function Home() {
                 coming together virtually.
               </h2>
               <p>
-              We are back with our second online edition, with more surprises and great speakers.
-                It's an experience that brings the most talented & passionate
-                creatives in the world together, <span className="bg-accent accent-bg">virtually</span>
+                We are back with our second online edition, with more surprises
+                and great speakers. It's an experience that brings the most
+                talented & passionate creatives in the world together,{" "}
+                <span className="bg-accent accent-bg">virtually</span>
               </p>
 
               <a className="btn large-space" onClick={login}>
@@ -66,7 +67,7 @@ export default function Home() {
             </div>
             <div>
               <Image
-                src="/img/second.png"
+                src="/img/FAQ.svg"
                 width={500}
                 height={414}
                 alt="instagram stories"
@@ -81,7 +82,7 @@ export default function Home() {
         <div className="container">
           <div className="split text-center">
             <div>
-              <Image src="/img/logo1.png" width={250} height={250}></Image>
+              <Image src="/img/Group.svg" width={250} height={250}></Image>
               <h3>Learn</h3>
               <p>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta,
@@ -89,7 +90,7 @@ export default function Home() {
               </p>
             </div>
             <div>
-              <Image src="/img/logo2.png" width={250} height={250}></Image>
+              <Image src="/img/Group 2.svg" width={250} height={250}></Image>
               <h3>Execute</h3>
               <p>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit.
@@ -97,7 +98,7 @@ export default function Home() {
               </p>
             </div>
             <div>
-              <Image src="/img/logo3.png" width={250} height={250}></Image>
+              <Image src="/img/Group 3.svg" width={250} height={250}></Image>
               <h3>Discover</h3>
               <p>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse,
@@ -108,7 +109,7 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Speaker SECTION */}
+      {/* SPEAKER SECTION */}
 
       <section className="eq-space card-section bg-light">
         <div className="container">
@@ -170,100 +171,50 @@ export default function Home() {
         </div>
       </section>
 
-      {/* FOURTH SECTION */}
+      {/* FAQ SECTION */}
       <section className="eq-space">
         <div className="container">
           <div className="split">
-            <div className="flow-content">
+            <div className="flow-content flow-content--med">
               <h2>Frequently Asked Questions. 🤔 </h2>
 
-              <div className="flow-content flow-content--large">
-                <div class="accordion">
-                  <input type="radio" id="1" name="accordion" checked />
-                  <label class="accordion-section" for="1">
-                    <h4 class="accordion-header">Accordion Section 1</h4>
-                    <p>
-                      Nullam id dolor id nibh ultricies vehicula ut id elit.
-                      Fusce dapibus, tellus ac cursus commodo, tortor mauris
-                      condimentum nibh, ut fermentum massa justo sit amet risus.
-                      Sed posuere consectetur est at lobortis. Nullam quis risus
-                      eget urna mollis ornare vel eu leo. Lorem ipsum dolor sit
-                      amet, consectetur adipiscing elit.
-                    </p>
-                  </label>
-                  <input type="radio" id="2" name="accordion" />
-                  <label class="accordion-section" for="2">
-                    <h4 class="accordion-header">Accordion Section 2</h4>
-                    <p>
-                      Nullam id dolor id nibh ultricies vehicula ut id elit.
-                      Fusce dapibus, tellus ac cursus commodo, tortor mauris
-                      condimentum nibh, ut fermentum massa justo sit amet risus.
-                      Sed posuere consectetur est at lobortis. Nullam quis risus
-                      eget urna mollis ornare vel eu leo. Lorem ipsum dolor sit
-                      amet, consectetur adipiscing elit.
-                    </p>
-                  </label>
-                  <input type="radio" id="3" name="accordion" />
-                  <label class="accordion-section" for="3">
-                    <h4 class="accordion-header">Accordion Section 3</h4>
-                    <p>
-                      Nullam id dolor id nibh ultricies vehicula ut id elit.
-                      Fusce dapibus, tellus ac cursus commodo, tortor mauris
-                      condimentum nibh, ut fermentum massa justo sit amet risus.
-                      Sed posuere consectetur est at lobortis. Nullam quis risus
-                      eget urna mollis ornare vel eu leo. Lorem ipsum dolor sit
-                      amet, consectetur adipiscing elit.
-                    </p>
-                  </label>
-                  <input type="radio" id="4" name="accordion" />
-                  <label class="accordion-section" for="4">
-                    <h4 class="accordion-header">Accordion Section 4</h4>
-                    <p>
-                      Nullam id dolor id nibh ultricies vehicula ut id elit.
-                      Fusce dapibus, tellus ac cursus commodo, tortor mauris
-                      condimentum nibh, ut fermentum massa justo sit amet risus.
-                      Sed posuere consectetur est at lobortis. Nullam quis risus
-                      eget urna mollis ornare vel eu leo. Lorem ipsum dolor sit
-                      amet, consectetur adipiscing elit.
-                    </p>
-                  </label>
-                  <input type="radio" id="5" name="accordion" />
-                  <label class="accordion-section" for="5">
-                    <h4 class="accordion-header">Accordion Section 5</h4>
-                    <p>
-                      Nullam id dolor id nibh ultricies vehicula ut id elit.
-                      Fusce dapibus, tellus ac cursus commodo, tortor mauris
-                      condimentum nibh, ut fermentum massa justo sit amet risus.
-                      Sed posuere consectetur est at lobortis. Nullam quis risus
-                      eget urna mollis ornare vel eu leo. Lorem ipsum dolor sit
-                      amet, consectetur adipiscing elit.
-                    </p>
-                  </label>
-                  <input type="radio" id="6" name="accordion" />
-                  <label class="accordion-section" for="6">
-                    <h4 class="accordion-header">Accordion Section 6</h4>
-                    <p>
-                      Nullam id dolor id nibh ultricies vehicula ut id elit.
-                      Fusce dapibus, tellus ac cursus commodo, tortor mauris
-                      condimentum nibh, ut fermentum massa justo sit amet risus.
-                      Sed posuere consectetur est at lobortis. Nullam quis risus
-                      eget urna mollis ornare vel eu leo. Lorem ipsum dolor sit
-                      amet, consectetur adipiscing elit.
-                    </p>
-                  </label>
+              <div className="flow-content">
+                <div>
+                  <h4 className="large-space">
+                    When is The Dain Walker Experience?
+                  </h4>
+                  <p>The workshop is happening at 5pm EST on May 12th</p>
                 </div>
-
-                <a className="btn large-space" onClick={login}>
-                  Sign up now
-                </a>
+                <div>
+                  <h4>How do I attend?</h4>
+                  <p>
+                    We built our own platform! No Youtube links, no Zoom calls.
+                    Simply sign up and everything is there!
+                  </p>
+                </div>
+                <div>
+                  <h4>What if I miss the session?</h4>
+                  <p>
+                    We get it, things get in the way. If you have a VIP pass,
+                    you can rewatch sessions at any time.
+                  </p>
+                </div>
+                <div>
+                  <h4>What is Frontrow2021?</h4>
+                  <p>
+                    Frontrow is a virtual conference happening on May 10 - 14
+                    featuring top designers like Chris Do. Workshops, mentoring,
+                    networking & so much more!
+                  </p>
+                </div>
               </div>
             </div>
             <div className="vertical-center">
               <Image
-                src="/img/second.png"
+                src="/img/FAQ.svg"
                 width={500}
                 height={414}
-                alt="instgram stories"
+                alt="abstract"
               ></Image>
             </div>
           </div>
