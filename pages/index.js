@@ -34,7 +34,8 @@ export default function Home() {
             </div>
             <div>
               <Image
-                src="/img/Hero.svg"
+                quality={100}
+                src="/img/hero.png"
                 width={587}
                 height={726}
                 alt="abstract"
@@ -57,7 +58,7 @@ export default function Home() {
               <p>
                 We are back with our second online edition, with more surprises
                 and great speakers. It's an experience that brings the most
-                talented & passionate creatives in the world together,{" "}
+                talented & passionate creatives in the world together,
                 <span className="bg-accent accent-bg">virtually</span>
               </p>
 
@@ -67,7 +68,8 @@ export default function Home() {
             </div>
             <div>
               <Image
-                src="/img/FAQ.svg"
+                quality={100}
+                src="/img/FAQ.png"
                 width={500}
                 height={414}
                 alt="instagram stories"
@@ -82,7 +84,12 @@ export default function Home() {
         <div className="container">
           <div className="split text-center">
             <div>
-              <Image src="/img/Group.svg" width={250} height={250}></Image>
+              <Image
+                src="/img/Group.png"
+                width={250}
+                height={250}
+                quality={100}
+              ></Image>
               <h3>Learn</h3>
               <p>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta,
@@ -90,7 +97,12 @@ export default function Home() {
               </p>
             </div>
             <div>
-              <Image src="/img/Group 2.svg" width={250} height={250}></Image>
+              <Image
+                src="/img/Group2.png"
+                width={250}
+                height={250}
+                quality={100}
+              ></Image>
               <h3>Execute</h3>
               <p>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit.
@@ -98,7 +110,12 @@ export default function Home() {
               </p>
             </div>
             <div>
-              <Image src="/img/Group 3.svg" width={250} height={250}></Image>
+              <Image
+                src="/img/Group3.png"
+                width={250}
+                height={250}
+                quality={100}
+              ></Image>
               <h3>Discover</h3>
               <p>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse,
@@ -129,6 +146,7 @@ export default function Home() {
           <div className="speaker-cards large-space">
             <div className="speaker-card__single a-self">
               <Image
+                quality={100}
                 src="/img/speaker-01.jpg"
                 width={220}
                 height={220}
@@ -139,6 +157,7 @@ export default function Home() {
             </div>
             <div className="speaker-card__single a-self">
               <Image
+                quality={100}
                 src="/img/speaker-02.jpg"
                 width={220}
                 height={220}
@@ -149,6 +168,7 @@ export default function Home() {
             </div>
             <div className="speaker-card__single a-self">
               <Image
+                quality={100}
                 src="/img/speaker-03.jpg"
                 width={220}
                 height={220}
@@ -159,6 +179,7 @@ export default function Home() {
             </div>
             <div className="speaker-card__single a-self">
               <Image
+                quality={100}
                 src="/img/speaker-04.jpg"
                 width={220}
                 height={220}
@@ -211,7 +232,8 @@ export default function Home() {
             </div>
             <div className="vertical-center">
               <Image
-                src="/img/FAQ.svg"
+                quality={100}
+                src="/img/FAQ.png"
                 width={500}
                 height={414}
                 alt="abstract"

@@ -75,6 +75,7 @@ img {
   height: auto;
   display: block;
   border-radius: var(--br);
+  object-fit: contain;
 }
 
 body {
