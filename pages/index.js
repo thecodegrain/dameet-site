@@ -23,9 +23,12 @@ export default function Home() {
         <div className="container">
           <div className="split">
             <div className="flow-content flow-content--large large-space">
-              <h1>The ultimate design conference experience. ✌</h1>
+              <div>
+                <p className="h4">00-00 July 21</p>
+                <h1>The ultimate design conference experience. ✌</h1>
+              </div>
 
-              <a className="btn large-space" onClick={login}>
+              <a className="btn" onClick={login}>
                 Secure a Spot
               </a>
             </div>
@@ -74,7 +77,36 @@ export default function Home() {
       </section>
 
       {/* Info Section some icons and shit */}
-      <section className="eq-space"></section>
+      <section className="eq-space">
+        <div className="container">
+          <div className="split text-center">
+            <div>
+              <Image src="/img/logo1.png" width={250} height={250}></Image>
+              <h3>Learn</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta,
+                dicta?
+              </p>
+            </div>
+            <div>
+              <Image src="/img/logo2.png" width={250} height={250}></Image>
+              <h3>Execute</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Nesciunt, soluta?
+              </p>
+            </div>
+            <div>
+              <Image src="/img/logo3.png" width={250} height={250}></Image>
+              <h3>Discover</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse,
+                dignissimos.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
 
       {/* Speaker SECTION */}
 
