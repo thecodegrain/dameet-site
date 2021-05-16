@@ -1,5 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400&family=Work+Sans:wght@500;600;700;800;900&display=swap");
-
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;600;700&display=swap");
 :root {
   --ff-worksans: "Work Sans", sans-serif;
 
@@ -17,10 +16,10 @@
   --btn-nav-clamp-v: clamp(4px, 0.5vw, 8px);
   --btn-nav-clamp-h: clamp(14px, 1.9vw, 28px);
 
-  --fw-200: 200;
-  --fw-300: 300;
-  --fw-400: 400;
-  --fw-700: 700;
+  --fw-regular: 400;
+  --fw-medium: 500;
+  --fw-semi-bold: 600;
+  --fw-bold: 700;
 
   --clr-neutral-100: #fff;
   --clr-neutral-200: #eef1f6;
@@ -63,7 +62,6 @@ h4,
 
 .h4 {
   font-size: var(--fs-h4);
-  font-weight: var(--fw-700);
 }
 
 ul,
@@ -83,7 +81,7 @@ body {
   line-height: 1.6;
   font-family: var(--ff-worksans);
   font-size: var(--fs-body);
-  font-weight: var(--fw-400);
+  font-weight: var(--fw-regular);
 }
 
 /* !=====Typography===== */
@@ -98,27 +96,32 @@ h6 {
 
 h1 {
   font-size: var(--fs-h1);
+  font-weight: var(--fw-bold);
 }
 
 h2 {
   font-size: var(--fs-h2);
+  font-weight: var(--fw-bold);
 }
 
 h3 {
   font-size: var(--fs-h3);
+  font-weight: var(--fw-semi-bold);
 }
 
 h4 {
   font-size: var(--fs-h4);
+  font-weight: var(--fw-semi-bold);
 }
 
 h5 {
   font-size: var(--fs-h5);
+  font-weight: var(--fw-semi-bold);
 }
 
 a {
   text-decoration: none;
-  font-weight: var(--fw-400);
+  font-weight: var(--fw-regular);
   font-size: var(--fs-300);
   color: var(--clr-neutral-900);
 }
@@ -132,11 +135,7 @@ a:focus {
 
 .logo {
   font-size: var(--fs-h3);
-}
-
-.logo-lg {
-  font-size: 4rem;
-  font-weight: var(--fw-700);
+  font-weight: var(--fw-medium);
 }
 
 .pl {
@@ -380,7 +379,7 @@ footer {
 
 .footer__logo {
   font-size: var(--fs-h1);
-  font-weight: var(--fw-700);
+  font-weight: var(--fw-bold);
   color: var(--clr-neutral-200);
 }
 
@@ -394,7 +393,6 @@ footer {
 
 .footer__list a {
   color: var(--clr-neutral-200);
-  font-weight: var(--fw-500);
 }
 
 .footer__list a:hover {
@@ -403,7 +401,6 @@ footer {
 
 .social-links a {
   text-decoration: underline;
-  font-weight: var(--fw-400);
 }
 
 /* !Media Quries */

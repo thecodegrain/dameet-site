@@ -128,7 +128,7 @@ export default function Home() {
           <div className="speaker-cards large-space">
             <div className="speaker-card__single a-self">
               <Image
-                src="/img/team-01.jpg"
+                src="/img/speaker-01.jpg"
                 width={220}
                 height={220}
                 alt="speaker"
@@ -138,7 +138,7 @@ export default function Home() {
             </div>
             <div className="speaker-card__single a-self">
               <Image
-                src="/img/team-02.jpg"
+                src="/img/speaker-02.jpg"
                 width={220}
                 height={220}
                 alt="speaker"
@@ -148,7 +148,7 @@ export default function Home() {
             </div>
             <div className="speaker-card__single a-self">
               <Image
-                src="/img/team-03.jpg"
+                src="/img/speaker-03.jpg"
                 width={220}
                 height={220}
                 alt="speaker"
@@ -158,7 +158,7 @@ export default function Home() {
             </div>
             <div className="speaker-card__single a-self">
               <Image
-                src="/img/team-04.jpg"
+                src="/img/speaker-04.jpg"
                 width={220}
                 height={220}
                 alt="speaker"
@@ -213,12 +213,12 @@ export default function Home() {
                   </p>
                 </details>
 
-                <a className="btn bg-accent large-space" onClick={login}>
+                <a className="btn large-space" onClick={login}>
                   Secure a Spot
                 </a>
               </div>
             </div>
-            <div className="vertical-center">
+            <div className="">
               <Image
                 src="/img/second.png"
                 width={500}
