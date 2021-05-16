@@ -352,7 +352,7 @@ header {
 }
 
 /* !=====FAQ===== */
-details {
+/* details {
   cursor: pointer;
 }
 
@@ -365,6 +365,37 @@ details p {
 summary {
   padding: 24px 48px;
   border-radius: var(--section-br) var(--section-br);
+} */
+
+.accordion input[type="radio"] {
+  display: none;
+}
+.accordion input[type="radio"]:checked + .accordion-section {
+  max-height: 40rem;
+}
+.accordion input[type="radio"]:checked + .accordion-section .accordion-header {
+  background: #efeeee;
+}
+
+.accordion-section {
+  max-height: 3rem;
+  overflow: hidden;
+  display: block;
+  margin: 8px 0;
+  cursor: pointer;
+  border-radius: 15px;
+}
+.accordion-section p {
+  padding: var(--btn-clamp-v) var(--btn-clamp-h);
+  background: #efeeee;
+}
+
+.accordion-header {
+  margin: 0;
+  padding: var(--btn-clamp-v) var(--btn-clamp-h);
+  /* height: 3rem; */
+  line-height: 3rem;
+  background: #efeeee;
 }
 
 /* !Footer */

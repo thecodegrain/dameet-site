@@ -178,47 +178,87 @@ export default function Home() {
               <h2>Frequently Asked Questions. 🤔 </h2>
 
               <div className="flow-content flow-content--large">
-                <details className="accordion">
-                  <summary className="h4 bg-light large-space">
-                    When is The Dain Walker Experience?
-                  </summary>
-                  <p className="bg-light">
-                    The workshop is happening at 5pm EST on May 12th
-                  </p>
-                </details>
-                <details>
-                  <summary className="h4 bg-light">How do I attend?</summary>
-                  <p className="bg-light">
-                    We built our own platform! No Youtube links, no Zoom calls.
-                    Simply sign up and everything is there!
-                  </p>
-                </details>
-                <details>
-                  <summary className="h4 bg-light">
-                    What if I miss the session?
-                  </summary>
-                  <p className="bg-light">
-                    We get it, things get in the way. If you have a VIP pass,
-                    you can rewatch sessions at any time.
-                  </p>
-                </details>
-                <details>
-                  <summary className="h4 bg-light">
-                    What is Frontrow2021?
-                  </summary>
-                  <p className="bg-light">
-                    Frontrow is a virtual conference happening on May 10 - 14
-                    featuring top designers like Chris Do. Workshops, mentoring,
-                    networking & so much more!
-                  </p>
-                </details>
+                <div class="accordion">
+                  <input type="radio" id="1" name="accordion" checked />
+                  <label class="accordion-section" for="1">
+                    <h4 class="accordion-header">Accordion Section 1</h4>
+                    <p>
+                      Nullam id dolor id nibh ultricies vehicula ut id elit.
+                      Fusce dapibus, tellus ac cursus commodo, tortor mauris
+                      condimentum nibh, ut fermentum massa justo sit amet risus.
+                      Sed posuere consectetur est at lobortis. Nullam quis risus
+                      eget urna mollis ornare vel eu leo. Lorem ipsum dolor sit
+                      amet, consectetur adipiscing elit.
+                    </p>
+                  </label>
+                  <input type="radio" id="2" name="accordion" />
+                  <label class="accordion-section" for="2">
+                    <h4 class="accordion-header">Accordion Section 2</h4>
+                    <p>
+                      Nullam id dolor id nibh ultricies vehicula ut id elit.
+                      Fusce dapibus, tellus ac cursus commodo, tortor mauris
+                      condimentum nibh, ut fermentum massa justo sit amet risus.
+                      Sed posuere consectetur est at lobortis. Nullam quis risus
+                      eget urna mollis ornare vel eu leo. Lorem ipsum dolor sit
+                      amet, consectetur adipiscing elit.
+                    </p>
+                  </label>
+                  <input type="radio" id="3" name="accordion" />
+                  <label class="accordion-section" for="3">
+                    <h4 class="accordion-header">Accordion Section 3</h4>
+                    <p>
+                      Nullam id dolor id nibh ultricies vehicula ut id elit.
+                      Fusce dapibus, tellus ac cursus commodo, tortor mauris
+                      condimentum nibh, ut fermentum massa justo sit amet risus.
+                      Sed posuere consectetur est at lobortis. Nullam quis risus
+                      eget urna mollis ornare vel eu leo. Lorem ipsum dolor sit
+                      amet, consectetur adipiscing elit.
+                    </p>
+                  </label>
+                  <input type="radio" id="4" name="accordion" />
+                  <label class="accordion-section" for="4">
+                    <h4 class="accordion-header">Accordion Section 4</h4>
+                    <p>
+                      Nullam id dolor id nibh ultricies vehicula ut id elit.
+                      Fusce dapibus, tellus ac cursus commodo, tortor mauris
+                      condimentum nibh, ut fermentum massa justo sit amet risus.
+                      Sed posuere consectetur est at lobortis. Nullam quis risus
+                      eget urna mollis ornare vel eu leo. Lorem ipsum dolor sit
+                      amet, consectetur adipiscing elit.
+                    </p>
+                  </label>
+                  <input type="radio" id="5" name="accordion" />
+                  <label class="accordion-section" for="5">
+                    <h4 class="accordion-header">Accordion Section 5</h4>
+                    <p>
+                      Nullam id dolor id nibh ultricies vehicula ut id elit.
+                      Fusce dapibus, tellus ac cursus commodo, tortor mauris
+                      condimentum nibh, ut fermentum massa justo sit amet risus.
+                      Sed posuere consectetur est at lobortis. Nullam quis risus
+                      eget urna mollis ornare vel eu leo. Lorem ipsum dolor sit
+                      amet, consectetur adipiscing elit.
+                    </p>
+                  </label>
+                  <input type="radio" id="6" name="accordion" />
+                  <label class="accordion-section" for="6">
+                    <h4 class="accordion-header">Accordion Section 6</h4>
+                    <p>
+                      Nullam id dolor id nibh ultricies vehicula ut id elit.
+                      Fusce dapibus, tellus ac cursus commodo, tortor mauris
+                      condimentum nibh, ut fermentum massa justo sit amet risus.
+                      Sed posuere consectetur est at lobortis. Nullam quis risus
+                      eget urna mollis ornare vel eu leo. Lorem ipsum dolor sit
+                      amet, consectetur adipiscing elit.
+                    </p>
+                  </label>
+                </div>
 
                 <a className="btn large-space" onClick={login}>
                   Secure a Spot
                 </a>
               </div>
             </div>
-            <div className="">
+            <div className="vertical-center">
               <Image
                 src="/img/second.png"
                 width={500}
