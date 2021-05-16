@@ -25,7 +25,7 @@ export default function Home() {
             <div className="flow-content flow-content--large large-space">
               <div>
                 <p className="h4">00-00 July 21</p>
-                <h1>The ultimate design conference experience. ✌</h1>
+                <h1>The ultimate community tech conference 🚀</h1>
               </div>
 
               <a className="btn" onClick={login}>
@@ -55,9 +55,9 @@ export default function Home() {
                 coming together virtually.
               </h2>
               <p>
-                For our third year running, Frontrow is more than a conference.
+              We are back with our second online edition, with more surprises and great speakers.
                 It's an experience that brings the most talented & passionate
-                creatives in the world together, virtually.
+                creatives in the world together, <span className="bg-accent accent-bg">virtually</span>
               </p>
 
               <a className="btn large-space" onClick={login}>
@@ -117,7 +117,7 @@ export default function Home() {
               <h2>
                 Our <span className="bg-accent accent-bg">2021</span> Speakers
               </h2>
-              <p>We have shakers of the industry</p>
+              <p>The best of the industry</p>
             </div>
             <div className="a-self__end">
               <a className="btn" onClick={login}>
@@ -254,7 +254,7 @@ export default function Home() {
                 </div>
 
                 <a className="btn large-space" onClick={login}>
-                  Secure a Spot
+                  Sign up now
                 </a>
               </div>
             </div>
