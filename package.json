@@ -1,5 +1,5 @@
 {
-  "name": "gaming-vibes",
+  "name": "dameet",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -8,6 +8,7 @@
     "start": "next start"
   },
   "dependencies": {
+    "@netlify/plugin-nextjs": "^3.1.1-experimental-odb.1",
     "netlify-identity-widget": "^1.9.1",
     "next": "^10.2.0",
     "react": "^17.0.2",
