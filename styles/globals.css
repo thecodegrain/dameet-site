@@ -342,6 +342,10 @@ header {
   margin-top: 0.5rem;
 }
 
+.speaker-cards img {
+  object-fit: cover;
+}
+
 /* !=====FAQ===== */
 details {
   cursor: pointer;
