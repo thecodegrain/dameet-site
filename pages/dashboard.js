@@ -1,5 +1,6 @@
 import Head from "next/head";
 import Image from "next/image";
+import Link from "next/link";
 import { useContext, useEffect, useState } from "react";
 import Sidebar from "../components/Sidebar";
 import AuthContext from "../stores/authContext";
@@ -100,7 +101,9 @@ const Webinar = () => {
                         speakers, schedule or join the chat, all from one page.
                         Go to mainstage to see current live session.
                       </p>
-                      <a className="btn small-space">Go to Mainstage</a>
+                      <Link href="/mainstage">
+                        <a className="btn small-space">Go to Mainstage</a>
+                      </Link>
                     </div>
                     <Image
                       quality={100}

@@ -32,12 +32,12 @@ const Sidebar = () => {
               </Link>
             </li>
             <li>
-              <Link href="/webinar">
+              <Link href="/mainstage">
                 <a className="hidden">Mainstage</a>
               </Link>
             </li>
             <li>
-              <Link href="/webinar">
+              <Link href="/schedule">
                 <a className="hidden">Schedule</a>
               </Link>
             </li>
