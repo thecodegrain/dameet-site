@@ -40,7 +40,6 @@ const Navbar = () => {
                   <a className="btn nav__btn">Login</a>
                 </li>
               )}
-              {user && <li>{greet + user.user_metadata.full_name + " 🚀"}</li>}
               {user && (
                 <li onClick={logout}>
                   <a className="btn nav__btn">Logout</a>
