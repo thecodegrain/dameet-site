@@ -1,6 +1,8 @@
 import Head from "next/head";
 import Image from "next/image";
 import { useContext } from "react";
+import Navbar from "../components/Navbar";
+import Footer from "../components/Footer";
 import AuthContext from "../stores/authContext";
 
 export default function Home() {
@@ -17,6 +19,8 @@ export default function Home() {
           name="description"
         />
       </Head>
+
+      <Navbar />
 
       {/* INTRO SECTION */}
       <section className="intro eq-space">
@@ -240,6 +244,7 @@ export default function Home() {
           </div>
         </div>
       </section>
+      <Footer />
     </>
   );
 }

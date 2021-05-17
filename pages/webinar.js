@@ -1,11 +1,16 @@
 import Head from "next/head";
+import Image from "next/image";
 import { useContext, useEffect, useState } from "react";
+import Sidebar from "../components/Sidebar";
 import AuthContext from "../stores/authContext";
 
-export default function Guides() {
+const Webinar = () => {
   const { user, authReady } = useContext(AuthContext);
-  const [guides, setGuides] = useState(null);
+  const [webinar, setWebinar] = useState(null);
   const [error, setError] = useState(null);
+
+  //Auth stuff
+  const { user: username } = useContext(AuthContext);
 
   useEffect(() => {
     if (authReady) {
@@ -17,19 +22,19 @@ export default function Guides() {
           },
         }
       )
-        .then((res) => {
-          if (!res.ok) {
-            throw Error("You must be logged in to view this content");
-          }
-          return res.json();
-        })
-        .then((data) => {
-          setGuides(data);
+        // .then((res) => {
+        //   if (!res.ok) {
+        //     throw Error("You must be logged in to view this content");
+        //   }
+        //   return res.json();
+        // })
+        .then(() => {
+          setWebinar(true);
           setError(null);
         })
         .catch((err) => {
           setError(err.message);
-          setGuides(null);
+          setWebinar(null);
         });
     }
   }, [user, authReady]);
@@ -45,38 +50,48 @@ export default function Guides() {
           name="description"
         />
       </Head>
-      <div className="guides">
-        <div className="container flow-content xl-space">
-          {!authReady && <div>Loading...</div>}
-          {error && (
-            <div className="error">
-              <p>{error}</p>
-            </div>
-          )}
-          {guides &&
-            guides.map((guide) => (
-              <section className="small-space">
-                <div
-                  key={guide.title}
-                  className="bg-light card-section split eq-space"
-                >
-                  <div className="container">
-                    <div className="flow-content">
-                      <h3>{guide.title}</h3>
-                      <h4>Written by {guide.author}</h4>
-                      <p>
-                        Lorem ipsum dolor, sit amet consectetur adipisicing
-                        elit. Sunt eum quasi mollitia impedit qui voluptatum
-                        temporibus blanditiis ratione, dolor saepe beatae illum
-                        eius cupiditate? Aperiam rerum sint quod enim vitae.
-                      </p>
-                    </div>
+      <Sidebar />
+      <div className="container">
+        <div className="webinar">
+          <div className=" container flow-content xl-space">
+            {!authReady && <div>Loading...</div>}
+            {error && (
+              <div className="error">
+                <p>{error}</p>
+              </div>
+            )}
+          </div>
+          {user && (
+            <section className="small-space">
+              <div className="container">
+                <div className="split ">
+                  <div className="flow-content">
+                    {user && <h1>Hi, {username.user_metadata.full_name} 👋</h1>}
+                    <p>Welcome to the club!!</p>
+                    <h5>
+                      Everything you need is here on the platform. Checkout
+                      speakers, schedule or join the chat, all from one page. Go
+                      to mainstage to see current live session.
+                    </h5>
+                    <a className="btn small-space">Go to Mainstage</a>
+                  </div>
+                  <div>
+                    <Image
+                      quality={100}
+                      src="/img/hero.png"
+                      width={294}
+                      height={363}
+                      alt="abstract"
+                    ></Image>
                   </div>
                 </div>
-              </section>
-            ))}
+              </div>
+            </section>
+          )}
         </div>
       </div>
     </>
   );
-}
+};
+
+export default Webinar;
