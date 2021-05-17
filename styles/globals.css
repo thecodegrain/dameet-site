@@ -205,6 +205,10 @@ a:focus {
   color: #fff;
 }
 
+.speaker-card__single {
+  background: #efeeee;
+}
+
 .bg-accent {
   background: rgb(255, 208, 0);
 }
@@ -392,7 +396,7 @@ footer {
   text-decoration: underline;
 }
 
-/* !=====Dashboard===== */
+/* !=====Sidebar===== */
 .sidebar-header {
   margin: 1rem;
   padding: 2rem;
@@ -401,9 +405,15 @@ footer {
   top: 0;
   left: 0;
   bottom: 0;
+  overflow-x: hidden;
+  overflow-y: hidden;
   /* display: none; */
 
   background: #efeeee;
+}
+
+.margin-left {
+  margin-left: 160px;
 }
 
 .sidebar {
@@ -417,6 +427,8 @@ footer {
   height: 100%;
   gap: 1em;
 }
+
+/* !=====Dashboard===== */
 
 .info-cards {
   border-radius: 40px;

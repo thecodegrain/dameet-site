@@ -156,7 +156,7 @@ export default function Home() {
                 height={220}
                 alt="speaker"
               />
-              <h5 className="">Manan Gouhari</h5>
+              <h5>Manan Gouhari</h5>
               <p>Web Developer</p>
             </div>
             <div className="speaker-card__single a-self">

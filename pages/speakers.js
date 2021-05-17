@@ -2,7 +2,7 @@ import Head from "next/head";
 import Image from "next/image";
 import Sidebar from "../components/Sidebar";
 
-const Schedule = () => {
+const Speakers = () => {
   return (
     <>
       <div className="margin-left">
@@ -22,8 +22,8 @@ const Schedule = () => {
         <section className="small-space">
           <div className="container">
             <div className="flow-content">
-              <h1>Event Agenda</h1>
-              <h5>Plan your schedule!!</h5>
+              <h1>Our Speakers</h1>
+              <h5>Best from the industry</h5>
             </div>
           </div>
         </section>
@@ -32,4 +32,4 @@ const Schedule = () => {
   );
 };
 
-export default Schedule;
+export default Speakers;
