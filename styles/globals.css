@@ -411,6 +411,14 @@ footer {
 
   background: #efeeee;
 }
+.sidebar-flex {
+  display: flex;
+  align-items: center;
+}
+
+.sidebar-text-gray {
+  color: rgb(133, 128, 128);
+}
 
 .margin-left {
   margin-left: 160px;

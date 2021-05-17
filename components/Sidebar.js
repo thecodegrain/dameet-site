@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Link from "next/link";
 import { useContext } from "react";
 import AuthContext from "../stores/authContext";
@@ -24,48 +25,126 @@ const Sidebar = () => {
         {authReady && (
           <ul className="sidebar__list">
             <li>
-              <a className="hidden">Menu</a>
+              <a className="hidden sidebar-text-gray">Menu</a>
             </li>
-            <li>
+            <li className="sidebar-flex">
+              <div>
+                <Image
+                  src="/img/Group2.png"
+                  width={30}
+                  height={30}
+                  quality={100}
+                ></Image>
+              </div>
               <Link href="/">
                 <a className="hidden">Home</a>
               </Link>
             </li>
-            <li>
+            <li className="sidebar-flex">
+              <div>
+                <Image
+                  src="/img/Group3.png"
+                  width={30}
+                  height={30}
+                  quality={100}
+                ></Image>
+              </div>
               <Link href="/mainstage">
                 <a className="hidden">Mainstage</a>
               </Link>
             </li>
-            <li>
+            <li className="sidebar-flex">
+              <div>
+                <Image
+                  src="/img/Group.png"
+                  width={30}
+                  height={30}
+                  quality={100}
+                ></Image>
+              </div>
               <Link href="/speakers">
                 <a className="hidden">Speakers</a>
               </Link>
             </li>
-            <li>
+            <li className="sidebar-flex">
+              <div>
+                <Image
+                  src="/img/Group2.png"
+                  width={30}
+                  height={30}
+                  quality={100}
+                ></Image>
+              </div>
               <Link href="/schedule">
                 <a className="hidden">Schedule</a>
               </Link>
             </li>
             <li>
-              <a className="hidden">Social</a>
+              <a className="hidden sidebar-text-gray">Social</a>
             </li>
-            <li>
+            <li className="sidebar-flex">
+              <div>
+                <Image
+                  src="/img/Group3.png"
+                  width={30}
+                  height={30}
+                  quality={100}
+                ></Image>
+              </div>
               <a className="hidden">Discord</a>
             </li>
-            <li>
+            <li className="sidebar-flex">
+              <div>
+                <Image
+                  src="/img/Group.png"
+                  width={30}
+                  height={30}
+                  quality={100}
+                ></Image>
+              </div>
               <a className="hidden">Telegram</a>
             </li>
             <li>
-              <a className="hidden">General</a>
+              <a className="hidden sidebar-text-gray">General</a>
             </li>
             {!user && (
-              <li onClick={login}>
-                <a className="btn nav__btn">Login</a>
+              <li className="sidebar-flex" onClick={login}>
+                <div>
+                  <Image
+                    src="/img/Group2.png"
+                    width={30}
+                    height={30}
+                    quality={100}
+                  ></Image>
+                </div>
+                <a
+                  className="hidden"
+                  style={{
+                    cursor: "pointer",
+                  }}
+                >
+                  Login
+                </a>
               </li>
             )}
             {user && (
-              <li onClick={logout}>
-                <a className="btn nav__btn">Logout</a>
+              <li className="sidebar-flex" onClick={logout}>
+                <div>
+                  <Image
+                    src="/img/Group3.png"
+                    width={30}
+                    height={30}
+                    quality={100}
+                  ></Image>
+                </div>
+                <a
+                  className="hidden"
+                  style={{
+                    cursor: "pointer",
+                  }}
+                >
+                  Logout
+                </a>
               </li>
             )}
           </ul>
