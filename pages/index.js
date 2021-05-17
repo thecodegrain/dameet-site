@@ -153,7 +153,7 @@ export default function Home() {
                 alt="speaker"
               />
               <h5 className="">Manan Gouhari</h5>
-              <p>Lead Developer</p>
+              <p>Web Developer</p>
             </div>
             <div className="speaker-card__single a-self">
               <Image
@@ -163,8 +163,8 @@ export default function Home() {
                 height={220}
                 alt="speaker"
               />
-              <h5>Hardy Smith</h5>
-              <p>Lead Developer</p>
+              <h5>Shubhang Rajput</h5>
+              <p>Graphic Designer</p>
             </div>
             <div className="speaker-card__single a-self">
               <Image
@@ -174,8 +174,8 @@ export default function Home() {
                 height={220}
                 alt="speaker"
               />
-              <h5>Shubhang Rajput</h5>
-              <p>Lead Developer</p>
+              <h5>Pulp Smith</h5>
+              <p>Productive Ninja</p>
             </div>
             <div className="speaker-card__single a-self">
               <Image
@@ -186,7 +186,7 @@ export default function Home() {
                 alt="speaker"
               />
               <h5>Rahul Mane</h5>
-              <p>Lead Developer</p>
+              <p>Crypto Expert</p>
             </div>
           </div>
         </div>
@@ -201,10 +201,16 @@ export default function Home() {
 
               <div className="flow-content">
                 <div>
-                  <h4 className="large-space">
-                    When is The Dain Walker Experience?
-                  </h4>
-                  <p>The workshop is happening at 5pm EST on May 12th</p>
+                  <h4 className="large-space">What is Dameet?</h4>
+                  <p>
+                    Dameet is a virtual workshop/webinar happening on July 21st
+                    featuring top designer, developer, data scientist and
+                    prductive ninja.
+                  </p>
+                </div>
+                <div>
+                  <h4>When is The Dameet workshop?</h4>
+                  <p>The workshop is happening at 5pm IST on July 21st</p>
                 </div>
                 <div>
                   <h4>How do I attend?</h4>
@@ -216,16 +222,8 @@ export default function Home() {
                 <div>
                   <h4>What if I miss the session?</h4>
                   <p>
-                    We get it, things get in the way. If you have a VIP pass,
-                    you can rewatch sessions at any time.
-                  </p>
-                </div>
-                <div>
-                  <h4>What is Frontrow2021?</h4>
-                  <p>
-                    Frontrow is a virtual conference happening on May 10 - 14
-                    featuring top designers like Chris Do. Workshops, mentoring,
-                    networking & so much more!
+                    We will upload all the live sessions later to our youtube
+                    channel
                   </p>
                 </div>
               </div>
