@@ -207,7 +207,6 @@ a:focus {
 
 .bg-accent {
   background: rgb(255, 208, 0);
-  color: #252422;
 }
 
 .eq-space {
@@ -402,7 +401,7 @@ footer {
   top: 0;
   left: 0;
   bottom: 0;
-  display: none;
+  /* display: none; */
 
   background: #efeeee;
 }

@@ -6,36 +6,18 @@ const Footer = () => {
       <div className="container">
         <footer className="split">
           <div>
+            <p className="h4">00-00 July 21</p>
             <Link href="/">
               <a className="footer__logo">Da meet</a>
             </Link>
             <div className="footer__list">
               <a className="" href="https://codegra.in/">
-                by codegr.in
+                by codegra.in
               </a>
             </div>
           </div>
-          <div className="footer-links a-self">
-            <ul className="footer__list">
-              <li>
-                <Link href="/">
-                  <a>Home</a>
-                </Link>
-              </li>
-              <li>
-                <Link href="/">
-                  <a>Schedule</a>
-                </Link>
-              </li>
-              <li>
-                <Link href="/webinar">
-                  <a>Mainstage</a>
-                </Link>
-              </li>
-            </ul>
-          </div>
           <div className="a-self social-links">
-            <ul className="footer__list">
+            <ul className="footer__list flow-content">
               <li>
                 <a href="https://instagram.com/codegra.in">ig</a>
               </li>
@@ -48,6 +30,11 @@ const Footer = () => {
                 </a>
               </li>
             </ul>
+          </div>
+
+          <div className="footer-links">
+            <p>Follow us</p>
+            <h3 className="bg-accent accent-bg">#dameet2021</h3>
           </div>
         </footer>
       </div>
