@@ -148,7 +148,7 @@ export default function Home() {
             </div>
           </div>
           <div className="speaker-cards large-space">
-            <div className="speaker-card__single a-self">
+            <div className="speaker-card__single a-self bg-white">
               <Image
                 quality={100}
                 src="/img/speaker-01.jpg"
@@ -159,7 +159,7 @@ export default function Home() {
               <h5>Manan Gouhari</h5>
               <p>Web Developer</p>
             </div>
-            <div className="speaker-card__single a-self">
+            <div className="speaker-card__single a-self bg-white">
               <Image
                 quality={100}
                 src="/img/speaker-02.jpg"
@@ -170,7 +170,7 @@ export default function Home() {
               <h5>Shubhang Rajput</h5>
               <p>Graphic Designer</p>
             </div>
-            <div className="speaker-card__single a-self">
+            <div className="speaker-card__single a-self bg-white">
               <Image
                 quality={100}
                 src="/img/speaker-03.jpg"
@@ -181,7 +181,7 @@ export default function Home() {
               <h5>Pulp Smith</h5>
               <p>Productive Ninja</p>
             </div>
-            <div className="speaker-card__single a-self">
+            <div className="speaker-card__single a-self bg-white">
               <Image
                 quality={100}
                 src="/img/speaker-04.jpg"

@@ -30,11 +30,22 @@ const Navbar = () => {
                   <a className="hidden">Schedule</a>
                 </Link>
               </li>
-              <li>
-                <Link href="/mainstage">
-                  <a className="hidden">Mainstage</a>
-                </Link>
-              </li>
+              {user && (
+                <li>
+                  <Link href="/dashboard">
+                    <a className="hidden">Dashboard</a>
+                  </Link>
+                </li>
+              )}
+              {!user && (
+                <li>
+                  <Link href="/">
+                    <a className="hidden" onClick={login}>
+                      Dashboard
+                    </a>
+                  </Link>
+                </li>
+              )}
               {!user && (
                 <li onClick={login}>
                   <a className="btn nav__btn">Login</a>

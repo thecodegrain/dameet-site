@@ -36,8 +36,8 @@ const Sidebar = () => {
                   quality={100}
                 ></Image>
               </div>
-              <Link href="/">
-                <a className="hidden">Home</a>
+              <Link href="/dashboard">
+                <a className="hidden">Dashboard</a>
               </Link>
             </li>
             <li className="sidebar-flex">
@@ -91,7 +91,13 @@ const Sidebar = () => {
                   quality={100}
                 ></Image>
               </div>
-              <a className="hidden">Discord</a>
+              <a
+                href="https://twitter.com/codegrain"
+                target="_blank"
+                className="hidden"
+              >
+                Discord
+              </a>
             </li>
             <li className="sidebar-flex">
               <div>
@@ -102,7 +108,13 @@ const Sidebar = () => {
                   quality={100}
                 ></Image>
               </div>
-              <a className="hidden">Telegram</a>
+              <a
+                href="https://instagram.com/codegra.in"
+                target="_blank"
+                className="hidden"
+              >
+                Telegram
+              </a>
             </li>
             <li>
               <a className="hidden sidebar-text-gray">General</a>
@@ -117,14 +129,7 @@ const Sidebar = () => {
                     quality={100}
                   ></Image>
                 </div>
-                <a
-                  className="hidden"
-                  style={{
-                    cursor: "pointer",
-                  }}
-                >
-                  Login
-                </a>
+                <a className="hidden">Login</a>
               </li>
             )}
             {user && (
@@ -137,14 +142,7 @@ const Sidebar = () => {
                     quality={100}
                   ></Image>
                 </div>
-                <a
-                  className="hidden"
-                  style={{
-                    cursor: "pointer",
-                  }}
-                >
-                  Logout
-                </a>
+                <a className="hidden">Logout</a>
               </li>
             )}
           </ul>

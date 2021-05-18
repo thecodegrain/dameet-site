@@ -125,6 +125,7 @@ a {
   font-weight: var(--fw-regular);
   font-size: var(--fs-300);
   color: var(--clr-neutral-900);
+  cursor: pointer;
 }
 
 a:hover,
@@ -196,6 +197,10 @@ a:focus {
   background: white;
 }
 
+.bg-white {
+  background: #fff;
+}
+
 .bg-light {
   background: #efeeee;
 }
@@ -203,10 +208,6 @@ a:focus {
 .bg-dark {
   background: #252422;
   color: #fff;
-}
-
-.speaker-card__single {
-  background: #efeeee;
 }
 
 .bg-accent {
@@ -345,9 +346,8 @@ header {
 }
 
 .speaker-card__single {
-  background: #fff;
   border-radius: var(--br);
-  padding: 1rem 1rem;
+  padding: 1rem;
 }
 
 .speaker-card__single h5 {
@@ -441,6 +441,12 @@ footer {
 .info-cards {
   border-radius: 40px;
   padding: 4rem 2rem;
+}
+
+/* !=====Event Agenda Section===== */
+.event-card {
+  padding: 2rem;
+  border-radius: 40px;
 }
 
 /* !=====Media Quries=====*/
