@@ -32,7 +32,7 @@ const Footer = () => {
             </ul>
           </div>
 
-          <div className="footer-links">
+          <div className="footer-links flow-content">
             <p>Follow us</p>
             <h3 className="bg-accent accent-bg">#dameet2021</h3>
           </div>
