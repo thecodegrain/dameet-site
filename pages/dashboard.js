@@ -107,29 +107,29 @@ const Webinar = () => {
                 <div className="split">
                   <div className="split info-cards bg-light">
                     <div>
-                      <h3>Plan out your event schedule</h3>
+                      <h4>Plan out your event schedule</h4>
                       <Link href="/schedule">
                         <a className="btn small-space">View agenda</a>
                       </Link>
                     </div>
                     <Image
                       src="/img/Group3.png"
-                      width={300}
-                      height={300}
+                      width={150}
+                      height={150}
                       quality={100}
                     ></Image>
                   </div>
                   <div className="split info-cards bg-light">
                     <div>
-                      <h3>Discover our speakers line-up</h3>
+                      <h4>Discover our speakers line-up</h4>
                       <Link href="/speakers">
                         <a className="btn small-space">View speakers</a>
                       </Link>
                     </div>
                     <Image
                       src="/img/Group2.png"
-                      width={300}
-                      height={300}
+                      width={150}
+                      height={150}
                       quality={100}
                     ></Image>
                   </div>
@@ -137,7 +137,7 @@ const Webinar = () => {
                 <div className="split small-space">
                   <div className="split info-cards bg-light">
                     <div>
-                      <h3>Be part of our community on discord</h3>
+                      <h4>Be part of our community on discord</h4>
                       <a
                         href="https://twitter.com/codegrain"
                         target="_blank"
@@ -148,14 +148,14 @@ const Webinar = () => {
                     </div>
                     <Image
                       src="/img/Group2.png"
-                      width={300}
-                      height={300}
+                      width={150}
+                      height={150}
                       quality={100}
                     ></Image>
                   </div>
                   <div className="split info-cards bg-light">
                     <div>
-                      <h3>Or join the chat on telegram</h3>
+                      <h4>Or join the chat on telegram</h4>
                       <a
                         href="https://instagram.com/codegra.in"
                         target="_blank"
@@ -166,8 +166,8 @@ const Webinar = () => {
                     </div>
                     <Image
                       src="/img/Group3.png"
-                      width={300}
-                      height={300}
+                      width={150}
+                      height={150}
                       quality={100}
                     ></Image>
                   </div>

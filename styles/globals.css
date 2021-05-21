@@ -440,7 +440,7 @@ footer {
 
 .info-cards {
   border-radius: 40px;
-  padding: 4rem 2rem;
+  padding: 2rem;
 }
 
 /* !=====Event Agenda Section===== */
@@ -476,6 +476,10 @@ footer {
   .info-cards {
     flex-direction: column;
     text-align: center;
+  }
+
+  .margin-left {
+    margin-left: 0;
   }
 }
 

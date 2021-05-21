@@ -78,25 +78,25 @@ const Speakers = () => {
             <div className="split small-space">
               <div className="split info-cards bg-light">
                 <div>
-                  <h3>Be part of our community on discord</h3>
+                  <h4>Be part of our community on discord</h4>
                   <a className="btn small-space">Join now</a>
                 </div>
                 <Image
                   src="/img/Group2.png"
-                  width={300}
-                  height={300}
+                  width={150}
+                  height={150}
                   quality={100}
                 ></Image>
               </div>
               <div className="split info-cards bg-light">
                 <div>
-                  <h3>Or join the chat on telegram</h3>
+                  <h4>Or join the chat on telegram</h4>
                   <a className="btn small-space">Hop in</a>
                 </div>
                 <Image
                   src="/img/Group3.png"
-                  width={300}
-                  height={300}
+                  width={150}
+                  height={150}
                   quality={100}
                 ></Image>
               </div>
