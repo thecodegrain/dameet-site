@@ -82,7 +82,7 @@ const Mainstage = () => {
           {user && (
             <>
               <div className="split">
-                <div className="flow-content flow-content--large bg-light event-card">
+                <div className="flow-content flow-content--large">
                   <div>
                     {/* <video src="/" width={400} height={400}></video> */}
                     <div className="iframe-container__video">
@@ -102,7 +102,7 @@ const Mainstage = () => {
                 <div className="flow-content flow-content--large bg-light event-card">
                   <h2>AD MAYBE</h2>
                 </div>
-                <div className="flow-content flow-content--large bg-light event-card">
+                <div className="flow-content flow-content--large">
                   <div className="iframe-container__chat">
                     <iframe
                       className="iframe-chat"
