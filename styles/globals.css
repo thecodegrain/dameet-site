@@ -464,6 +464,11 @@ footer {
   padding-top: 100%;
 }
 
+.padding-chat {
+  padding: 1rem;
+  border-radius: 20px;
+}
+
 .iframe-video {
   position: absolute;
   border-radius: 20px;
