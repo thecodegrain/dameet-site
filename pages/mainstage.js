@@ -85,10 +85,9 @@ const Mainstage = () => {
                 <div className="flow-content flow-content--large bg-light event-card">
                   <div>
                     {/* <video src="/" width={400} height={400}></video> */}
-                    <div className="iframe-container">
+                    <div className="iframe-container__video">
                       <iframe
-                        // width="560"
-                        // height="315"
+                        className="iframe-video"
                         src="https://www.youtube.com/embed/ZLHmaMG5SB0"
                         title="YouTube video player"
                         frameborder="0"
@@ -104,13 +103,12 @@ const Mainstage = () => {
                   <h2>AD MAYBE</h2>
                 </div>
                 <div className="flow-content flow-content--large bg-light event-card">
-                  <div className="iframe-container">
+                  <div className="iframe-container__chat">
                     <iframe
                       frameborder="0"
                       src="https://www.youtube.com/live_chat?v=ZLHmaMG5SB0&embed_domain=dameet.netlify.app"
                     ></iframe>
                   </div>
-                  <h2>CHAT</h2>
                 </div>
               </section>
             </>
