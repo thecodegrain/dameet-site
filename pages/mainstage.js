@@ -84,8 +84,18 @@ const Mainstage = () => {
               <div className="split">
                 <div className="flow-content flow-content--large bg-light event-card">
                   <div>
-                    <video src="/" width={400} height={400}></video>
-                    <h1>VIDEO</h1>
+                    {/* <video src="/" width={400} height={400}></video> */}
+                    <div className="iframe-container">
+                      <iframe
+                        // width="560"
+                        // height="315"
+                        src="https://www.youtube.com/embed/u6zsHqdNRQ8"
+                        title="YouTube video player"
+                        frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen
+                      ></iframe>
+                    </div>
                   </div>
                 </div>
               </div>
