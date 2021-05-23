@@ -33,7 +33,7 @@ const Schedule = () => {
                   <div className="speaker-card__single a-self bg-white">
                     <Image
                       quality={100}
-                      src="/img/speaker-01.jpg"
+                      src="/img/Group.png"
                       width={220}
                       height={220}
                       alt="speaker"
@@ -52,7 +52,7 @@ const Schedule = () => {
                   <div className="speaker-card__single a-self bg-white">
                     <Image
                       quality={100}
-                      src="/img/speaker-02.jpg"
+                      src="/img/Group2.png"
                       width={220}
                       height={220}
                       alt="speaker"
@@ -74,7 +74,7 @@ const Schedule = () => {
                   <div className="speaker-card__single a-self bg-white">
                     <Image
                       quality={100}
-                      src="/img/speaker-03.jpg"
+                      src="/img/Group2.png"
                       width={220}
                       height={220}
                       alt="speaker"
@@ -93,7 +93,7 @@ const Schedule = () => {
                   <div className="speaker-card__single a-self bg-white">
                     <Image
                       quality={100}
-                      src="/img/speaker-04.jpg"
+                      src="/img/Group3.png"
                       width={220}
                       height={220}
                       alt="speaker"
