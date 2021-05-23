@@ -88,7 +88,7 @@ const Mainstage = () => {
                     <div className="iframe-container__video">
                       <iframe
                         className="iframe-video"
-                        src="https://www.youtube.com/live_chat?v=ZLHmaMG5SB0&embed_domain=dameet.netlify.app"
+                        src="https://www.youtube.com/embed/ZLHmaMG5SB0"
                         title="YouTube video player"
                         frameborder="0"
                         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
