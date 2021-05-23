@@ -127,7 +127,7 @@ const Mainstage = () => {
                     <iframe
                       className="iframe-chat"
                       frameborder="0"
-                      src="https://www.youtube.com/live_chat?&v=T2Q2hP3F7L4is_popout=1"
+                      src="https://www.youtube.com/live_chat?v=T2Q2hP3F7L4&is_popout=1"
                     ></iframe>
                   </div>
                 </div>
