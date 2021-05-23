@@ -105,6 +105,7 @@ const Mainstage = () => {
                 <div className="flow-content flow-content--large bg-light event-card">
                   <div className="iframe-container__chat">
                     <iframe
+                      className="iframe-chat"
                       frameborder="0"
                       src="https://www.youtube.com/live_chat?v=ZLHmaMG5SB0&embed_domain=dameet.netlify.app"
                     ></iframe>
