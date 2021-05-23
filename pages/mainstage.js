@@ -100,7 +100,27 @@ const Mainstage = () => {
               </div>
               <section className="split">
                 <div className="flow-content flow-content--large bg-light event-card">
-                  <h2>AD MAYBE</h2>
+                  <h2>Session Info</h2>
+                  <div>
+                    <h3 className="text-center">July 18, 21</h3>
+                    <div className="speaker-cards large-space">
+                      <div className="speaker-card__single a-self bg-white">
+                        <Image
+                          quality={100}
+                          src="/img/Group2.png"
+                          width={220}
+                          height={220}
+                          alt="speaker"
+                        />
+                        <h5>Pulp Smith</h5>
+                        <p>Productive Ninja</p>
+                      </div>
+                    </div>
+                    <h4 className="small-space text-center">
+                      Session 1: Title and speaker name
+                    </h4>
+                    <p className="text-center">Category | 4: 30 PM</p>
+                  </div>
                 </div>
                 <div className="flow-content flow-content--large bg-light padding-chat">
                   <div className="iframe-container__chat">
