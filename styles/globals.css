@@ -465,7 +465,7 @@ footer {
 }
 
 .padding-chat {
-  padding: 1rem;
+  padding: 0.5rem;
   border-radius: 20px;
 }
 
@@ -482,7 +482,7 @@ footer {
 
 .iframe-chat {
   position: absolute;
-  border-radius: 20px;
+  border-radius: 10px;
   top: 0;
   left: 0;
   bottom: 0;
