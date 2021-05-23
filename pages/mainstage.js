@@ -89,7 +89,7 @@ const Mainstage = () => {
                       <iframe
                         // width="560"
                         // height="315"
-                        src="https://www.youtube.com/embed/u6zsHqdNRQ8"
+                        src="https://www.youtube.com/embed/ZLHmaMG5SB0"
                         title="YouTube video player"
                         frameborder="0"
                         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
@@ -104,6 +104,12 @@ const Mainstage = () => {
                   <h2>AD MAYBE</h2>
                 </div>
                 <div className="flow-content flow-content--large bg-light event-card">
+                  <div className="iframe-container">
+                    <iframe
+                      frameborder="0"
+                      src="https://www.youtube.com/live_chat?v=ZLHmaMG5SB0&embed_domain=dameet.netlify.app"
+                    ></iframe>
+                  </div>
                   <h2>CHAT</h2>
                 </div>
               </section>
