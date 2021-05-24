@@ -405,8 +405,6 @@ footer {
   left: 0;
   overflow-x: hidden;
   overflow-y: hidden;
-  /* display: none; */
-
   background: #efeeee;
 }
 .sidebar-flex {
@@ -490,6 +488,7 @@ footer {
   .margin-left {
     margin-left: 0;
   }
+
   .sidebar-header {
     position: fixed;
     z-index: 3;
@@ -500,6 +499,7 @@ footer {
     padding: 1em;
     margin: 0;
   }
+
   .sidebar-flex {
     flex-direction: column;
   }
@@ -508,6 +508,7 @@ footer {
   .sidebar .hidden {
     display: none;
   }
+
   .sidebar__list {
     flex-direction: row;
   }
@@ -538,10 +539,6 @@ footer {
   .info-cards {
     flex-direction: column;
     text-align: center;
-  }
-
-  .margin-left {
-    margin-left: 0;
   }
 }
 
@@ -598,10 +595,14 @@ footer {
     width: 280px;
     height: 280px;
   }
-}
 
-@media (max-width: 400px) {
   .sidebar__list li a {
     font-size: 12px;
+  }
+}
+
+@media (max-width: 300px) {
+  .sidebar__list li a {
+    font-size: 10px;
   }
 }
