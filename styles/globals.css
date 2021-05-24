@@ -493,8 +493,8 @@ footer {
     position: fixed;
     z-index: 3;
     bottom: 0.5em;
-    left: 0.5em;
-    right: 0.5em;
+    left: 20%;
+    right: 20%;
     justify-content: center;
     padding: 1em;
     margin: 0;
@@ -545,6 +545,10 @@ footer {
 /* !Tablets */
 
 @media (max-width: 770px) {
+  .sidebar-header {
+    left: 0.5em;
+    right: 0.5em;
+  }
 }
 
 /* !Mobiles */
