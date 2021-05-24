@@ -400,11 +400,9 @@ footer {
 .sidebar-header {
   margin: 1rem;
   padding: 2rem;
-  border-radius: 40px;
+  border-radius: 20px;
   position: fixed;
-  top: 0;
   left: 0;
-  bottom: 0;
   overflow-x: hidden;
   overflow-y: hidden;
   /* display: none; */
@@ -424,16 +422,11 @@ footer {
   margin-left: 160px;
 }
 
-.sidebar {
-  padding: 2px;
-  flex-grow: 1;
-}
-
 .sidebar__list {
   display: flex;
   flex-direction: column;
   height: 100%;
-  gap: 1em;
+  gap: 1rem;
 }
 
 /* !=====Dashboard===== */
@@ -492,6 +485,33 @@ footer {
 }
 
 /* !=====Media Quries=====*/
+
+@media (max-width: 1500px) {
+  .margin-left {
+    margin-left: 0;
+  }
+  .sidebar-header {
+    position: fixed;
+    z-index: 3;
+    bottom: 0.5em;
+    left: 0.5em;
+    right: 0.5em;
+    justify-content: center;
+    padding: 1em;
+    margin: 0;
+  }
+  .sidebar-flex {
+    flex-direction: column;
+  }
+
+  .sidebar .logo,
+  .sidebar .hidden {
+    display: none;
+  }
+  .sidebar__list {
+    flex-direction: row;
+  }
+}
 
 /* !Laptops */
 @media (max-width: 991.98px) {
@@ -577,5 +597,11 @@ footer {
   .speaker-cards img {
     width: 280px;
     height: 280px;
+  }
+}
+
+@media (max-width: 400px) {
+  .sidebar__list li a {
+    font-size: 12px;
   }
 }

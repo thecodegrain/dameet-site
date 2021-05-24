@@ -4,17 +4,8 @@ import { useContext } from "react";
 import AuthContext from "../stores/authContext";
 
 const Sidebar = () => {
-  //DATE Logic
-  let myDate = new Date();
-  let hrs = myDate.getHours();
-  let greet;
-  if (hrs < 12) greet = "Good Morning ";
-  else if (hrs >= 12 && hrs <= 17) greet = "Good Afternoon ";
-  else if (hrs >= 17 && hrs <= 24) greet = "Good Evening ";
-
   //Auth stuff
   const { user, login, logout, authReady } = useContext(AuthContext);
-  console.log(user);
   return (
     <header className="sidebar-header">
       <nav className="sidebar">
@@ -37,7 +28,7 @@ const Sidebar = () => {
                 ></Image>
               </div>
               <Link href="/dashboard">
-                <a className="hidden">Dashboard</a>
+                <a>Dashboard</a>
               </Link>
             </li>
             <li className="sidebar-flex">
@@ -50,7 +41,7 @@ const Sidebar = () => {
                 ></Image>
               </div>
               <Link href="/mainstage">
-                <a className="hidden">Mainstage</a>
+                <a>Mainstage</a>
               </Link>
             </li>
             <li className="sidebar-flex">
@@ -63,7 +54,7 @@ const Sidebar = () => {
                 ></Image>
               </div>
               <Link href="/speakers">
-                <a className="hidden">Speakers</a>
+                <a>Speakers</a>
               </Link>
             </li>
             <li className="sidebar-flex">
@@ -76,13 +67,13 @@ const Sidebar = () => {
                 ></Image>
               </div>
               <Link href="/schedule">
-                <a className="hidden">Schedule</a>
+                <a>Schedule</a>
               </Link>
             </li>
             <li>
               <a className="hidden sidebar-text-gray">Social</a>
             </li>
-            <li className="sidebar-flex">
+            <li className="sidebar-flex hidden">
               <div>
                 <Image
                   src="/img/Group3.png"
@@ -99,7 +90,7 @@ const Sidebar = () => {
                 Discord
               </a>
             </li>
-            <li className="sidebar-flex">
+            <li className="sidebar-flex hidden">
               <div>
                 <Image
                   src="/img/Group.png"
@@ -120,7 +111,7 @@ const Sidebar = () => {
               <a className="hidden sidebar-text-gray">General</a>
             </li>
             {!user && (
-              <li className="sidebar-flex" onClick={login}>
+              <li className="sidebar-flex hidden" onClick={login}>
                 <div>
                   <Image
                     src="/img/Group2.png"
@@ -133,7 +124,7 @@ const Sidebar = () => {
               </li>
             )}
             {user && (
-              <li className="sidebar-flex" onClick={logout}>
+              <li className="sidebar-flex hidden" onClick={logout}>
                 <div>
                   <Image
                     src="/img/Group3.png"

@@ -42,19 +42,22 @@ const Webinar = () => {
 
   return (
     <>
-      <Head>
-        <html lang="en" />
-        <title>Da Meet by Codegrain | Webinar</title>
-        <meta name="viewport" content="initial-scale=1.0, width=device-width" />
-        <meta
-          content="Da meet, The ultimate design conference experience by Codegrain"
-          name="description"
-        />
-      </Head>
-      <Sidebar />
       <div className="margin-left">
+        <Head>
+          <html lang="en" />
+          <title>Da Meet by Codegrain | Webinar</title>
+          <meta
+            name="viewport"
+            content="initial-scale=1.0, width=device-width"
+          />
+          <meta
+            content="Da meet, The ultimate design conference experience by Codegrain"
+            name="description"
+          />
+        </Head>
+        <Sidebar />
         <div className="container">
-          <div className="flow-content large-space">
+          <div className="flow-content small-space">
             {!authReady && <div>Loading...</div>}
             {error && (
               <div className="error">
@@ -63,37 +66,14 @@ const Webinar = () => {
             )}
           </div>
           {!user && (
-            <div className="split">
-              <div className="flow-content">
-                <h1>Hi, Stranger 👋</h1>
-                <h5>Pls login to access the event!</h5>
-                <a className="btn large-space" onClick={login}>
-                  Log me in!!!
-                </a>
-              </div>
-              <Image
-                quality={100}
-                src="/img/hero.png"
-                width={294}
-                height={363}
-                alt="abstract"
-              ></Image>
-            </div>
-          )}
-          {user && (
-            <>
+            <section>
               <div className="split">
                 <div className="flow-content">
-                  {user && <h1>Hi, {username.user_metadata.full_name} 👋</h1>}
-                  <h5>Welcome to the club!!</h5>
-                  <p>
-                    Everything you need is here on the platform. Checkout
-                    speakers, schedule or join the chat, all from one page. Go
-                    to mainstage to see current live session.
-                  </p>
-                  <Link href="/mainstage">
-                    <a className="btn small-space">Go to Mainstage</a>
-                  </Link>
+                  <h1>Hi, Stranger 👋</h1>
+                  <h5>Pls login to access the event!</h5>
+                  <a className="btn large-space" onClick={login}>
+                    Log me in!!!
+                  </a>
                 </div>
                 <Image
                   quality={100}
@@ -103,6 +83,33 @@ const Webinar = () => {
                   alt="abstract"
                 ></Image>
               </div>
+            </section>
+          )}
+          {user && (
+            <>
+              <section className="small-space">
+                <div className="split">
+                  <div className="flow-content">
+                    {user && <h1>Hi, {username.user_metadata.full_name} 👋</h1>}
+                    <h5>Welcome to the club!!</h5>
+                    <p>
+                      Everything you need is here on the platform. Checkout
+                      speakers, schedule or join the chat, all from one page. Go
+                      to mainstage to see current live session.
+                    </p>
+                    <Link href="/mainstage">
+                      <a className="btn small-space">Go to Mainstage</a>
+                    </Link>
+                  </div>
+                  <Image
+                    quality={100}
+                    src="/img/hero.png"
+                    width={294}
+                    height={363}
+                    alt="abstract"
+                  ></Image>
+                </div>
+              </section>
               <section className="small-space">
                 <div className="split">
                   <div className="split info-cards bg-light">

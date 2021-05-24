@@ -41,19 +41,22 @@ const Mainstage = () => {
   }, [user, authReady]);
   return (
     <>
-      <Head>
-        <html lang="en" />
-        <title>Da Meet by Codegrain | Webinar</title>
-        <meta name="viewport" content="initial-scale=1.0, width=device-width" />
-        <meta
-          content="Da meet, The ultimate design conference experience by Codegrain"
-          name="description"
-        />
-      </Head>
-      <Sidebar />
       <div className="margin-left">
+        <Head>
+          <html lang="en" />
+          <title>Da Meet by Codegrain | Webinar</title>
+          <meta
+            name="viewport"
+            content="initial-scale=1.0, width=device-width"
+          />
+          <meta
+            content="Da meet, The ultimate design conference experience by Codegrain"
+            name="description"
+          />
+        </Head>
+        <Sidebar />
         <div className="container">
-          <div className=" container flow-content large-space">
+          <div className="flow-content small-space">
             {!authReady && <div>Loading...</div>}
             {error && (
               <div className="error">
@@ -62,60 +65,51 @@ const Mainstage = () => {
             )}
           </div>
           {!user && (
-            <div className="split">
-              <div className="flow-content">
-                <h1>Hi, Stranger 👋</h1>
-                <h5>Pls login to access the event!</h5>
-                <a className="btn large-space" onClick={login}>
-                  Log me in!!!
-                </a>
+            <section>
+              <div className="split">
+                <div className="flow-content">
+                  <h1>Hi, Stranger 👋</h1>
+                  <h5>Pls login to access the event!</h5>
+                  <a className="btn large-space" onClick={login}>
+                    Log me in!!!
+                  </a>
+                </div>
+                <Image
+                  quality={100}
+                  src="/img/hero.png"
+                  width={294}
+                  height={363}
+                  alt="abstract"
+                ></Image>
               </div>
-              <Image
-                quality={100}
-                src="/img/hero.png"
-                width={294}
-                height={363}
-                alt="abstract"
-              ></Image>
-            </div>
+            </section>
           )}
           {user && (
             <>
-              <div className="split">
-                <div className="flow-content flow-content--large">
-                  <div>
-                    {/* <video src="/" width={400} height={400}></video> */}
-                    <div className="iframe-container__video">
-                      <iframe
-                        className="iframe-video"
-                        src="https://www.youtube.com/embed/T2Q2hP3F7L4"
-                        title="YouTube video player"
-                        frameborder="0"
-                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                        allowfullscreen
-                      ></iframe>
+              <section className="small-space">
+                <div className="split">
+                  <div className="flow-content">
+                    <div>
+                      {/* <video src="/" width={400} height={400}></video> */}
+                      <div className="iframe-container__video">
+                        <iframe
+                          className="iframe-video"
+                          src="https://www.youtube.com/embed/T2Q2hP3F7L4"
+                          title="YouTube video player"
+                          frameborder="0"
+                          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                          allowfullscreen
+                        ></iframe>
+                      </div>
                     </div>
                   </div>
                 </div>
-              </div>
+              </section>
               <section className="split">
-                <div className="flow-content flow-content--large bg-light event-card">
+                <div className="flow-content bg-light event-card a-self__start">
                   <h2>Session Info</h2>
                   <div>
                     <h3 className="text-center">July 18, 21</h3>
-                    <div className="speaker-cards large-space">
-                      <div className="speaker-card__single a-self bg-white">
-                        <Image
-                          quality={100}
-                          src="/img/Group2.png"
-                          width={220}
-                          height={220}
-                          alt="speaker"
-                        />
-                        <h5>Pulp Smith</h5>
-                        <p>Productive Ninja</p>
-                      </div>
-                    </div>
                     <h4 className="small-space text-center">
                       Session 1: Title and speaker name
                     </h4>
