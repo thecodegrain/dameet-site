@@ -128,6 +128,7 @@ const Mainstage = () => {
               </section>
             </>
           )}
+          <div className="margin-bottom"></div>
         </div>
       </div>
     </>

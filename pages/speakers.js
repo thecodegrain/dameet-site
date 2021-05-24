@@ -102,6 +102,7 @@ const Speakers = () => {
               </div>
             </div>
           </section>
+          <div className="margin-bottom"></div>
         </div>
       </div>
     </>

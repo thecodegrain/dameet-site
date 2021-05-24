@@ -135,6 +135,7 @@ const Schedule = () => {
               ></Image>
             </div>
           </section>
+          <div className="margin-bottom"></div>
         </div>
       </div>
     </>

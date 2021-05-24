@@ -398,15 +398,16 @@ footer {
 
 /* !=====Sidebar===== */
 .sidebar-header {
-  margin: 1rem;
-  padding: 2rem;
-  border-radius: 20px;
   position: fixed;
   left: 0;
   overflow-x: hidden;
   overflow-y: hidden;
   background: #efeeee;
+  margin: 1rem;
+  padding: 2rem;
+  border-radius: 20px;
 }
+
 .sidebar-flex {
   display: flex;
   align-items: center;
@@ -418,6 +419,9 @@ footer {
 
 .margin-left {
   margin-left: 160px;
+}
+.margin-bottom {
+  margin-bottom: 10vh;
 }
 
 .sidebar__list {

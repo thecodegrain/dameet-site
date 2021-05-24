@@ -182,6 +182,7 @@ const Webinar = () => {
               </section>
             </>
           )}
+          <div className="margin-bottom"></div>
         </div>
       </div>
     </>
