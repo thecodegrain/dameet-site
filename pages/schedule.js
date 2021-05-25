@@ -14,128 +14,128 @@ const Schedule = () => {
           name="description"
         />
       </Head>
-      <Sidebar />
-      <div className="margin-left">
-        <section className="small-space">
-          <div className="container">
-            <div className="flow-content">
-              <h1>Event Agenda</h1>
-              <h5>Plan your schedule!!</h5>
+      <div className="container__lg">
+        <div className="split2">
+          <Sidebar />
+          <div>
+            <section className="small-space">
+              <div className="flow-content">
+                <h1>Event Agenda</h1>
+                <h5>Plan your schedule!!</h5>
+              </div>
+            </section>
+            <div className="split">
+              <div className="flow-content flow-content--large bg-light event-card">
+                <div>
+                  <h3 className="text-center">July 17, 21</h3>
+                  <div className="speaker-cards large-space">
+                    <div className="speaker-card__single a-self bg-white">
+                      <Image
+                        quality={100}
+                        src="/img/Group.png"
+                        width={220}
+                        height={220}
+                        alt="speaker"
+                      />
+                      <h5>John Doe</h5>
+                      <p>Web Developer</p>
+                    </div>
+                  </div>
+                  <h4 className="small-space text-center">
+                    Session 1: Title and speaker name
+                  </h4>
+                  <p className="text-center">Category | 4: 30 PM</p>
+                </div>
+                <div>
+                  <div className="speaker-cards large-space">
+                    <div className="speaker-card__single a-self bg-white">
+                      <Image
+                        quality={100}
+                        src="/img/Group2.png"
+                        width={220}
+                        height={220}
+                        alt="speaker"
+                      />
+                      <h5>Tim Apple</h5>
+                      <p>Graphic Designer</p>
+                    </div>
+                  </div>
+                  <h4 className="small-space text-center">
+                    Session 2: Title and speaker name
+                  </h4>
+                  <p className="text-center">Category | 6: 30 PM</p>
+                </div>
+              </div>
+              <div className="flow-content flow-content--large  bg-light event-card">
+                <div>
+                  <h3 className="text-center">July 18, 21</h3>
+                  <div className="speaker-cards large-space">
+                    <div className="speaker-card__single a-self bg-white">
+                      <Image
+                        quality={100}
+                        src="/img/Group2.png"
+                        width={220}
+                        height={220}
+                        alt="speaker"
+                      />
+                      <h5>Pulp Smith</h5>
+                      <p>Productive Ninja</p>
+                    </div>
+                  </div>
+                  <h4 className="small-space text-center">
+                    Session 1: Title and speaker name
+                  </h4>
+                  <p className="text-center">Category | 4: 30 PM</p>
+                </div>
+                <div>
+                  <div className="speaker-cards large-space">
+                    <div className="speaker-card__single a-self bg-white">
+                      <Image
+                        quality={100}
+                        src="/img/Group3.png"
+                        width={220}
+                        height={220}
+                        alt="speaker"
+                      />
+                      <h5>Eathan Rik</h5>
+                      <p>Crypto Expert</p>
+                    </div>
+                  </div>
+                  <h4 className="small-space text-center">
+                    Session 2: Title and speaker name
+                  </h4>
+                  <p className="text-center">Category | 6: 30 PM</p>
+                </div>
+              </div>
             </div>
+            <section className="info-grid small-space">
+              <div className="info-card-row info-cards bg-light">
+                <div>
+                  <h4>Be part of our community on discord</h4>
+                  <a className="btn small-space">Join now</a>
+                </div>
+                <Image
+                  src="/img/discord.svg"
+                  width={150}
+                  height={150}
+                  quality={100}
+                ></Image>
+              </div>
+              <div className="info-card-row info-cards bg-light">
+                <div>
+                  <h4>Or join the chat on telegram</h4>
+                  <a className="btn small-space">Hop in</a>
+                </div>
+                <Image
+                  src="/img/telegram.svg"
+                  width={150}
+                  height={150}
+                  quality={100}
+                ></Image>
+              </div>
+            </section>
+            <div className="margin-bottom"></div>
           </div>
-        </section>
-        <div className="container">
-          <div className="split">
-            <div className="flow-content flow-content--large bg-light event-card">
-              <div>
-                <h3 className="text-center">July 17, 21</h3>
-                <div className="speaker-cards large-space">
-                  <div className="speaker-card__single a-self bg-white">
-                    <Image
-                      quality={100}
-                      src="/img/Group.png"
-                      width={220}
-                      height={220}
-                      alt="speaker"
-                    />
-                    <h5>John Doe</h5>
-                    <p>Web Developer</p>
-                  </div>
-                </div>
-                <h4 className="small-space text-center">
-                  Session 1: Title and speaker name
-                </h4>
-                <p className="text-center">Category | 4: 30 PM</p>
-              </div>
-              <div>
-                <div className="speaker-cards large-space">
-                  <div className="speaker-card__single a-self bg-white">
-                    <Image
-                      quality={100}
-                      src="/img/Group2.png"
-                      width={220}
-                      height={220}
-                      alt="speaker"
-                    />
-                    <h5>Tim Apple</h5>
-                    <p>Graphic Designer</p>
-                  </div>
-                </div>
-                <h4 className="small-space text-center">
-                  Session 2: Title and speaker name
-                </h4>
-                <p className="text-center">Category | 6: 30 PM</p>
-              </div>
-            </div>
-            <div className="flow-content flow-content--large  bg-light event-card">
-              <div>
-                <h3 className="text-center">July 18, 21</h3>
-                <div className="speaker-cards large-space">
-                  <div className="speaker-card__single a-self bg-white">
-                    <Image
-                      quality={100}
-                      src="/img/Group2.png"
-                      width={220}
-                      height={220}
-                      alt="speaker"
-                    />
-                    <h5>Pulp Smith</h5>
-                    <p>Productive Ninja</p>
-                  </div>
-                </div>
-                <h4 className="small-space text-center">
-                  Session 1: Title and speaker name
-                </h4>
-                <p className="text-center">Category | 4: 30 PM</p>
-              </div>
-              <div>
-                <div className="speaker-cards large-space">
-                  <div className="speaker-card__single a-self bg-white">
-                    <Image
-                      quality={100}
-                      src="/img/Group3.png"
-                      width={220}
-                      height={220}
-                      alt="speaker"
-                    />
-                    <h5>Eathan Rik</h5>
-                    <p>Crypto Expert</p>
-                  </div>
-                </div>
-                <h4 className="small-space text-center">
-                  Session 2: Title and speaker name
-                </h4>
-                <p className="text-center">Category | 6: 30 PM</p>
-              </div>
-            </div>
-          </div>
-          <section className="info-grid small-space">
-            <div className="info-card-row info-cards bg-light">
-              <div>
-                <h4>Be part of our community on discord</h4>
-                <a className="btn small-space">Join now</a>
-              </div>
-              <Image
-                src="/img/discord.svg"
-                width={150}
-                height={150}
-                quality={100}
-              ></Image>
-            </div>
-            <div className="info-card-row info-cards bg-light">
-              <div>
-                <h4>Or join the chat on telegram</h4>
-                <a className="btn small-space">Hop in</a>
-              </div>
-              <Image
-                src="/img/telegram.svg"
-                width={150}
-                height={150}
-                quality={100}
-              ></Image>
-            </div>
-          </section>
-          <div className="margin-bottom"></div>
         </div>
       </div>
     </>

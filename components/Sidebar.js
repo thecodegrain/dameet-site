@@ -88,8 +88,8 @@ const Sidebar = () => {
                 <a>Other</a>
               </Link>
             </li>
-            <li>
-              <a className="hidden sidebar-text-gray">Social</a>
+            <li className="hidden">
+              <a className="sidebar-text-gray">Social</a>
             </li>
             <li className="sidebar-flex hidden">
               <div>
