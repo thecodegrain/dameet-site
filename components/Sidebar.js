@@ -6,7 +6,7 @@ import AuthContext from "../stores/authContext";
 const Sidebar = () => {
   const { user, login, logout, authReady } = useContext(AuthContext);
   return (
-    <header className="sidebar-header">
+    <header className="sidebar-header bg-light">
       <nav className="sidebar">
         {/* <Image src="/rupee.png" width={50} height={48} /> */}
         <Link href="/">

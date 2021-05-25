@@ -206,7 +206,7 @@ a:focus {
 }
 
 .bg-light {
-  background: #efeeee;
+  background: #f3f5f7;
 }
 
 .bg-dark {
@@ -406,7 +406,6 @@ footer {
   left: 0;
   overflow-x: hidden;
   overflow-y: hidden;
-  background: #efeeee;
   margin: 1rem;
   padding: 2rem;
   border-radius: 20px;
@@ -624,6 +623,11 @@ footer {
 
   .speaker-cta {
     align-self: center;
+  }
+
+  .social-links ul {
+    display: flex;
+    flex-direction: row;
   }
 }
 
