@@ -88,7 +88,7 @@ export default function Home() {
           <div className="split text-center">
             <div>
               <Image
-                src="/img/Group.svg"
+                src="/img/learn.svg"
                 width={250}
                 height={250}
                 quality={100}
@@ -101,7 +101,7 @@ export default function Home() {
             </div>
             <div>
               <Image
-                src="/img/Group2.svg"
+                src="/img/execute.svg"
                 width={250}
                 height={250}
                 quality={100}
@@ -114,7 +114,7 @@ export default function Home() {
             </div>
             <div>
               <Image
-                src="/img/Group3.svg"
+                src="/img/community.svg"
                 width={250}
                 height={250}
                 quality={100}
@@ -155,7 +155,7 @@ export default function Home() {
                 height={220}
                 alt="speaker"
               />
-              <h5>Manan Gouhari</h5>
+              <h5>John Doe</h5>
               <p>Web Developer</p>
             </div>
             <div className="speaker-card__single a-self bg-white">
@@ -166,7 +166,7 @@ export default function Home() {
                 height={220}
                 alt="speaker"
               />
-              <h5>Shubhang Rajput</h5>
+              <h5>Tim Apple</h5>
               <p>Graphic Designer</p>
             </div>
             <div className="speaker-card__single a-self bg-white">
@@ -188,7 +188,7 @@ export default function Home() {
                 height={220}
                 alt="speaker"
               />
-              <h5>Rahul Mane</h5>
+              <h5>Eathan Rik</h5>
               <p>Crypto Expert</p>
             </div>
           </div>
@@ -225,8 +225,7 @@ export default function Home() {
                 <div>
                   <h4>What if I miss the session?</h4>
                   <p>
-                    We will upload all the live sessions later to our youtube
-                    channel
+                    You can request access to any of the sessions, or check the platform if you are signned up.
                   </p>
                 </div>
               </div>
