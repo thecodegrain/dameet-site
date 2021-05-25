@@ -38,7 +38,7 @@ export default function Home() {
             </div>
             <div>
               <img
-                src="/img/hero.svg"
+                src="/img/header.svg"
                 width={587}
                 height={726}
                 alt="abstract"

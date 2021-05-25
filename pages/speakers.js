@@ -36,7 +36,7 @@ const Speakers = () => {
               height={220}
               alt="speaker"
             />
-            <h5>Manan Gouhari</h5>
+            <h5>John Doe</h5>
             <p>Web Developer</p>
           </div>
           <div className="speaker-card__single a-self bg-light">
@@ -47,7 +47,7 @@ const Speakers = () => {
               height={220}
               alt="speaker"
             />
-            <h5>Shubhang Rajput</h5>
+            <h5>Tim Apple</h5>
             <p>Graphic Designer</p>
           </div>
           <div className="speaker-card__single a-self bg-light">
@@ -69,7 +69,7 @@ const Speakers = () => {
               height={220}
               alt="speaker"
             />
-            <h5>Rahul Mane</h5>
+            <h5>Eathan Rik</h5>
             <p>Crypto Expert</p>
           </div>
         </div>
@@ -82,7 +82,7 @@ const Speakers = () => {
                   <a className="btn small-space">Join now</a>
                 </div>
                 <Image
-                  src="/img/Group2.png"
+                  src="/img/discord.svg"
                   width={150}
                   height={150}
                   quality={100}
@@ -94,7 +94,7 @@ const Speakers = () => {
                   <a className="btn small-space">Hop in</a>
                 </div>
                 <Image
-                  src="/img/Group3.png"
+                  src="/img/telegram.svg"
                   width={150}
                   height={150}
                   quality={100}

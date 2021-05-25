@@ -40,7 +40,7 @@ const Webinar = () => {
                 </div>
                 <Image
                   quality={100}
-                  src="/img/hero.svg"
+                  src="/img/header.svg"
                   width={294}
                   height={363}
                   alt="abstract"
@@ -83,7 +83,7 @@ const Webinar = () => {
                       </Link>
                     </div>
                     <Image
-                      src="/img/Group3.png"
+                      src="/img/calender.svg"
                       width={150}
                       height={150}
                       quality={100}
@@ -97,7 +97,7 @@ const Webinar = () => {
                       </Link>
                     </div>
                     <Image
-                      src="/img/Group2.png"
+                      src="/img/speaker.svg"
                       width={150}
                       height={150}
                       quality={100}
@@ -115,7 +115,7 @@ const Webinar = () => {
                       </a>
                     </div>
                     <Image
-                      src="/img/Group2.png"
+                      src="/img/discord.svg"
                       width={150}
                       height={150}
                       quality={100}
@@ -133,7 +133,7 @@ const Webinar = () => {
                       </a>
                     </div>
                     <Image
-                      src="/img/Group3.png"
+                      src="/img/telegram.svg"
                       width={150}
                       height={150}
                       quality={100}
