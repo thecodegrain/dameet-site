@@ -402,7 +402,7 @@ footer {
   overflow-x: hidden;
   overflow-y: hidden;
   margin: 1rem;
-  padding: 2rem;
+  padding: 1.5em;
   border-radius: 20px;
 }
 
@@ -416,7 +416,7 @@ footer {
 }
 
 .margin-left {
-  margin-left: 160px;
+  margin-left: 120px;
 }
 
 .margin-bottom {
@@ -497,7 +497,7 @@ footer {
 
 /* !=====Media Quries=====*/
 
-@media (max-width: 1500px) {
+@media (max-width: 1370px) {
   .margin-left {
     margin-left: 0;
   }

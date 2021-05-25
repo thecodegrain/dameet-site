@@ -40,7 +40,7 @@ const Webinar = () => {
                 </div>
                 <Image
                   quality={100}
-                  src="/img/hero.png"
+                  src="/img/hero.svg"
                   width={294}
                   height={363}
                   alt="abstract"

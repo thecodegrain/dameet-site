@@ -8,10 +8,6 @@ const Sidebar = () => {
   return (
     <header className="sidebar-header bg-light">
       <nav className="sidebar">
-        {/* <Image src="/rupee.png" width={50} height={48} /> */}
-        <Link href="/">
-          <a className="logo">Da meet</a>
-        </Link>
         {authReady && (
           <ul className="sidebar__list">
             <li>
