@@ -37,13 +37,12 @@ export default function Home() {
               </a>
             </div>
             <div>
-              <Image
-                quality={100}
+              <img
                 src="/img/hero.svg"
                 width={587}
                 height={726}
                 alt="abstract"
-              ></Image>
+              ></img>
             </div>
           </div>
         </div>
@@ -88,12 +87,11 @@ export default function Home() {
         <div className="container">
           <div className="split text-center">
             <div>
-              <Image
+              <img
                 src="/img/Group.svg"
-                width={250}
-                height={250}
-                quality={100}
-              ></Image>
+                // width={250}
+                // height={250}
+              ></img>
               <h3>Learn</h3>
               <p>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta,

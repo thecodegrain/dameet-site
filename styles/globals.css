@@ -390,10 +390,6 @@ footer {
   color: var(--clr-neutral-300);
 }
 
-.social-links a {
-  text-decoration: underline;
-}
-
 /* !=====Sidebar===== */
 .sidebar-header {
   position: fixed;

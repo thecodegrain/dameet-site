@@ -16,21 +16,7 @@ const Footer = () => {
               </a>
             </div>
           </div>
-          <div className="a-self social-links">
-            <ul className="footer__list flow-content">
-              <li>
-                <a href="https://instagram.com/codegra.in">ig</a>
-              </li>
-              <li>
-                <a href="https://twitter.com/codegrain">tw</a>
-              </li>
-              <li>
-                <a href="https://www.youtube.com/channel/UCPKsb4U7x_4Ws-RsKQThVAA/featured">
-                  yt
-                </a>
-              </li>
-            </ul>
-          </div>
+          <div></div>
 
           <div className="footer-links flow-content">
             <p>Follow us</p>
