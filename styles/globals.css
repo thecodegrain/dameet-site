@@ -160,6 +160,10 @@ a:focus {
   align-items: flex-end;
 }
 
+.a-self__start {
+  align-self: flex-start;
+}
+
 .vertical-center {
   display: flex;
   align-self: center;
@@ -420,6 +424,7 @@ footer {
 .margin-left {
   margin-left: 160px;
 }
+
 .margin-bottom {
   margin-bottom: 10vh;
 }

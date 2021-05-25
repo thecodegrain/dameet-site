@@ -1,44 +1,12 @@
 import Head from "next/head";
 import Image from "next/image";
 import Link from "next/link";
-import { useContext, useEffect, useState } from "react";
+import { useContext } from "react";
 import Sidebar from "../components/Sidebar";
 import AuthContext from "../stores/authContext";
 
 const Webinar = () => {
-  const { user, authReady } = useContext(AuthContext);
-  const [webinar, setWebinar] = useState(null);
-  const [error, setError] = useState(null);
-
-  //Auth stuff
-  const { user: username, login } = useContext(AuthContext);
-
-  // useEffect(() => {
-  //   if (authReady) {
-  //     fetch(
-  //       "/.netlify/functions/webinar",
-  //       user && {
-  //         headers: {
-  //           Authorization: "Bearer " + user.token.access_token,
-  //         },
-  //       }
-  //     )
-  //       // .then((res) => {
-  //       //   if (!res.ok) {
-  //       //     throw Error("You must be logged in to view this content");
-  //       //   }
-  //       //   return res.json();
-  //       // })
-  //       .then(() => {
-  //         setWebinar(true);
-  //         setError(null);
-  //       })
-  //       .catch((err) => {
-  //         setError(err.message);
-  //         setWebinar(null);
-  //       });
-  //   }
-  // }, [user, authReady]);
+  const { user, authReady, login } = useContext(AuthContext);
 
   return (
     <>
@@ -59,11 +27,6 @@ const Webinar = () => {
         <div className="container">
           <div className="flow-content small-space">
             {!authReady && <div>Loading...</div>}
-            {error && (
-              <div className="error">
-                <p>{error}</p>
-              </div>
-            )}
           </div>
           {!user && (
             <section>
@@ -90,7 +53,7 @@ const Webinar = () => {
               <section className="small-space">
                 <div className="split">
                   <div className="flow-content">
-                    {user && <h1>Hi, {username.user_metadata.full_name} 👋</h1>}
+                    {user && <h1>Hi, {user.user_metadata.full_name} 👋</h1>}
                     <h5>Welcome to the club!!</h5>
                     <p>
                       Everything you need is here on the platform. Checkout

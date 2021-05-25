@@ -4,7 +4,6 @@ import { useContext } from "react";
 import AuthContext from "../stores/authContext";
 
 const Sidebar = () => {
-  //Auth stuff
   const { user, login, logout, authReady } = useContext(AuthContext);
   return (
     <header className="sidebar-header">

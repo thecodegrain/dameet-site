@@ -1,44 +1,12 @@
 import Head from "next/head";
 import Image from "next/image";
-import Link from "next/link";
-import { useContext, useEffect, useState } from "react";
+import { useContext } from "react";
 import Sidebar from "../components/Sidebar";
 import AuthContext from "../stores/authContext";
 
 const Mainstage = () => {
-  const { user, authReady } = useContext(AuthContext);
-  const [webinar, setWebinar] = useState(null);
-  const [error, setError] = useState(null);
+  const { user, authReady, login } = useContext(AuthContext);
 
-  //Auth stuff
-  const { user: username, login } = useContext(AuthContext);
-
-  useEffect(() => {
-    if (authReady) {
-      fetch(
-        "/.netlify/functions/webinar",
-        user && {
-          headers: {
-            Authorization: "Bearer " + user.token.access_token,
-          },
-        }
-      )
-        // .then((res) => {
-        //   if (!res.ok) {
-        //     throw Error("You must be logged in to view this content");
-        //   }
-        //   return res.json();
-        // })
-        .then(() => {
-          setWebinar(true);
-          setError(null);
-        })
-        .catch((err) => {
-          setError(err.message);
-          setWebinar(null);
-        });
-    }
-  }, [user, authReady]);
   return (
     <>
       <div className="margin-left">
@@ -58,11 +26,6 @@ const Mainstage = () => {
         <div className="container">
           <div className="flow-content small-space">
             {!authReady && <div>Loading...</div>}
-            {error && (
-              <div className="error">
-                <p>{error}</p>
-              </div>
-            )}
           </div>
           {!user && (
             <section>
