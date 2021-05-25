@@ -23,6 +23,7 @@
 
   --clr-cultured: #f3f5f7;
   --clr-black: #001514;
+  --clr-gray: #858080;
   --clr-accent-yellow: #fed747;
   --clr-green: #25bb70;
   --clr-blue: #1169e4;
@@ -411,7 +412,7 @@ footer {
 }
 
 .sidebar-text-gray {
-  color: rgb(133, 128, 128);
+  color: var(--clr-gray);
 }
 
 .margin-left {

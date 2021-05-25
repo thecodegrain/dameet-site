@@ -19,12 +19,14 @@ const Sidebar = () => {
             </li>
             <li className="sidebar-flex">
               <div>
-                <Image
-                  src="/img/Group2.png"
-                  width={30}
-                  height={30}
-                  quality={100}
-                ></Image>
+                <Link href="/dashboard">
+                  <Image
+                    src="/img/Group2.png"
+                    width={30}
+                    height={30}
+                    quality={100}
+                  ></Image>
+                </Link>
               </div>
               <Link href="/dashboard">
                 <a>Dashboard</a>
@@ -32,12 +34,14 @@ const Sidebar = () => {
             </li>
             <li className="sidebar-flex">
               <div>
-                <Image
-                  src="/img/Group3.png"
-                  width={30}
-                  height={30}
-                  quality={100}
-                ></Image>
+                <Link href="/mainstage">
+                  <Image
+                    src="/img/Group3.png"
+                    width={30}
+                    height={30}
+                    quality={100}
+                  ></Image>
+                </Link>
               </div>
               <Link href="/mainstage">
                 <a>Mainstage</a>
@@ -45,12 +49,14 @@ const Sidebar = () => {
             </li>
             <li className="sidebar-flex">
               <div>
-                <Image
-                  src="/img/Group.png"
-                  width={30}
-                  height={30}
-                  quality={100}
-                ></Image>
+                <Link href="/speakers">
+                  <Image
+                    src="/img/Group.png"
+                    width={30}
+                    height={30}
+                    quality={100}
+                  ></Image>
+                </Link>
               </div>
               <Link href="/speakers">
                 <a>Speakers</a>
@@ -58,12 +64,14 @@ const Sidebar = () => {
             </li>
             <li className="sidebar-flex">
               <div>
-                <Image
-                  src="/img/Group2.png"
-                  width={30}
-                  height={30}
-                  quality={100}
-                ></Image>
+                <Link href="/schedule">
+                  <Image
+                    src="/img/Group2.png"
+                    width={30}
+                    height={30}
+                    quality={100}
+                  ></Image>
+                </Link>
               </div>
               <Link href="/schedule">
                 <a>Schedule</a>
