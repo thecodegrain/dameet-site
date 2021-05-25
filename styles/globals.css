@@ -443,6 +443,16 @@ footer {
   padding: 2rem;
 }
 
+.info-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2em;
+}
+
+.info-card-row {
+  display: flex;
+}
+
 /* !=====Event Agenda Section===== */
 .event-card {
   padding: 2rem;
@@ -544,11 +554,6 @@ footer {
   .footer-bg {
     margin: 0;
   }
-
-  .info-cards {
-    flex-direction: column;
-    text-align: center;
-  }
 }
 
 /* !Tablets */
@@ -592,10 +597,6 @@ footer {
     margin: 0;
   }
 
-  .btn {
-    align-self: center;
-  }
-
   .footer-bg {
     margin: 0;
   }
@@ -611,6 +612,14 @@ footer {
 
   .sidebar__list li a {
     font-size: 12px;
+  }
+
+  .info-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .info-cards {
+    border-radius: 20px;
   }
 }
 

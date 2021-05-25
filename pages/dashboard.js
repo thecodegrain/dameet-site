@@ -74,8 +74,8 @@ const Webinar = () => {
                 </div>
               </section>
               <section className="small-space">
-                <div className="split">
-                  <div className="split info-cards bg-light">
+                <div className="info-grid">
+                  <div className="info-card-row info-cards bg-light">
                     <div>
                       <h4>Plan out your event schedule</h4>
                       <Link href="/schedule">
@@ -89,7 +89,7 @@ const Webinar = () => {
                       quality={100}
                     ></Image>
                   </div>
-                  <div className="split info-cards bg-light">
+                  <div className="info-card-row  info-cards bg-light">
                     <div>
                       <h4>Discover our speakers line-up</h4>
                       <Link href="/speakers">
@@ -103,9 +103,7 @@ const Webinar = () => {
                       quality={100}
                     ></Image>
                   </div>
-                </div>
-                <div className="split small-space">
-                  <div className="split info-cards bg-light">
+                  <div className="info-card-row  info-cards bg-light">
                     <div>
                       <h4>Be part of our community on discord</h4>
                       <a
@@ -123,7 +121,7 @@ const Webinar = () => {
                       quality={100}
                     ></Image>
                   </div>
-                  <div className="split info-cards bg-light">
+                  <div className="info-card-row  info-cards bg-light">
                     <div>
                       <h4>Or join the chat on telegram</h4>
                       <a
