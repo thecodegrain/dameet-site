@@ -621,6 +621,10 @@ footer {
   .info-cards {
     border-radius: 20px;
   }
+
+  .speaker-cta {
+    align-self: center;
+  }
 }
 
 @media (max-width: 300px) {

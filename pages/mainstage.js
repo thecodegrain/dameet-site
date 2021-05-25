@@ -68,7 +68,7 @@ const Mainstage = () => {
                   </div>
                 </div>
               </section>
-              <section className="split">
+              <section className="info-grid">
                 <div className="flow-content bg-light event-card a-self__start">
                   <h2>Session Info</h2>
                   <div>

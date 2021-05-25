@@ -109,8 +109,8 @@ const Schedule = () => {
               </div>
             </div>
           </div>
-          <section className="split small-space">
-            <div className="split info-cards bg-light">
+          <section className="info-grid small-space">
+            <div className="info-card-row info-cards bg-light">
               <div>
                 <h4>Be part of our community on discord</h4>
                 <a className="btn small-space">Join now</a>
@@ -122,7 +122,7 @@ const Schedule = () => {
                 quality={100}
               ></Image>
             </div>
-            <div className="split info-cards bg-light">
+            <div className="info-card-row info-cards bg-light">
               <div>
                 <h4>Or join the chat on telegram</h4>
                 <a className="btn small-space">Hop in</a>

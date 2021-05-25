@@ -141,7 +141,7 @@ export default function Home() {
               </h2>
               <p>The best of the industry</p>
             </div>
-            <div className="a-self__end">
+            <div className="a-self__end speaker-cta">
               <a className="btn" onClick={login}>
                 Secure a Spot
               </a>
