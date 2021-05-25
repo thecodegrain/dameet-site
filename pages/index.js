@@ -89,7 +89,7 @@ export default function Home() {
           <div className="split text-center">
             <div>
               <Image
-                src="/img/Group.png"
+                src="/img/Group.svg"
                 width={250}
                 height={250}
                 quality={100}
@@ -102,7 +102,7 @@ export default function Home() {
             </div>
             <div>
               <Image
-                src="/img/Group2.png"
+                src="/img/Group 2.svg"
                 width={250}
                 height={250}
                 quality={100}
@@ -115,7 +115,7 @@ export default function Home() {
             </div>
             <div>
               <Image
-                src="/img/Group3.png"
+                src="/img/Group 3.svg"
                 width={250}
                 height={250}
                 quality={100}
