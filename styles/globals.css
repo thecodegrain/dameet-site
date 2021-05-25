@@ -23,7 +23,11 @@
 
   --clr-cultured: #f3f5f7;
   --clr-black: #001514;
-  --clr-accent-yellow: #ffde70;
+  --clr-accent-yellow: #fed747;
+  --clr-green: #25bb70;
+  --clr-blue: #1169e4;
+  --clr-pink: #fa9bd9;
+  --clr-orange: #fe6d48;
 
   --br: 1rem;
   --section-br: clamp(1.75rem, 5vw, 5rem);
@@ -613,11 +617,6 @@ footer {
 
   .speaker-cta {
     align-self: center;
-  }
-
-  .social-links ul {
-    display: flex;
-    flex-direction: row;
   }
 }
 

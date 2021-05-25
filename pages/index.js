@@ -87,11 +87,12 @@ export default function Home() {
         <div className="container">
           <div className="split text-center">
             <div>
-              <img
+              <Image
                 src="/img/Group.svg"
-                // width={250}
-                // height={250}
-              ></img>
+                width={250}
+                height={250}
+                quality={100}
+              ></Image>
               <h3>Learn</h3>
               <p>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta,
