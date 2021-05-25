@@ -17,7 +17,7 @@ const Sidebar = () => {
               <div>
                 <Link href="/dashboard">
                   <Image
-                    src="/img/Group2.png"
+                    src="/img/home.svg"
                     width={30}
                     height={30}
                     quality={100}
@@ -25,14 +25,14 @@ const Sidebar = () => {
                 </Link>
               </div>
               <Link href="/dashboard">
-                <a>Dashboard</a>
+                <a>Home</a>
               </Link>
             </li>
             <li className="sidebar-flex">
               <div>
                 <Link href="/mainstage">
                   <Image
-                    src="/img/Group3.png"
+                    src="/img/mainstage.svg"
                     width={30}
                     height={30}
                     quality={100}
@@ -45,24 +45,9 @@ const Sidebar = () => {
             </li>
             <li className="sidebar-flex">
               <div>
-                <Link href="/speakers">
-                  <Image
-                    src="/img/Group.png"
-                    width={30}
-                    height={30}
-                    quality={100}
-                  ></Image>
-                </Link>
-              </div>
-              <Link href="/speakers">
-                <a>Speakers</a>
-              </Link>
-            </li>
-            <li className="sidebar-flex">
-              <div>
                 <Link href="/schedule">
                   <Image
-                    src="/img/Group2.png"
+                    src="/img/calender.svg"
                     width={30}
                     height={30}
                     quality={100}
@@ -73,13 +58,43 @@ const Sidebar = () => {
                 <a>Schedule</a>
               </Link>
             </li>
+            <li className="sidebar-flex hidden">
+              <div>
+                <Link href="/speakers">
+                  <Image
+                    src="/img/speaker.svg"
+                    width={30}
+                    height={30}
+                    quality={100}
+                  ></Image>
+                </Link>
+              </div>
+              <Link href="/speakers">
+                <a>Speakers</a>
+              </Link>
+            </li>
+            <li className="sidebar-flex hidden-desktop">
+              <div>
+                <Link href="/">
+                  <Image
+                    src="/img/other.svg"
+                    width={30}
+                    height={30}
+                    quality={100}
+                  ></Image>
+                </Link>
+              </div>
+              <Link href="/">
+                <a>Other</a>
+              </Link>
+            </li>
             <li>
               <a className="hidden sidebar-text-gray">Social</a>
             </li>
             <li className="sidebar-flex hidden">
               <div>
                 <Image
-                  src="/img/Group3.png"
+                  src="/img/discord.svg"
                   width={30}
                   height={30}
                   quality={100}
@@ -96,7 +111,7 @@ const Sidebar = () => {
             <li className="sidebar-flex hidden">
               <div>
                 <Image
-                  src="/img/Group.png"
+                  src="/img/telegram.svg"
                   width={30}
                   height={30}
                   quality={100}
@@ -117,7 +132,7 @@ const Sidebar = () => {
               <li className="sidebar-flex hidden" onClick={login}>
                 <div>
                   <Image
-                    src="/img/Group2.png"
+                    src="/img/login.svg"
                     width={30}
                     height={30}
                     quality={100}
@@ -130,7 +145,7 @@ const Sidebar = () => {
               <li className="sidebar-flex hidden" onClick={logout}>
                 <div>
                   <Image
-                    src="/img/Group3.png"
+                    src="/img/logout.svg"
                     width={30}
                     height={30}
                     quality={100}

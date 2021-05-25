@@ -430,6 +430,10 @@ footer {
   gap: 1rem;
 }
 
+.hidden-desktop {
+  display: none;
+}
+
 /* !=====Dashboard===== */
 
 .info-cards {
@@ -524,6 +528,11 @@ footer {
 
   .sidebar__list {
     flex-direction: row;
+    gap: 4em;
+  }
+
+  .hidden-desktop {
+    display: flex;
   }
 }
 
@@ -547,6 +556,10 @@ footer {
 
   .footer-bg {
     margin: 0;
+  }
+
+  .sidebar__list {
+    gap: 1em;
   }
 }
 
@@ -614,6 +627,10 @@ footer {
 
   .info-cards {
     border-radius: 20px;
+  }
+
+  .info-card-row {
+    justify-content: space-between;
   }
 
   .speaker-cta {
