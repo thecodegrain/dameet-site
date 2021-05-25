@@ -102,7 +102,7 @@ export default function Home() {
             </div>
             <div>
               <Image
-                src="/img/Group 2.svg"
+                src="/img/Group2.svg"
                 width={250}
                 height={250}
                 quality={100}
@@ -115,7 +115,7 @@ export default function Home() {
             </div>
             <div>
               <Image
-                src="/img/Group 3.svg"
+                src="/img/Group3.svg"
                 width={250}
                 height={250}
                 quality={100}
