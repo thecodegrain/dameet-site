@@ -21,15 +21,9 @@
   --fw-semi-bold: 600;
   --fw-bold: 700;
 
-  --clr-neutral-100: #fff;
-  --clr-neutral-200: #eef1f6;
-  --clr-neutral-300: #a9afbc;
-  --clr-neutral-400: #737b8c;
-  --clr-neutral-500: #434956;
-  --clr-neutral-900: #020203;
-
-  --clr-primary-300: #f3f7ff;
-  --clr-primary-400: #8ea8da;
+  --clr-cultured: #f3f5f7;
+  --clr-black: #001514;
+  --clr-accent-yellow: #ffde70;
 
   --br: 1rem;
   --section-br: clamp(1.75rem, 5vw, 5rem);
@@ -189,15 +183,15 @@ a:focus {
 .btn {
   display: inline-block;
   padding: var(--btn-clamp-v) var(--btn-clamp-h);
-  border: 2px solid #252422;
+  border: 2px solid var(--clr-black);
   border-radius: 30px;
-  background: #252422;
+  background: var(--clr-black);
   color: white;
   cursor: pointer;
 }
 .btn:hover,
 .btn:focus {
-  color: #252422;
+  color: var(--clr-black);
   background: white;
 }
 
@@ -206,16 +200,16 @@ a:focus {
 }
 
 .bg-light {
-  background: #f3f5f7;
+  background: var(--clr-cultured);
 }
 
 .bg-dark {
-  background: #252422;
+  background: var(--clr-black);
   color: #fff;
 }
 
 .bg-accent {
-  background: rgb(255, 208, 0);
+  background: var(--clr-accent-yellow);
 }
 
 .eq-space {

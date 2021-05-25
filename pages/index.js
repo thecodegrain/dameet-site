@@ -39,7 +39,7 @@ export default function Home() {
             <div>
               <Image
                 quality={100}
-                src="/img/hero.png"
+                src="/img/hero.svg"
                 width={587}
                 height={726}
                 alt="abstract"
@@ -73,7 +73,7 @@ export default function Home() {
             <div>
               <Image
                 quality={100}
-                src="/img/FAQ.png"
+                src="/img/FAQ.svg"
                 width={500}
                 height={414}
                 alt="instagram stories"
@@ -235,7 +235,7 @@ export default function Home() {
             <div className="vertical-center">
               <Image
                 quality={100}
-                src="/img/FAQ.png"
+                src="/img/FAQ.svg"
                 width={500}
                 height={414}
                 alt="abstract"
