@@ -75,7 +75,7 @@ const Sidebar = () => {
             </li>
             <li className="sidebar-flex hidden-desktop">
               <div>
-                <Link href="/">
+                <Link href="/other">
                   <Image
                     src="/img/other.svg"
                     width={30}
@@ -84,7 +84,7 @@ const Sidebar = () => {
                   ></Image>
                 </Link>
               </div>
-              <Link href="/">
+              <Link href="/other">
                 <a>Other</a>
               </Link>
             </li>

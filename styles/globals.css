@@ -645,3 +645,9 @@ footer {
     font-size: 10px;
   }
 }
+
+/* !!Temp CSS!! */
+
+.br {
+  border-radius: var(--br);
+}

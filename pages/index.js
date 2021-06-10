@@ -206,14 +206,14 @@ export default function Home() {
                 <div>
                   <h4 className="large-space">What is Dameet?</h4>
                   <p>
-                    Dameet is a virtual workshop/webinar happening on July 21st
-                    featuring top designer, developer, data scientist and
+                    Dameet is a virtual workshop/webinar happening on July 17th
+                    & 18th featuring top designer, developer, data scientist and
                     prductive ninja.
                   </p>
                 </div>
                 <div>
                   <h4>When is The Dameet workshop?</h4>
-                  <p>The workshop is happening at 5pm IST on July 21st</p>
+                  <p>The workshop is happening on July 17th & 18th</p>
                 </div>
                 <div>
                   <h4>How do I attend?</h4>
@@ -225,7 +225,8 @@ export default function Home() {
                 <div>
                   <h4>What if I miss the session?</h4>
                   <p>
-                    You can request access to any of the sessions, or check the platform if you are signned up.
+                    You can request access to any of the sessions, or check the
+                    platform if you are signned up.
                   </p>
                 </div>
               </div>
