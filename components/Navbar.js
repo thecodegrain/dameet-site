@@ -1,9 +1,8 @@
 import Link from "next/link";
-import { useContext } from "react";
-import AuthContext from "../stores/authContext";
+import { useUser } from "@auth0/nextjs-auth0";
 
 const Navbar = () => {
-  const { user, login, logout, authReady } = useContext(AuthContext);
+  const { user } = useUser();
 
   return (
     <div className="container">
@@ -13,41 +12,41 @@ const Navbar = () => {
           <Link href="/">
             <a className="logo">Da meet</a>
           </Link>
-          {authReady && (
-            <ul className="nav__list">
+          <ul className="nav__list">
+            <li>
+              <Link href="/schedule">
+                <a className="hidden">Schedule</a>
+              </Link>
+            </li>
+            {user && (
               <li>
-                <Link href="/schedule">
-                  <a className="hidden">Schedule</a>
+                <Link href="/dashboard">
+                  <a className="hidden">Dashboard</a>
                 </Link>
               </li>
-              {user && (
-                <li>
-                  <Link href="/dashboard">
-                    <a className="hidden">Dashboard</a>
-                  </Link>
-                </li>
-              )}
-              {!user && (
-                <li>
-                  <Link href="/">
-                    <a className="hidden" onClick={login}>
-                      Dashboard
-                    </a>
-                  </Link>
-                </li>
-              )}
-              {!user && (
-                <li onClick={login}>
-                  <a className="btn nav__btn">Login</a>
-                </li>
-              )}
-              {user && (
-                <li onClick={logout}>
-                  <a className="btn nav__btn">Logout</a>
-                </li>
-              )}
-            </ul>
-          )}
+            )}
+            {!user && (
+              <li>
+                <a href="/api/auth/login" className="hidden">
+                  Dashboard
+                </a>
+              </li>
+            )}
+            {!user && (
+              <li>
+                <a href="/api/auth/login" className="btn nav__btn">
+                  Login
+                </a>
+              </li>
+            )}
+            {user && (
+              <li>
+                <a href="/api/auth/logout" className="btn nav__btn">
+                  Logout
+                </a>
+              </li>
+            )}
+          </ul>
         </nav>
       </header>
     </div>

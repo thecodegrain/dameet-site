@@ -1,12 +1,11 @@
 import Head from "next/head";
 import Image from "next/image";
-import { useContext } from "react";
+import { useUser } from "@auth0/nextjs-auth0";
 import Sidebar from "../components/Sidebar";
-import AuthContext from "../stores/authContext";
 
 const Mainstage = () => {
-  const { user, authReady, login } = useContext(AuthContext);
-
+  const { user, error, isLoading } = useUser();
+  if (error) return <div>{error.message}</div>;
   return (
     <>
       <div className="container__lg">
@@ -26,7 +25,7 @@ const Mainstage = () => {
               />
             </Head>
             <div className="flow-content small-space">
-              {!authReady && <div>Loading...</div>}
+              {isLoading && <div>Loading...</div>}
             </div>
             {!user && (
               <section>
@@ -34,7 +33,7 @@ const Mainstage = () => {
                   <div className="flow-content">
                     <h1>Hi, Stranger 👋</h1>
                     <h5>Pls login to access the event!</h5>
-                    <a className="btn large-space" onClick={login}>
+                    <a href="/api/auth/login" className="btn large-space">
                       Log me in!!!
                     </a>
                   </div>

@@ -1,13 +1,19 @@
 import Head from "next/head";
 import Image from "next/image";
-import { useContext } from "react";
+import { useUser } from "@auth0/nextjs-auth0";
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
-import AuthContext from "../stores/authContext";
+import { useEffect } from "react";
+import { useRouter } from "next/router";
 
 export default function Home() {
-  const { login } = useContext(AuthContext);
-
+  const { user } = useUser();
+  const router = useRouter();
+  useEffect(() => {
+    if (user) {
+      router.push("/dashboard");
+    }
+  });
   return (
     <>
       <Head>
@@ -32,7 +38,7 @@ export default function Home() {
                 <h1>The ultimate community tech conference 🚀</h1>
               </div>
 
-              <a className="btn" onClick={login}>
+              <a href="/api/auth/login" className="btn">
                 Secure a Spot
               </a>
             </div>
@@ -65,7 +71,7 @@ export default function Home() {
                 <span className="bg-accent accent-bg">virtually</span>
               </p>
 
-              <a className="btn large-space" onClick={login}>
+              <a href="/api/auth/login" className="btn large-space">
                 Sign up now
               </a>
             </div>
@@ -141,7 +147,7 @@ export default function Home() {
               <p>The best of the industry</p>
             </div>
             <div className="a-self__end speaker-cta">
-              <a className="btn" onClick={login}>
+              <a href="/api/auth/login" className="btn">
                 Secure a Spot
               </a>
             </div>

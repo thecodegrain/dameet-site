@@ -8,8 +8,7 @@
     "start": "next start"
   },
   "dependencies": {
-    "netlify-cli": "^3.37.6",
-    "netlify-identity-widget": "^1.9.1",
+    "@auth0/nextjs-auth0": "^1.4.0",
     "next": "^10.2.0",
     "react": "^17.0.2",
     "react-dom": "^17.0.2"
