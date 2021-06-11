@@ -8,6 +8,7 @@ import Sidebar from "../components/Sidebar";
 const Webinar = () => {
   const { user, error, isLoading } = useUser();
   if (error) return <div>{error.message}</div>;
+  console.log(user);
 
   return (
     <>
@@ -48,7 +49,10 @@ const Webinar = () => {
                       {user && (
                         <h1>
                           Hi,{" "}
-                          {user.name.includes("@") ? user.nickname : user.name}
+                          {user.name.includes("@") ||
+                          user.sub.includes("github")
+                            ? user.nickname
+                            : user.name}
                           👋
                         </h1>
                       )}
