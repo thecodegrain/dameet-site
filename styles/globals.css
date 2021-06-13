@@ -572,6 +572,10 @@ footer {
   .hidden-desktop {
     display: flex;
   }
+
+  .split2 {
+    flex-direction: column;
+  }
 }
 
 /* !Mobiles */
@@ -644,10 +648,4 @@ footer {
   .sidebar__list li a {
     font-size: 10px;
   }
-}
-
-/* !!Temp CSS!! */
-
-.br {
-  border-radius: var(--br);
 }
