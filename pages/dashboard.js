@@ -49,10 +49,7 @@ const Webinar = () => {
                       {user && (
                         <h1>
                           Hi,{" "}
-                          {user.name.includes("@") ||
-                          user.sub.includes("github")
-                            ? user.nickname
-                            : user.name}
+                          {user.name.includes("@") ? user.nickname : user.name}
                           👋
                         </h1>
                       )}
