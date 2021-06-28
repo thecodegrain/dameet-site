@@ -34,7 +34,7 @@ export default function Home() {
           <div className="split">
             <div className="flow-content flow-content--large large-space">
               <div>
-                <p className="h4">00-00 July 21</p>
+                <p className="h4">17-18 July 21</p>
                 <h1>The ultimate community tech conference 🚀</h1>
               </div>
 
@@ -214,7 +214,7 @@ export default function Home() {
                   <p>
                     Dameet is a virtual workshop/webinar happening on July 17th
                     & 18th featuring top designer, developer, data scientist and
-                    prductive ninja.
+                    productive ninja.
                   </p>
                 </div>
                 <div>
@@ -232,7 +232,7 @@ export default function Home() {
                   <h4>What if I miss the session?</h4>
                   <p>
                     You can request access to any of the sessions, or check the
-                    platform if you are signned up.
+                    platform if you are signed up.
                   </p>
                 </div>
               </div>

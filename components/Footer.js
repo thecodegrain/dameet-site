@@ -6,7 +6,7 @@ const Footer = () => {
       <div className="container">
         <footer className="split">
           <div>
-            <p className="h4">00-00 July 21</p>
+            <p className="h4">17-18 July 21</p>
             <Link href="/">
               <a className="footer__logo">Da meet</a>
             </Link>
