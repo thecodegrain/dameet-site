@@ -65,10 +65,11 @@ export default function Home() {
                 coming together virtually.
               </h2>
               <p>
-                We are back with our second online edition, with more surprises
-                and great speakers. It's an experience that brings the most
-                talented & passionate creatives in the world together,
-                <span className="bg-accent accent-bg">virtually</span>
+                The second edition of DA MEET aims to make people normalize with
+                the new normal. It's a delta where rivers of passionate
+                creatives meet the sea hence forming an ocean of opportunities
+                in the
+                <span className="bg-accent accent-bg">virtual </span> world.
               </p>
 
               <a href="/api/auth/login" className="btn large-space">
@@ -101,8 +102,8 @@ export default function Home() {
               ></Image>
               <h3>Learn</h3>
               <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta,
-                dicta?
+                Hold your breath to grab your piece of cake and open yourself to
+                taste the sweetness of the knowledge.
               </p>
             </div>
             <div>
@@ -114,8 +115,9 @@ export default function Home() {
               ></Image>
               <h3>Execute</h3>
               <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Nesciunt, soluta?
+                You take it and you should make it. Satisfaction comes when the
+                theories get into action. Let your freedom be used at its
+                fullest.
               </p>
             </div>
             <div>
@@ -127,8 +129,7 @@ export default function Home() {
               ></Image>
               <h3>Discover</h3>
               <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse,
-                dignissimos.
+                Conquer something new every time experimenting your knowledge.
               </p>
             </div>
           </div>
@@ -161,8 +162,8 @@ export default function Home() {
                 height={220}
                 alt="speaker"
               />
-              <h5>John Doe</h5>
-              <p>Web Developer</p>
+              <h5>Saish G.</h5>
+              <p>UX Designer</p>
             </div>
             <div className="speaker-card__single a-self bg-white">
               <Image
@@ -172,8 +173,8 @@ export default function Home() {
                 height={220}
                 alt="speaker"
               />
-              <h5>Tim Apple</h5>
-              <p>Graphic Designer</p>
+              <h5>Digvijay Rathore</h5>
+              <p>Web Developer & AI</p>
             </div>
             <div className="speaker-card__single a-self bg-white">
               <Image
@@ -183,8 +184,8 @@ export default function Home() {
                 height={220}
                 alt="speaker"
               />
-              <h5>Pulp Smith</h5>
-              <p>Productive Ninja</p>
+              <h5>Stacey</h5>
+              <p>Motion Designer</p>
             </div>
             <div className="speaker-card__single a-self bg-white">
               <Image
@@ -194,8 +195,8 @@ export default function Home() {
                 height={220}
                 alt="speaker"
               />
-              <h5>Eathan Rik</h5>
-              <p>Crypto Expert</p>
+              <h5>Coming Soon</h5>
+              <p>coming soon</p>
             </div>
           </div>
         </div>
@@ -212,9 +213,9 @@ export default function Home() {
                 <div>
                   <h4 className="large-space">What is Dameet?</h4>
                   <p>
-                    Dameet is a virtual workshop/webinar happening on July 17th
-                    & 18th featuring top designer, developer, data scientist and
-                    productive ninja.
+                    Dameet is a virtual event happening on July 17th & 18th
+                    featuring top designer, web developer, data scientist,
+                    productivity guru and motion designer.
                   </p>
                 </div>
                 <div>
@@ -224,15 +225,15 @@ export default function Home() {
                 <div>
                   <h4>How do I attend?</h4>
                   <p>
-                    We built our own platform! No Youtube links, no Zoom calls.
-                    Simply sign up and everything is there!
+                    We built our own platform! Simply sign up and everything is
+                    available in the website.
                   </p>
                 </div>
                 <div>
                   <h4>What if I miss the session?</h4>
                   <p>
-                    You can request access to any of the sessions, or check the
-                    platform if you are signed up.
+                    We will be recording all the session which will be available
+                    later on our YouTube channel
                   </p>
                 </div>
               </div>

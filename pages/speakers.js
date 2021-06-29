@@ -33,8 +33,8 @@ const Speakers = () => {
                   height={220}
                   alt="speaker"
                 />
-                <h5>John Doe</h5>
-                <p>Web Developer</p>
+                <h5>Saish G.</h5>
+                <p>UX Designer</p>
               </div>
               <div className="speaker-card__single a-self bg-light">
                 <Image
@@ -44,8 +44,8 @@ const Speakers = () => {
                   height={220}
                   alt="speaker"
                 />
-                <h5>Tim Apple</h5>
-                <p>Graphic Designer</p>
+                <h5>Digvijay Rathore</h5>
+                <p>Web Developer & AI</p>
               </div>
               <div className="speaker-card__single a-self bg-light">
                 <Image
@@ -55,8 +55,8 @@ const Speakers = () => {
                   height={220}
                   alt="speaker"
                 />
-                <h5>Pulp Smith</h5>
-                <p>Productive Ninja</p>
+                <h5>Stacey</h5>
+                <p>Motion Designer</p>
               </div>
               <div className="speaker-card__single a-self bg-light">
                 <Image
@@ -66,8 +66,8 @@ const Speakers = () => {
                   height={220}
                   alt="speaker"
                 />
-                <h5>Eathan Rik</h5>
-                <p>Crypto Expert</p>
+                <h5>Coming soon</h5>
+                <p>coming soon</p>
               </div>
             </div>
             <section>
