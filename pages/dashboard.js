@@ -8,7 +8,6 @@ import Sidebar from "../components/Sidebar";
 const Webinar = () => {
   const { user, error, isLoading } = useUser();
   if (error) return <div>{error.message}</div>;
-  console.log(user);
 
   return (
     <>
