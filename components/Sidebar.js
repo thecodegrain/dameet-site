@@ -117,7 +117,11 @@ const Sidebar = () => {
                 quality={100}
               ></Image>
             </div>
-            <a href="https://t.me/dameet" target="_blank" className="hidden">
+            <a
+              href="https://telegram.me/dameet"
+              target="_blank"
+              className="hidden"
+            >
               Telegram
             </a>
           </li>
