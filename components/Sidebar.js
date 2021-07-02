@@ -101,7 +101,7 @@ const Sidebar = () => {
               ></Image>
             </div>
             <a
-              href="https://twitter.com/codegrain"
+              href="https://discord.gg/ZYpp89Vx6f"
               target="_blank"
               className="hidden"
             >
@@ -117,11 +117,7 @@ const Sidebar = () => {
                 quality={100}
               ></Image>
             </div>
-            <a
-              href="https://instagram.com/codegra.in"
-              target="_blank"
-              className="hidden"
-            >
+            <a href="https://t.me/dameet" target="_blank" className="hidden">
               Telegram
             </a>
           </li>
