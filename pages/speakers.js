@@ -75,7 +75,13 @@ const Speakers = () => {
                 <div className="info-card-row info-cards bg-light">
                   <div>
                     <h4>Be part of our community on discord</h4>
-                    <a className="btn small-space">Join now</a>
+                    <a
+                      href="https://discord.gg/ZYpp89Vx6f"
+                      className="btn small-space"
+                      target="_blank"
+                    >
+                      Join now
+                    </a>
                   </div>
                   <Image
                     src="/img/discord.svg"
@@ -87,7 +93,13 @@ const Speakers = () => {
                 <div className="info-card-row info-cards bg-light">
                   <div>
                     <h4>Or join the chat on telegram</h4>
-                    <a className="btn small-space">Hop in</a>
+                    <a
+                      href="https://telegram.me/dameet"
+                      className="btn small-space"
+                      target="_blank"
+                    >
+                      Hop in
+                    </a>
                   </div>
                   <Image
                     src="/img/telegram.svg"

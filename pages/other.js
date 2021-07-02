@@ -22,13 +22,13 @@ const Other = () => {
             <div className="info-grid">
               <div className="info-card-row info-cards bg-light">
                 <div>
-                  <h4>Plan out your event schedule</h4>
-                  <Link href="/schedule">
-                    <a className="btn small-space">View agenda</a>
-                  </Link>
+                  <h4>Signing out? See you again ;(</h4>
+                  <a href="/api/auth/logout" className="hidden btn small-space">
+                    Logout
+                  </a>
                 </div>
                 <Image
-                  src="/img/calender.svg"
+                  src="/img/logout.svg"
                   width={150}
                   height={150}
                   quality={100}
@@ -52,7 +52,7 @@ const Other = () => {
                 <div>
                   <h4>Be part of our community on discord</h4>
                   <a
-                    href="https://twitter.com/codegrain"
+                    href="https://discord.gg/ZYpp89Vx6f"
                     target="_blank"
                     className="btn small-space"
                   >
@@ -70,7 +70,7 @@ const Other = () => {
                 <div>
                   <h4>Or join the chat on telegram</h4>
                   <a
-                    href="https://instagram.com/codegra.in"
+                    href="https://telegram.me/dameet"
                     target="_blank"
                     className="btn small-space"
                   >

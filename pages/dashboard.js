@@ -105,7 +105,7 @@ const Webinar = () => {
                       <div>
                         <h4>Be part of our community on discord</h4>
                         <a
-                          href="https://twitter.com/codegrain"
+                          href="https://discord.gg/ZYpp89Vx6f"
                           target="_blank"
                           className="btn small-space"
                         >
@@ -123,7 +123,7 @@ const Webinar = () => {
                       <div>
                         <h4>Or join the chat on telegram</h4>
                         <a
-                          href="https://instagram.com/codegra.in"
+                          href="https://telegram.me/dameet"
                           target="_blank"
                           className="btn small-space"
                         >
