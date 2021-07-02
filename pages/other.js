@@ -23,7 +23,7 @@ const Other = () => {
               <div className="info-card-row info-cards bg-light">
                 <div>
                   <h4>Signing out? See you again ;(</h4>
-                  <a href="/api/auth/logout" className="hidden btn small-space">
+                  <a href="/api/auth/logout" className="btn small-space">
                     Logout
                   </a>
                 </div>
