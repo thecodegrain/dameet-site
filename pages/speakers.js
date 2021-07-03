@@ -24,52 +24,189 @@ const Speakers = () => {
                 <h5>Best from the industry</h5>
               </div>
             </section>
-            <div className="speaker-cards small-space">
-              <div className="speaker-card__single a-self bg-light">
-                <Image
-                  quality={100}
-                  src="/img/speaker-01.jpg"
-                  width={220}
-                  height={220}
-                  alt="speaker"
-                />
-                <h5>Saish G.</h5>
-                <p>UX Designer</p>
+            <section
+              id="speaker1"
+              className="small-space speaker-card-detail bg-light"
+            >
+              <div className="speaker-cards-detail">
+                <div className="speaker-card__single-detail">
+                  <div className="speaker-img">
+                    <Image
+                      quality={100}
+                      src="/img/speaker-01.jpg"
+                      width={220}
+                      height={220}
+                      alt="speaker"
+                    />
+                  </div>
+                  <div>
+                    <h2>Saish Gosavi</h2>
+                    <p>
+                      I am UX Designer working in the Fintech domain at Groww
+                      Banglore, India. My main work at Groww is to make the
+                      investment journey simple for Millenials. I believe in one
+                      simple principle on design is that "Design is Everywhere".
+                      In my free time, I love being in the midst of nature,
+                      doing random experiments at room and reading about brain
+                      science.
+                    </p>
+                    <div className="small-space">
+                      <div className="social-links">
+                        <a href="#" className="underline">
+                          ig
+                        </a>
+                        <a href="#" className="underline">
+                          tw
+                        </a>
+                        <a href="#" className="underline">
+                          yt
+                        </a>
+                      </div>
+                      <div className=" small-space">
+                        <a href="#" className="btn">
+                          Session notes
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
               </div>
-              <div className="speaker-card__single a-self bg-light">
-                <Image
-                  quality={100}
-                  src="/img/speaker-02.jpg"
-                  width={220}
-                  height={220}
-                  alt="speaker"
-                />
-                <h5>Digvijay Rathore</h5>
-                <p>Web Developer & AI</p>
+            </section>
+            <section className="small-space speaker-card-detail bg-light">
+              <div className="speaker-cards-detail">
+                <div className="speaker-card__single-detail">
+                  <div className="speaker-img">
+                    <Image
+                      quality={100}
+                      src="/img/speaker-01.jpg"
+                      width={220}
+                      height={220}
+                      alt="speaker"
+                    />
+                  </div>
+                  <div>
+                    <h2>Shubhang Rajput</h2>
+                    <p>
+                      Shubhang is a self taught designer, with an engineering
+                      background. Good design to him is something which not only
+                      solves a problem but also looks good while at it. Apart
+                      from designing, he also enjoys teaching and sharing
+                      whatever he has learned from his experiences in the
+                      industry so far. He has been a Mentor and Judge for
+                      various workshops and competitions well.
+                    </p>
+                    <div className="small-space">
+                      <div className="social-links">
+                        <a href="#" className="underline">
+                          ig
+                        </a>
+                        <a href="#" className="underline">
+                          tw
+                        </a>
+                        <a href="#" className="underline">
+                          yt
+                        </a>
+                      </div>
+                      <div className=" small-space">
+                        <a href="#" className="btn">
+                          Session notes
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
               </div>
-              <div className="speaker-card__single a-self bg-light">
-                <Image
-                  quality={100}
-                  src="/img/speaker-03.jpg"
-                  width={220}
-                  height={220}
-                  alt="speaker"
-                />
-                <h5>Stacey</h5>
-                <p>Motion Designer</p>
+            </section>
+            <section className="small-space speaker-card-detail bg-light">
+              <div className="speaker-cards-detail">
+                <div className="speaker-card__single-detail">
+                  <div className="speaker-img">
+                    <Image
+                      quality={100}
+                      src="/img/speaker-01.jpg"
+                      width={220}
+                      height={220}
+                      alt="speaker"
+                    />
+                  </div>
+                  <div>
+                    <h2>Janvi Poojary</h2>
+                    <p>
+                      I am UX Designer working in the Fintech domain at Groww
+                      Banglore, India. My main work at Groww is to make the
+                      investment journey simple for Millenials. I believe in one
+                      simple principle on design is that "Design is Everywhere".
+                      In my free time, I love being in the midst of nature,
+                      doing random experiments at room and reading about brain
+                      science.
+                    </p>
+                    <div className="small-space">
+                      <div className="social-links">
+                        <a href="#" className="underline">
+                          ig
+                        </a>
+                        <a href="#" className="underline">
+                          tw
+                        </a>
+                        <a href="#" className="underline">
+                          yt
+                        </a>
+                      </div>
+                      <div className=" small-space">
+                        <a href="#" className="btn">
+                          Session notes
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
               </div>
-              <div className="speaker-card__single a-self bg-light">
-                <Image
-                  quality={100}
-                  src="/img/speaker-04.jpg"
-                  width={220}
-                  height={220}
-                  alt="speaker"
-                />
-                <h5>Coming soon</h5>
-                <p>coming soon</p>
+            </section>
+            <section className="small-space speaker-card-detail bg-light">
+              <div className="speaker-cards-detail">
+                <div className="speaker-card__single-detail">
+                  <div className="speaker-img">
+                    <Image
+                      quality={100}
+                      src="/img/speaker-01.jpg"
+                      width={220}
+                      height={220}
+                      alt="speaker"
+                    />
+                  </div>
+                  <div>
+                    <h2>Roshan Singh</h2>
+                    <p>
+                      I am UX Designer working in the Fintech domain at Groww
+                      Banglore, India. My main work at Groww is to make the
+                      investment journey simple for Millenials. I believe in one
+                      simple principle on design is that "Design is Everywhere".
+                      In my free time, I love being in the midst of nature,
+                      doing random experiments at room and reading about brain
+                      science.
+                    </p>
+                    <div className="small-space">
+                      <div className="social-links">
+                        <a href="#" className="underline">
+                          ig
+                        </a>
+                        <a href="#" className="underline">
+                          tw
+                        </a>
+                        <a href="#" className="underline">
+                          yt
+                        </a>
+                      </div>
+                      <div className=" small-space">
+                        <a href="#" className="btn">
+                          Session notes
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
               </div>
-            </div>
+            </section>
             <section>
               <div className="info-grid small-space">
                 <div className="info-card-row info-cards bg-light">

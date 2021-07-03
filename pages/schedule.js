@@ -27,23 +27,25 @@ const Schedule = () => {
             <div className="split">
               <div className="flow-content flow-content--large bg-light event-card">
                 <div className="a-self">
-                  <h3 className="text-center">July 17, 21</h3>
-                  <Image
-                    quality={100}
-                    src="/img/speaker-01.jpg"
-                    width={220}
-                    height={220}
-                    alt="speaker"
-                  />
-                  <h4 className="small-space text-center">
-                    Session 1: Title and speaker name
-                  </h4>
-                  <p className="text-center">Category | 4: 30 PM</p>
+                  <h3 className="text-center">July 17</h3>
+                  <div className="small-space a-self">
+                    <Image
+                      quality={100}
+                      src="/img/temp.png"
+                      width={220}
+                      height={220}
+                      alt="speaker"
+                    />
+                    <h4 className="small-space text-center">
+                      Session 1: Intro to UX by Saish Gosavi
+                    </h4>
+                    <p className="text-center">Category | 4: 30 PM</p>
+                  </div>
                 </div>
                 <div className="a-self">
                   <Image
                     quality={100}
-                    src="/img/speaker-02.jpg"
+                    src="/img/temp.png"
                     width={220}
                     height={220}
                     alt="speaker"
@@ -56,23 +58,25 @@ const Schedule = () => {
               </div>
               <div className="flow-content flow-content--large  bg-light event-card">
                 <div className="a-self">
-                  <h3 className="text-center">July 18, 21</h3>
-                  <Image
-                    quality={100}
-                    src="/img/speaker-03.jpg"
-                    width={220}
-                    height={220}
-                    alt="speaker"
-                  />
-                  <h4 className="small-space text-center">
-                    Session 1: Title and speaker name
-                  </h4>
-                  <p className="text-center">Category | 4: 30 PM</p>
+                  <h3 className="text-center">July 18</h3>
+                  <div className="small-space a-self">
+                    <Image
+                      quality={100}
+                      src="/img/temp.png"
+                      width={220}
+                      height={220}
+                      alt="speaker"
+                    />
+                    <h4 className="small-space text-center">
+                      Session 1: Title and speaker name
+                    </h4>
+                    <p className="text-center">Category | 4: 30 PM</p>
+                  </div>
                 </div>
                 <div className="a-self">
                   <Image
                     quality={100}
-                    src="/img/speaker-04.jpg"
+                    src="/img/temp.png"
                     width={220}
                     height={220}
                     alt="speaker"

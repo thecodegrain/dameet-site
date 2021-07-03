@@ -1,5 +1,6 @@
 import Head from "next/head";
 import Image from "next/image";
+import Link from "next/link";
 import { useUser } from "@auth0/nextjs-auth0";
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
@@ -18,12 +19,25 @@ export default function Home() {
     <>
       <Head>
         <html lang="en" />
-        <title>Da Meet by Codegrain | Home</title>
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
+        <meta name="googlebot" content="index,follow" />
+        <title>Da Meet by Codegrain | Home</title>
+        <meta name="format-detection" content="telephone=no" />
+        <meta name="apple-mobile-web-app-capable" content="yes" />
         <meta
-          content="Da meet, The ultimate design conference experience by Codegrain"
+          content="Da meet, The ultimate design & tech community event by Codegrain"
           name="description"
         />
+        <meta content="Dameet by Codegrain." property="og:title" />
+        <meta content="Codegrain" property="og:site_name" />
+        <meta
+          content="Dameet is a virtual event that
+          features top designer, web developer, data scientist,
+          productivity guru and motion designer."
+          property="og:description"
+        />
+        <meta content="/img/og-social.jpg" property="og:image" />
+        <meta content="https://dameet.codegra.in/" property="og:url" />
       </Head>
 
       <Navbar />
@@ -35,7 +49,7 @@ export default function Home() {
             <div className="flow-content flow-content--large large-space">
               <div>
                 <p className="h4">17-18 July 21</p>
-                <h1>The ultimate community tech conference 🚀</h1>
+                <h1>The ultimate design & tech community event 🚀</h1>
               </div>
 
               <a href="/api/auth/login" className="btn">
@@ -155,48 +169,64 @@ export default function Home() {
           </div>
           <div className="speaker-cards large-space">
             <div className="speaker-card__single a-self bg-white">
-              <Image
-                quality={100}
-                src="/img/speaker-01.jpg"
-                width={220}
-                height={220}
-                alt="speaker"
-              />
-              <h5>Saish G.</h5>
-              <p>UX Designer</p>
+              <Link href="/speakers#speaker1">
+                <a>
+                  <Image
+                    quality={100}
+                    src="/img/speaker-01.jpg"
+                    width={220}
+                    height={220}
+                    alt="speaker"
+                  />
+                  <h5 className="text-center">Saish Gosavi</h5>
+                  <p className="text-center">UX Designer</p>
+                </a>
+              </Link>
             </div>
             <div className="speaker-card__single a-self bg-white">
-              <Image
-                quality={100}
-                src="/img/speaker-02.jpg"
-                width={220}
-                height={220}
-                alt="speaker"
-              />
-              <h5>Digvijay Rathore</h5>
-              <p>Web Developer & AI</p>
+              <Link href="/speakers#speaker2">
+                <a>
+                  <Image
+                    quality={100}
+                    src="/img/speaker-02.jpg"
+                    width={220}
+                    height={220}
+                    alt="speaker"
+                  />
+                  <h5 className="text-center">Shubhang Rajput</h5>
+                  <p className="text-center">Graphic Designer</p>
+                </a>
+              </Link>
             </div>
             <div className="speaker-card__single a-self bg-white">
-              <Image
-                quality={100}
-                src="/img/speaker-03.jpg"
-                width={220}
-                height={220}
-                alt="speaker"
-              />
-              <h5>Stacey</h5>
-              <p>Motion Designer</p>
+              <Link href="/speakers#speaker3">
+                <a>
+                  <Image
+                    quality={100}
+                    src="/img/speaker-03.jpg"
+                    width={220}
+                    height={220}
+                    alt="speaker"
+                  />
+                  <h5 className="text-center">Janvi Poojary</h5>
+                  <p className="text-center">Web Developer</p>
+                </a>
+              </Link>
             </div>
             <div className="speaker-card__single a-self bg-white">
-              <Image
-                quality={100}
-                src="/img/speaker-04.jpg"
-                width={220}
-                height={220}
-                alt="speaker"
-              />
-              <h5>Coming Soon</h5>
-              <p>coming soon</p>
+              <Link href="/speakers#speaker4">
+                <a>
+                  <Image
+                    quality={100}
+                    src="/img/speaker-04.jpg"
+                    width={220}
+                    height={220}
+                    alt="speaker"
+                  />
+                  <h5 className="text-center">Roshan Singh</h5>
+                  <p className="text-center">Mobile Developer</p>
+                </a>
+              </Link>
             </div>
           </div>
         </div>
@@ -219,8 +249,10 @@ export default function Home() {
                   </p>
                 </div>
                 <div>
-                  <h4>When is The Dameet workshop?</h4>
-                  <p>The workshop is happening on July 17th & 18th</p>
+                  <h4>Who is this event for?</h4>
+                  <p>
+                    Dameet is for everyone, but we mostly focus on beginners.
+                  </p>
                 </div>
                 <div>
                   <h4>How do I attend?</h4>
