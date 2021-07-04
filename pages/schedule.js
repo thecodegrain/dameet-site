@@ -58,9 +58,9 @@ const Schedule = () => {
                 <div className="a-self">
                   <Image
                     quality={100}
-                    src="/img/speaker-2-alt.png"
-                    width={220}
-                    height={220}
+                    src="/img/group-1.png"
+                    width={325}
+                    height={200}
                     alt="speaker"
                   />
                   <h4 className="small-space text-center">
