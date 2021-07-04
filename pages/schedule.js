@@ -31,7 +31,7 @@ const Schedule = () => {
                   <div className="small-space a-self">
                     <Image
                       quality={100}
-                      src="/img/temp.png"
+                      src="/img/speaker-01-alt.png"
                       width={220}
                       height={220}
                       alt="speaker"
@@ -45,13 +45,26 @@ const Schedule = () => {
                 <div className="a-self">
                   <Image
                     quality={100}
-                    src="/img/temp.png"
+                    src="/img/speaker-2-alt.png"
                     width={220}
                     height={220}
                     alt="speaker"
                   />
                   <h4 className="small-space text-center">
                     Session 2: Title and speaker name
+                  </h4>
+                  <p className="text-center">Category | 6: 30 PM</p>
+                </div>
+                <div className="a-self">
+                  <Image
+                    quality={100}
+                    src="/img/speaker-2-alt.png"
+                    width={220}
+                    height={220}
+                    alt="speaker"
+                  />
+                  <h4 className="small-space text-center">
+                    Session 3: Title and speaker name
                   </h4>
                   <p className="text-center">Category | 6: 30 PM</p>
                 </div>
@@ -62,7 +75,7 @@ const Schedule = () => {
                   <div className="small-space a-self">
                     <Image
                       quality={100}
-                      src="/img/temp.png"
+                      src="/img/speaker-3-alt.png"
                       width={220}
                       height={220}
                       alt="speaker"
@@ -76,7 +89,7 @@ const Schedule = () => {
                 <div className="a-self">
                   <Image
                     quality={100}
-                    src="/img/temp.png"
+                    src="/img/speaker-4-alt.png"
                     width={220}
                     height={220}
                     alt="speaker"
