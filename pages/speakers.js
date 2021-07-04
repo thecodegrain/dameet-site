@@ -72,13 +72,16 @@ const Speakers = () => {
                 </div>
               </div>
             </section>
-            <section className="small-space speaker-card-detail bg-light">
+            <section
+              id="speaker2"
+              className="small-space speaker-card-detail bg-light"
+            >
               <div className="speaker-cards-detail">
                 <div className="speaker-card__single-detail">
                   <div className="speaker-img">
                     <Image
                       quality={100}
-                      src="/img/speaker-01.jpg"
+                      src="/img/speaker-02.jpg"
                       width={220}
                       height={220}
                       alt="speaker"
@@ -117,13 +120,16 @@ const Speakers = () => {
                 </div>
               </div>
             </section>
-            <section className="small-space speaker-card-detail bg-light">
+            <section
+              id="speaker3"
+              className="small-space speaker-card-detail bg-light"
+            >
               <div className="speaker-cards-detail">
                 <div className="speaker-card__single-detail">
                   <div className="speaker-img">
                     <Image
                       quality={100}
-                      src="/img/speaker-01.jpg"
+                      src="/img/speaker-03.jpg"
                       width={220}
                       height={220}
                       alt="speaker"
@@ -162,13 +168,16 @@ const Speakers = () => {
                 </div>
               </div>
             </section>
-            <section className="small-space speaker-card-detail bg-light">
+            <section
+              id="speaker4"
+              className="small-space speaker-card-detail bg-light"
+            >
               <div className="speaker-cards-detail">
                 <div className="speaker-card__single-detail">
                   <div className="speaker-img">
                     <Image
                       quality={100}
-                      src="/img/speaker-01.jpg"
+                      src="/img/speaker-04.jpg"
                       width={220}
                       height={220}
                       alt="speaker"

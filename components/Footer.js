@@ -11,7 +11,7 @@ const Footer = () => {
               <a className="footer__logo">Da meet</a>
             </Link>
             <div className="footer__list">
-              <a className="" href="https://codegra.in/">
+              <a href="https://codegra.in/" target="_blank">
                 by codegra.in
               </a>
             </div>
