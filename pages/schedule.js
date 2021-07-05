@@ -24,7 +24,7 @@ const Schedule = () => {
                 <h5>Plan your schedule!!</h5>
               </div>
             </section>
-            <div className="split">
+            {/* <div className="split">
               <div className="flow-content flow-content--large bg-light event-card">
                 <div className="a-self">
                   <h3 className="text-center">July 17</h3>
@@ -81,7 +81,7 @@ const Schedule = () => {
                       alt="speaker"
                     />
                     <h4 className="small-space text-center">
-                      Session 1: Title and speaker name
+                      Session 1: Title and speaker names
                     </h4>
                     <p className="text-center">Category | 4: 30 PM</p>
                   </div>
@@ -100,7 +100,8 @@ const Schedule = () => {
                   <p className="text-center">Category | 6: 30 PM</p>
                 </div>
               </div>
-            </div>
+            </div> */}
+            <h3>Coming Soon!!!</h3>
             <section className="info-grid small-space">
               <div className="info-card-row info-cards bg-light">
                 <div>

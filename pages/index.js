@@ -75,7 +75,7 @@ export default function Home() {
           <div className="split">
             <div className="flow-content">
               <h2>
-                Learn a new skill,
+                Learn a new skill,{" "}
                 <span className="bg-accent accent-bg">together</span>.
               </h2>
               <p>
@@ -115,8 +115,8 @@ export default function Home() {
               ></Image>
               <h3>Learn</h3>
               <p>
-                Hold your breath to grab your piece of cake and open yourself to
-                taste the sweetness of the knowledge.
+                Change is the result of true learning. Learn from the masters of
+                the fields that interest you and explore new opportunities.
               </p>
             </div>
             <div>
@@ -128,9 +128,9 @@ export default function Home() {
               ></Image>
               <h3>Execute</h3>
               <p>
-                You take it and you should make it. Satisfaction comes when the
-                theories get into action. Let your freedom be used at its
-                fullest.
+                Success requires actionable subsequent steps. Get practical
+                advice and help from seasoned mentors and fellow members of the
+                community.
               </p>
             </div>
             <div>
@@ -143,7 +143,7 @@ export default function Home() {
               <h3>Discover</h3>
               <p>
                 Network with like-minded people from all across the world. Share
-                ideas, get help or make new friends. we've got a room for it
+                ideas, get help or make new friends. We've got a room for it
                 all.
               </p>
             </div>
@@ -292,13 +292,13 @@ export default function Home() {
                     available in the website.
                   </p>
                 </div>
-                {/* <div>
-                  <h4>What if I miss the session?</h4>
+                <div>
+                  <h4>Is this event paid?</h4>
                   <p>
-                    We will be recording all the session which will be available
-                    later on our YouTube channel
+                    Sessions will be free, but registration is required to
+                    access the event.
                   </p>
-                </div> */}
+                </div>
               </div>
             </div>
             <div className="vertical-center">

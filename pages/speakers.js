@@ -148,13 +148,16 @@ const Speakers = () => {
                   <div>
                     <h2>Janvi Poojary</h2>
                     <p>
-                      I am UX Designer working in the Fintech domain at Groww
-                      Banglore, India. My main work at Groww is to make the
-                      investment journey simple for Millenials. I believe in one
-                      simple principle on design is that "Design is Everywhere".
-                      In my free time, I love being in the midst of nature,
-                      doing random experiments at room and reading about brain
-                      science.
+                      I am freelance Web developer from a non-technical
+                      background. I am pursuing Bachelors of Commerce from KJ
+                      Somaiya College, Mumbai. From being a commerce student to
+                      be in IT field there was lots of ups and downs but it was
+                      worth it. Apart from experimenting with new technologies,
+                      I mentor students and I love teaching them. I am
+                      passionate about Web Development and strive to better
+                      myself as a developer and the development community as a
+                      whole that's why I create content on Instagram to provide
+                      quality value to budding developers.
                     </p>
                     <div className="small-space">
                       <div className="social-links">
