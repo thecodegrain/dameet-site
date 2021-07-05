@@ -273,7 +273,7 @@ export default function Home() {
             <div className="vertical-center">
               <Image
                 quality={100}
-                src="/img/FAQ.svg"
+                src="/img/questions.svg"
                 width={500}
                 height={414}
                 alt="abstract"
