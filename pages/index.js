@@ -75,15 +75,14 @@ export default function Home() {
           <div className="split">
             <div className="flow-content">
               <h2>
-                <span className="bg-accent accent-bg">Ambitious</span> creatives
-                coming together virtually.
+                Learn a new skill,
+                <span className="bg-accent accent-bg">together</span>.
               </h2>
               <p>
-                The second edition of DA MEET aims to make people normalize with
-                the new normal. It's a delta where rivers of passionate
-                creatives meet the sea hence forming an ocean of opportunities
-                in the
-                <span className="bg-accent accent-bg">virtual </span> world.
+                Discover new opportunities with community that shares your
+                interests. Da Meet is an online community that provides you with
+                access to all of the resources you'll need in quest to learn a
+                new skill.
               </p>
 
               <a href="/api/auth/login" className="btn large-space">
@@ -143,7 +142,9 @@ export default function Home() {
               ></Image>
               <h3>Discover</h3>
               <p>
-                Conquer something new every time experimenting your knowledge.
+                Network with like-minded people from all across the world. Share
+                ideas, get help or make new friends. we've got a room for it
+                all.
               </p>
             </div>
           </div>
@@ -228,6 +229,36 @@ export default function Home() {
                 </a>
               </Link>
             </div>
+            {/* <div className="speaker-card__single a-self bg-white">
+              <Link href="/speakers#speaker5">
+                <a>
+                  <Image
+                    quality={100}
+                    src="/img/speaker-04.jpg"
+                    width={220}
+                    height={220}
+                    alt="speaker"
+                  />
+                  <h5 className="text-center">Cris Pintea</h5>
+                  <p className="text-center">Fullstack Developer</p>
+                </a>
+              </Link>
+            </div>
+            <div className="speaker-card__single a-self bg-white">
+              <Link href="/speakers#speaker6">
+                <a>
+                  <Image
+                    quality={100}
+                    src="/img/speaker-04.jpg"
+                    width={220}
+                    height={220}
+                    alt="speaker"
+                  />
+                  <h5 className="text-center">Astha </h5>
+                  <p className="text-center">Social Media Marketer</p>
+                </a>
+              </Link>
+            </div> */}
           </div>
         </div>
       </section>
@@ -261,13 +292,13 @@ export default function Home() {
                     available in the website.
                   </p>
                 </div>
-                <div>
+                {/* <div>
                   <h4>What if I miss the session?</h4>
                   <p>
                     We will be recording all the session which will be available
                     later on our YouTube channel
                   </p>
-                </div>
+                </div> */}
               </div>
             </div>
             <div className="vertical-center">

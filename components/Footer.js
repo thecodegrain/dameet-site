@@ -20,7 +20,14 @@ const Footer = () => {
 
           <div className="footer-links flow-content">
             <p>Follow us</p>
-            <h3 className="bg-accent accent-bg">#dameet2021</h3>
+            <a href="https://www.instagram.com/codegra.in/" target="_blank">
+              <h3
+                className="bg-accent accent-bg"
+                style={{ color: "var(--clr-black)" }}
+              >
+                #dameet2021
+              </h3>
+            </a>
           </div>
         </footer>
       </div>

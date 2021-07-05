@@ -52,14 +52,19 @@ const Speakers = () => {
                     </p>
                     <div className="small-space">
                       <div className="social-links">
-                        <a href="#" className="underline">
+                        <a
+                          href="https://www.instagram.com/designneuron/"
+                          className="underline"
+                          target="_blank"
+                        >
                           ig
                         </a>
-                        <a href="#" className="underline">
-                          tw
-                        </a>
-                        <a href="#" className="underline">
-                          yt
+                        <a
+                          href="https://saishdesign.website/"
+                          className="underline"
+                          target="_blank"
+                        >
+                          site
                         </a>
                       </div>
                       <div className=" small-space">
@@ -100,14 +105,19 @@ const Speakers = () => {
                     </p>
                     <div className="small-space">
                       <div className="social-links">
-                        <a href="#" className="underline">
+                        <a
+                          href="https://www.instagram.com/matereal_designs/"
+                          className="underline"
+                          target="_blank"
+                        >
                           ig
                         </a>
-                        <a href="#" className="underline">
-                          tw
-                        </a>
-                        <a href="#" className="underline">
-                          yt
+                        <a
+                          href="https://www.behance.net/materealdesigns"
+                          className="underline"
+                          target="_blank"
+                        >
+                          Bē
                         </a>
                       </div>
                       <div className=" small-space">
@@ -148,14 +158,12 @@ const Speakers = () => {
                     </p>
                     <div className="small-space">
                       <div className="social-links">
-                        <a href="#" className="underline">
+                        <a
+                          href="https://www.instagram.com/janvi.codes/"
+                          className="underline"
+                          target="_blank"
+                        >
                           ig
-                        </a>
-                        <a href="#" className="underline">
-                          tw
-                        </a>
-                        <a href="#" className="underline">
-                          yt
                         </a>
                       </div>
                       <div className=" small-space">
@@ -186,24 +194,36 @@ const Speakers = () => {
                   <div>
                     <h2>Roshan Singh</h2>
                     <p>
-                      I am UX Designer working in the Fintech domain at Groww
-                      Banglore, India. My main work at Groww is to make the
-                      investment journey simple for Millenials. I believe in one
-                      simple principle on design is that "Design is Everywhere".
-                      In my free time, I love being in the midst of nature,
-                      doing random experiments at room and reading about brain
-                      science.
+                      Roshan is an autodidact mobile app developer who is
+                      passionate about design. He is presently working with a
+                      number of firms in India, providing customized mobile
+                      solutions to businesses in the fintech, food and beverage,
+                      and educational sector. Aside from programming, he enjoys
+                      open sourcing and sharing the majority of what he has
+                      learnt over the last six years.
                     </p>
                     <div className="small-space">
                       <div className="social-links">
-                        <a href="#" className="underline">
+                        <a
+                          href="https://www.instagram.com/thisisroshans/"
+                          className="underline"
+                          target="_blank"
+                        >
                           ig
                         </a>
-                        <a href="#" className="underline">
+                        <a
+                          href="https://twitter.com/thisisroshans"
+                          className="underline"
+                          target="_blank"
+                        >
                           tw
                         </a>
-                        <a href="#" className="underline">
-                          yt
+                        <a
+                          href="https://sweetsbyroshan.github.io/"
+                          className="underline"
+                          target="_blank"
+                        >
+                          site
                         </a>
                       </div>
                       <div className=" small-space">
@@ -216,6 +236,105 @@ const Speakers = () => {
                 </div>
               </div>
             </section>
+            {/* <section
+              id="speaker5"
+              className="small-space speaker-card-detail bg-light"
+            >
+              <div className="speaker-cards-detail">
+                <div className="speaker-card__single-detail">
+                  <div className="speaker-img">
+                    <Image
+                      quality={100}
+                      src="/img/temp.png"
+                      width={220}
+                      height={220}
+                      alt="speaker"
+                    />
+                  </div>
+                  <div>
+                    <h2>Cris Pintea</h2>
+                    <p>
+                      Roshan is an autodidact mobile app developer who is
+                      passionate about design. He is presently working with a
+                      number of firms in India, providing customized mobile
+                      solutions to businesses in the fintech, food and beverage,
+                      and educational sector. Aside from programming, he enjoys
+                      open sourcing and sharing the majority of what he has
+                      learnt over the last six years.
+                    </p>
+                    <div className="small-space">
+                      <div className="social-links">
+                        <a
+                          href="https://www.instagram.com/cris.pintea/"
+                          className="underline"
+                          target="_blank"
+                        >
+                          ig
+                        </a>
+                        <a
+                          href="https://pintea.net/"
+                          className="underline"
+                          target="_blank"
+                        >
+                          site
+                        </a>
+                      </div>
+                      <div className=" small-space">
+                        <a href="#" className="btn">
+                          Session notes
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </section>
+            <section
+              id="speaker6"
+              className="small-space speaker-card-detail bg-light"
+            >
+              <div className="speaker-cards-detail">
+                <div className="speaker-card__single-detail">
+                  <div className="speaker-img">
+                    <Image
+                      quality={100}
+                      src="/img/speaker-04.jpg"
+                      width={220}
+                      height={220}
+                      alt="speaker"
+                    />
+                  </div>
+                  <div>
+                    <h2>Astha</h2>
+                    <p>
+                      Roshan is an autodidact mobile app developer who is
+                      passionate about design. He is presently working with a
+                      number of firms in India, providing customized mobile
+                      solutions to businesses in the fintech, food and beverage,
+                      and educational sector. Aside from programming, he enjoys
+                      open sourcing and sharing the majority of what he has
+                      learnt over the last six years.
+                    </p>
+                    <div className="small-space">
+                      <div className="social-links">
+                        <a
+                          href="https://www.instagram.com/marketingastha/"
+                          className="underline"
+                          target="_blank"
+                        >
+                          ig
+                        </a>
+                      </div>
+                      <div className=" small-space">
+                        <a href="#" className="btn">
+                          Session notes
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </section> */}
             <section>
               <div className="info-grid small-space">
                 <div className="info-card-row info-cards bg-light">
