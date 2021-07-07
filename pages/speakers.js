@@ -302,7 +302,7 @@ const Speakers = () => {
                   <div className="speaker-img">
                     <Image
                       quality={100}
-                      src="/img/speaker-04.jpg"
+                      src="/img/speaker-06.jpg"
                       width={220}
                       height={220}
                       alt="speaker"
