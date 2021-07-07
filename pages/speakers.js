@@ -311,13 +311,13 @@ const Speakers = () => {
                   <div>
                     <h2>Pranjal Doorwar</h2>
                     <p>
-                      Roshan is an autodidact mobile app developer who is
-                      passionate about design. He is presently working with a
-                      number of firms in India, providing customized mobile
-                      solutions to businesses in the fintech, food and beverage,
-                      and educational sector. Aside from programming, he enjoys
-                      open sourcing and sharing the majority of what he has
-                      learnt over the last six years.
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                      Architecto officiis quidem at laborum dolores nobis natus
+                      praesentium corporis qui, animi eligendi placeat, quo
+                      aperiam, vitae deserunt minima. Natus recusandae eius
+                      inventore rem modi dolorum ratione ipsam, quam
+                      consequuntur officia non laborum iure. Delectus eos,
+                      perspiciatis at explicabo illo repudiandae eligendi?
                     </p>
                     <div className="small-space">
                       <div className="social-links">
