@@ -229,12 +229,12 @@ export default function Home() {
                 </a>
               </Link>
             </div>
-            {/* <div className="speaker-card__single a-self bg-white">
+            <div className="speaker-card__single a-self bg-white">
               <Link href="/speakers#speaker5">
                 <a>
                   <Image
                     quality={100}
-                    src="/img/speaker-04.jpg"
+                    src="/img/speaker-05.jpg"
                     width={220}
                     height={220}
                     alt="speaker"
@@ -258,7 +258,7 @@ export default function Home() {
                   <p className="text-center">Social Media Marketer</p>
                 </a>
               </Link>
-            </div> */}
+            </div>
           </div>
         </div>
       </section>

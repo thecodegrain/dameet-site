@@ -239,7 +239,7 @@ const Speakers = () => {
                 </div>
               </div>
             </section>
-            {/* <section
+            <section
               id="speaker5"
               className="small-space speaker-card-detail bg-light"
             >
@@ -248,7 +248,7 @@ const Speakers = () => {
                   <div className="speaker-img">
                     <Image
                       quality={100}
-                      src="/img/temp.png"
+                      src="/img/speaker-05.jpg"
                       width={220}
                       height={220}
                       alt="speaker"
@@ -257,13 +257,14 @@ const Speakers = () => {
                   <div>
                     <h2>Cris Pintea</h2>
                     <p>
-                      Roshan is an autodidact mobile app developer who is
-                      passionate about design. He is presently working with a
-                      number of firms in India, providing customized mobile
-                      solutions to businesses in the fintech, food and beverage,
-                      and educational sector. Aside from programming, he enjoys
-                      open sourcing and sharing the majority of what he has
-                      learnt over the last six years.
+                      I’m Cris Pintea, a freelance full-stack software developer
+                      currently based in Turin, Italy. I started falling in love
+                      with software development at 8yo and sold my first
+                      full-stack website at 14 for 1k euros to a Scottish
+                      startup (PHP backend, jQuery frontend, MySQL database). In
+                      my free time, besides hiking mountain peaks, I work on my
+                      own projects, some of which have received substantial VC
+                      funding in the past.
                     </p>
                     <div className="small-space">
                       <div className="social-links">
@@ -308,7 +309,7 @@ const Speakers = () => {
                     />
                   </div>
                   <div>
-                    <h2>Astha</h2>
+                    <h2>Pranjal Doorwar</h2>
                     <p>
                       Roshan is an autodidact mobile app developer who is
                       passionate about design. He is presently working with a
@@ -321,11 +322,25 @@ const Speakers = () => {
                     <div className="small-space">
                       <div className="social-links">
                         <a
-                          href="https://www.instagram.com/marketingastha/"
+                          href="https://www.instagram.com/pranjal_doorwar/"
                           className="underline"
                           target="_blank"
                         >
                           ig
+                        </a>
+                        <a
+                          href="https://twitter.com/pranjal_doorwar"
+                          className="underline"
+                          target="_blank"
+                        >
+                          tw
+                        </a>
+                        <a
+                          href="https://pranjaldoorwar.com/"
+                          className="underline"
+                          target="_blank"
+                        >
+                          site
                         </a>
                       </div>
                       <div className=" small-space">
@@ -337,7 +352,7 @@ const Speakers = () => {
                   </div>
                 </div>
               </div>
-            </section> */}
+            </section>
             <section>
               <div className="info-grid small-space">
                 <div className="info-card-row info-cards bg-light">
