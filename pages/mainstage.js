@@ -69,7 +69,7 @@ const Mainstage = () => {
                     <div>
                       <h3>July 17, 21</h3>
                       <h4 className="small-space">
-                        Session 1: Intro to UX by Saish G.
+                        Session 1: Will be announced soon!
                       </h4>
                       <p>Category | 4: 30 PM</p>
                       <div>
