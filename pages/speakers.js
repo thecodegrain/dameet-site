@@ -293,7 +293,7 @@ const Speakers = () => {
                 </div>
               </div>
             </section>
-            <section
+            {/* <section
               id="speaker6"
               className="small-space speaker-card-detail bg-light"
             >
@@ -352,7 +352,7 @@ const Speakers = () => {
                   </div>
                 </div>
               </div>
-            </section>
+            </section> */}
             <section>
               <div className="info-grid small-space">
                 <div className="info-card-row info-cards bg-light">
