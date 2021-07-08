@@ -7,7 +7,7 @@ const Speakers = () => {
     <>
       <Head>
         <html lang="en" />
-        <title>Da Meet by Codegrain | Webinar</title>
+        <title>Da Meet by Codegrain</title>
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
         <meta
           content="Da meet, The ultimate design conference experience by Codegrain"
