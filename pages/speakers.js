@@ -293,7 +293,7 @@ const Speakers = () => {
                 </div>
               </div>
             </section>
-            {/* <section
+           <section
               id="speaker6"
               className="small-space speaker-card-detail bg-light"
             >
@@ -311,13 +311,7 @@ const Speakers = () => {
                   <div>
                     <h2>Pranjal Doorwar</h2>
                     <p>
-                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                      Architecto officiis quidem at laborum dolores nobis natus
-                      praesentium corporis qui, animi eligendi placeat, quo
-                      aperiam, vitae deserunt minima. Natus recusandae eius
-                      inventore rem modi dolorum ratione ipsam, quam
-                      consequuntur officia non laborum iure. Delectus eos,
-                      perspiciatis at explicabo illo repudiandae eligendi?
+                       I am an Engineer doing freelance Development. I have worked on 25+ projects from 4 countries. I have a keen interest in design. From sitting in a corporate interview to hiring people, I have been on both sides.
                     </p>
                     <div className="small-space">
                       <div className="social-links">
@@ -352,7 +346,7 @@ const Speakers = () => {
                   </div>
                 </div>
               </div>
-            </section> */}
+            </section>
             <section>
               <div className="info-grid small-space">
                 <div className="info-card-row info-cards bg-light">
