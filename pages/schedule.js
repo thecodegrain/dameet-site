@@ -138,7 +138,7 @@ const Schedule = () => {
                     Intro to User Experience
                   </h4>
                   <p className="text-center">
-                    Saish Gosavi | <span className="bold">7:00-8:30 PM</span>
+                    Saish Gosavi | <span className="bold">7:00-8:00 PM</span>
                   </p>
                 </div>
               </div>
