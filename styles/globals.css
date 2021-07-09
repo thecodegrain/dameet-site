@@ -143,6 +143,10 @@ a:focus {
   border-radius: var(--br);
 }
 
+.bold {
+  font-weight: 600;
+}
+
 .underline {
   text-decoration: underline;
 }
