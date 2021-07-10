@@ -7,12 +7,25 @@ const Schedule = () => {
     <>
       <Head>
         <html lang="en" />
-        <title>Da Meet by Codegrain</title>
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
+        <meta name="googlebot" content="index,follow" />
+        <title>Da Meet by Codegrain | Schedule</title>
+        <meta name="format-detection" content="telephone=no" />
+        <meta name="apple-mobile-web-app-capable" content="yes" />
         <meta
-          content="Da meet, The ultimate design conference experience by Codegrain"
+          content="Da meet, The ultimate design & tech community event by Codegrain"
           name="description"
         />
+        <meta content="Dameet by Codegrain." property="og:title" />
+        <meta content="Codegrain" property="og:site_name" />
+        <meta
+          content="Dameet is a virtual event that
+          features top designer, web developer, data scientist,
+          productivity guru and motion designer."
+          property="og:description"
+        />
+        <meta content="/img/og-social.jpg" property="og:image" />
+        <meta content="https://dameet.codegra.in/" property="og:url" />
       </Head>
       <div className="container__lg">
         <div className="split2">
