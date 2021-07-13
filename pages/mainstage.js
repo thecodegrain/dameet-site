@@ -6,9 +6,10 @@ import Sidebar from "../components/Sidebar";
 const Mainstage = () => {
   const { user, error, isLoading } = useUser();
   if (error) return <div>{error.message}</div>;
+  console.log(user);
   return (
     <>
-     <Head>
+      <Head>
         <html lang="en" />
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
         <meta name="googlebot" content="index,follow" />
@@ -34,7 +35,6 @@ const Mainstage = () => {
         <div className="split2">
           <Sidebar />
           <div>
-            
             <div className="flow-content small-space">
               {isLoading && <div>Loading...</div>}
             </div>

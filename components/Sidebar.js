@@ -73,6 +73,21 @@ const Sidebar = () => {
               <a>Speakers</a>
             </Link>
           </li>
+          <li className="sidebar-flex hidden">
+            <div>
+              <Link href="/speakers">
+                <Image
+                  src="/img/execute.svg"
+                  width={30}
+                  height={30}
+                  quality={100}
+                ></Image>
+              </Link>
+            </div>
+            <Link href="/showfloor">
+              <a>Showfloor</a>
+            </Link>
+          </li>
           <li className="sidebar-flex hidden-desktop">
             <div>
               <Link href="/other">

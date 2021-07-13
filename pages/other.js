@@ -63,6 +63,20 @@ const Other = () => {
               </div>
               <div className="info-card-row  info-cards bg-light">
                 <div>
+                  <h4>Check featured offers for you</h4>
+                  <Link href="/showfloor">
+                    <a className="btn small-space">Showfloor</a>
+                  </Link>
+                </div>
+                <Image
+                  src="/img/execute.svg"
+                  width={150}
+                  height={150}
+                  quality={100}
+                ></Image>
+              </div>
+              <div className="info-card-row  info-cards bg-light">
+                <div>
                   <h4>Be part of our community on discord</h4>
                   <a
                     href="https://discord.gg/ZYpp89Vx6f"
