@@ -6,7 +6,6 @@ import Sidebar from "../components/Sidebar";
 const Mainstage = () => {
   const { user, error, isLoading } = useUser();
   if (error) return <div>{error.message}</div>;
-  console.log(user);
   return (
     <>
       <Head>
