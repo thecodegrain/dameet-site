@@ -42,9 +42,9 @@ const Links = () => {
             <div className="info-grid">
               <div className="info-card-row info-cards bg-light">
                 <div>
-                  <h4>Signup for Da meet 2021 - a Design & Tech Event</h4>
+                  <h4>Register now for Da meet 2021</h4>
                   <Link href="/">
-                    <a className="btn small-space">Register now</a>
+                    <a className="btn small-space">Signup now</a>
                   </Link>
                 </div>
                 <Image
