@@ -59,8 +59,6 @@ const Mainstage = () => {
                           frameborder="0"
                           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; fullscreen"
                         ></iframe>
-                        <h2>No live sessions</h2>
-                        <p>Join back later</p>
                       </div>
                     </div>
                   </div>
@@ -73,10 +71,7 @@ const Mainstage = () => {
                     <h3>Intro to Branding and Logo Designing</h3>
                     <div>
                       <h4>By Shubhang Rajput</h4>
-                      <h4 className="small-space">
-                        {" "}
-                        July 17, 21 | 3: 00 PM (IST)
-                      </h4>
+                      <h5> July 17, 21 | 3: 00 PM (IST)</h5>
                       <div>
                         <a className="btn small-space">Session notes</a>
                       </div>
