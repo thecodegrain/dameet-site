@@ -477,7 +477,7 @@ footer {
 }
 
 .sidebar__list li:nth-of-type(11) {
-  margin-bottom: 0;
+  margin-bottom: auto;
 }
 
 .hidden-desktop {
