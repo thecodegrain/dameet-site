@@ -57,15 +57,23 @@ const Mainstage = () => {
                     <div className="flow-content">
                       <div>
                         {/* <video src="/" width={400} height={400}></video> */}
-                        <div className="iframe-container__video bg-light event-card">
+                        <div className="iframe-container__video">
                           {/* <iframe
                             className="iframe-video"
-                            src="https://www.youtube.com/embed/T2Q2hP3F7L4"
+                            src="https://www.youtube.com/embed/toqDjKgU_Wc"
                             title="YouTube video player"
                             frameborder="0"
                             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                             allowfullscreen
                           ></iframe> */}
+                          <iframe
+                            className="iframe-video"
+                            src="https://www.youtube.com/embed/toqDjKgU_Wc"
+                            title="YouTube video player"
+                            frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen
+                          ></iframe>
                           <h2>No live sessions</h2>
                           <p>Join back later</p>
                         </div>
@@ -89,11 +97,11 @@ const Mainstage = () => {
                   </div>
                   <div className="flow-content flow-content--large bg-light padding-chat">
                     <div className="iframe-container__chat">
-                      {/* <iframe
+                      <iframe
                         className="iframe-chat"
                         frameborder="0"
-                        src="https://www.youtube.com/live_chat?v=T2Q2hP3F7L4&embed_domain=dameet.netlify.app&is_popout=1&v=T2Q2hP3F7L4"
-                      ></iframe> */}
+                        src="https://www.youtube.com/live_chat?v=toqDjKgU_Wc&embed_domain=dameet.codegra.in&is_popout=1&v=toqDjKgU_Wc"
+                      ></iframe>
                     </div>
                   </div>
                 </section>
