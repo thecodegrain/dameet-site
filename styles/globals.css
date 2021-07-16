@@ -531,10 +531,6 @@ footer {
   overflow: hidden;
   width: 100%;
   padding-top: 125%;
-}
-
-.padding-chat {
-  padding: 1rem;
   border-radius: var(--br);
 }
 
