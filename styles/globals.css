@@ -441,7 +441,7 @@ footer {
 .sidebar-header {
   display: flex;
   flex-grow: 0;
-  height: 90vh;
+  height: 95vh;
   max-width: 15%;
   min-width: 180px;
   overflow-x: hidden;
