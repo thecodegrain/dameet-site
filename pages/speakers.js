@@ -81,7 +81,11 @@ const Speakers = () => {
                         </a>
                       </div>
                       <div className=" small-space">
-                        <a href="#" className="btn">
+                        <a
+                          href="https://codegrainpublic.notion.site/Intro-to-User-Experience-ff840592eaa8448aaaad2a7395dad0e3"
+                          className="btn"
+                          target="_blank"
+                        >
                           Session notes
                         </a>
                       </div>
@@ -134,7 +138,11 @@ const Speakers = () => {
                         </a>
                       </div>
                       <div className=" small-space">
-                        <a href="#" className="btn">
+                        <a
+                          href="https://codegrainpublic.notion.site/Intro-to-Branding-and-Logo-Designing-ec72d8b9b52e4431855f609873fea018"
+                          className="btn"
+                          target="_blank"
+                        >
                           Session notes
                         </a>
                       </div>
@@ -183,7 +191,11 @@ const Speakers = () => {
                         </a>
                       </div>
                       <div className=" small-space">
-                        <a href="#" className="btn">
+                        <a
+                          href="https://codegrainpublic.notion.site/Web-Development-Basics-7e77f9b7b3ac450a82beb14d787cfa99"
+                          className="btn"
+                          target="_blank"
+                        >
                           Session notes
                         </a>
                       </div>
@@ -243,7 +255,11 @@ const Speakers = () => {
                         </a>
                       </div>
                       <div className=" small-space">
-                        <a href="#" className="btn">
+                        <a
+                          href="https://codegrainpublic.notion.site/Intro-to-App-Development-35a3a6337d564530a8cee86a1741e2ae"
+                          className="btn"
+                          target="_blank"
+                        >
                           Session notes
                         </a>
                       </div>
@@ -297,7 +313,11 @@ const Speakers = () => {
                         </a>
                       </div>
                       <div className=" small-space">
-                        <a href="#" className="btn">
+                        <a
+                          href="https://codegrainpublic.notion.site/Show-your-work-ff90b8a7c1ca494f9f9389d7f04295bc"
+                          className="btn"
+                          target="_blank"
+                        >
                           Session notes
                         </a>
                       </div>
@@ -354,7 +374,11 @@ const Speakers = () => {
                         </a>
                       </div>
                       <div className=" small-space">
-                        <a href="#" className="btn">
+                        <a
+                          href="https://codegrainpublic.notion.site/How-to-get-clients-as-a-freelancer-beginner-6f194267c5394ec9a7f7d76cff6df8b2"
+                          className="btn"
+                          target="_blank"
+                        >
                           Session notes
                         </a>
                       </div>

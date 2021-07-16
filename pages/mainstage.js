@@ -73,7 +73,13 @@ const Mainstage = () => {
                       <h4>By Shubhang Rajput</h4>
                       <h5> July 17, 21 | 3: 00 PM (IST)</h5>
                       <div>
-                        <a className="btn small-space">Session notes</a>
+                        <a
+                          href="https://codegrainpublic.notion.site/Intro-to-Branding-and-Logo-Designing-ec72d8b9b52e4431855f609873fea018"
+                          target="_blank"
+                          className="btn small-space"
+                        >
+                          Session notes
+                        </a>
                       </div>
                     </div>
                   </div>
