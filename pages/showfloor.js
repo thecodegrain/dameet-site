@@ -70,7 +70,7 @@ const ShowFloor = () => {
                 <div className="small-space a-self">
                   <Image
                     quality={100}
-                    src="/img/stream.png"
+                    src="/img/ebook.jpg"
                     width={220}
                     height={220}
                     alt="speaker"
