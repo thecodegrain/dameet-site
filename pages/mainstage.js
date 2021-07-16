@@ -77,7 +77,7 @@ const Mainstage = () => {
                       </div>
                     </div>
                   </div>
-                  <div className="flow-content flow-content--large padding-chat">
+                  <div className="flow-content flow-content--large">
                     <div className="iframe-container__chat">
                       <iframe
                         className="iframe-chat"
