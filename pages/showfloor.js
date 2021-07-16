@@ -67,9 +67,8 @@ const ShowFloor = () => {
                   </div>
                 </div>
               </div>
-              <div></div>
-              {/* <div className="flow-content flow-content--large bg-light event-card">
-                <div className="a-self">
+              <div className="flow-content flow-content--large bg-light event-card">
+                <div className="small-space a-self">
                   <Image
                     quality={100}
                     src="/img/stream.png"
@@ -78,21 +77,20 @@ const ShowFloor = () => {
                     alt="speaker"
                   />
                   <h4 className="small-space text-center">
-                    The Carousel Workbook by Moncef Arajdal
+                    UI Design Tactics - Thalion
                   </h4>
                   <p className="text-center">
-                    The Ebook that will teach you how to create and design great
-                    content.
+                    Use coupon code "dameet" for 50% off on the ebook.
                   </p>
                   <a
-                    href="https://discord.gg/ZYpp89Vx6f"
+                    href="https://thalion.gumroad.com/l/ui-design-tactics/dameet"
                     target="_blank"
                     className="btn small-space"
                   >
                     Check it out
                   </a>
                 </div>
-              </div> */}
+              </div>
             </div>
             {/* <div className="flow-content flow-content--large bg-light event-card small-space">
               <div className="a-self">
