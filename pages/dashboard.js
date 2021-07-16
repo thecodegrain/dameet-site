@@ -2,11 +2,14 @@ import Head from "next/head";
 import Image from "next/image";
 import Link from "next/link";
 import { useUser } from "@auth0/nextjs-auth0";
-
 import Sidebar from "../components/Sidebar";
+import Loading from "../components/Loading";
 
 const Webinar = () => {
   const { user, isLoading } = useUser();
+  if (isLoading) {
+    return <Loading />;
+  }
 
   return (
     <>

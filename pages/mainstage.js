@@ -1,9 +1,13 @@
 import Head from "next/head";
 import { useUser } from "@auth0/nextjs-auth0";
 import Sidebar from "../components/Sidebar";
+import Loading from "../components/Loading";
 
 const Mainstage = () => {
   const { user, isLoading } = useUser();
+  if (isLoading) {
+    return <Loading />;
+  }
   return (
     <>
       <Head>

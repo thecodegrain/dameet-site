@@ -1,8 +1,14 @@
 import Head from "next/head";
 import Image from "next/image";
 import Sidebar from "../components/Sidebar";
+import Loading from "../components/Loading";
+import { useUser } from "@auth0/nextjs-auth0";
 
 const Speakers = () => {
+  const { isLoading } = useUser();
+  if (isLoading) {
+    return <Loading />;
+  }
   return (
     <>
       <Head>

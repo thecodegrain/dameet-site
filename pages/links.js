@@ -1,9 +1,14 @@
+import { useUser } from "@auth0/nextjs-auth0";
 import Head from "next/head";
 import Image from "next/image";
 import Link from "next/link";
-import Sidebar from "../components/Sidebar";
+import Loading from "../components/Loading";
 
 const Links = () => {
+  const { isLoading } = useUser();
+  if (isLoading) {
+    return <Loading />;
+  }
   return (
     <>
       <Head>

@@ -1,11 +1,13 @@
 import Image from "next/image";
 import Link from "next/link";
 import { useUser } from "@auth0/nextjs-auth0";
+import Loading from "../components/Loading";
 
 const Sidebar = () => {
   const { user, error, isLoading } = useUser();
-  if (isLoading)
-    return <h4 className="a-self text-center large-space">Loading...</h4>;
+  if (isLoading) {
+    return <Loading />;
+  }
   if (error) return <div>{error.message}</div>;
   return (
     <header className="sidebar-header bg-light">
