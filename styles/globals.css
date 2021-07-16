@@ -515,6 +515,17 @@ footer {
   padding-top: 56.25%; /* 16:9 Aspect Ratio (divide 9 by 16 = 0.5625) */
 }
 
+.iframe-video {
+  position: absolute;
+  border-radius: var(--br);
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+}
+
 .iframe-container__chat {
   position: relative;
   overflow: hidden;
@@ -524,18 +535,7 @@ footer {
 
 .padding-chat {
   padding: 1rem;
-  border-radius: 20px;
-}
-
-.iframe-video {
-  position: absolute;
-  border-radius: 20px;
-  top: 0;
-  left: 0;
-  bottom: 0;
-  right: 0;
-  width: 100%;
-  height: 100%;
+  border-radius: var(--br);
 }
 
 .iframe-chat {
