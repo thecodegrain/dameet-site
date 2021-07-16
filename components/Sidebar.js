@@ -78,7 +78,7 @@ const Sidebar = () => {
             <div>
               <Link href="/speakers">
                 <Image
-                  src="/img/execute.svg"
+                  src="/img/showfloor.svg"
                   width={30}
                   height={30}
                   quality={100}
@@ -139,6 +139,23 @@ const Sidebar = () => {
               className="hidden"
             >
               Telegram
+            </a>
+          </li>
+          <li className="sidebar-flex hidden">
+            <div>
+              <Image
+                src="/img/instagram.svg"
+                width={30}
+                height={30}
+                quality={100}
+              ></Image>
+            </div>
+            <a
+              href="https://www.instagram.com/codegra.in/"
+              target="_blank"
+              className="hidden"
+            >
+              Instagram
             </a>
           </li>
           <li>
