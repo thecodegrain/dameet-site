@@ -5,7 +5,7 @@ import { useUser } from "@auth0/nextjs-auth0";
 import Loading from "../components/Loading";
 
 const ShowFloor = () => {
-  const { isLoading } = useUser();
+  const { user, isLoading } = useUser();
   if (isLoading) {
     return <Loading />;
   }
@@ -33,71 +33,86 @@ const ShowFloor = () => {
         <meta content="/img/og-social.jpg" property="og:image" />
         <meta content="https://dameet.codegra.in/" property="og:url" />
       </Head>
+
       <div className="container__lg">
         <div className="split2">
           <Sidebar />
-          <div>
-            <section className="small-space">
-              <div className="flow-content">
-                <h1>Showfloor</h1>
-                <h5>
-                  Featuring our partners and exclusive offers just for you.
-                </h5>
+          {!user && !isLoading && (
+            <section>
+              <div className="split">
+                <div className="flow-content">
+                  <h1>Hi, Stranger 👋</h1>
+                  <h5>Pls login to access the event!</h5>
+                  <a href="/api/auth/login" className="btn large-space">
+                    Log me in!!!
+                  </a>
+                </div>
               </div>
             </section>
-            <div className="split">
-              <div className="flow-content flow-content--large bg-light event-card">
-                <div className="a-self">
+          )}
+          {user && (
+            <div>
+              <section className="small-space">
+                <div className="flow-content">
+                  <h1>Showfloor</h1>
+                  <h5>
+                    Featuring our partners and exclusive offers just for you.
+                  </h5>
+                </div>
+              </section>
+              <div className="split">
+                <div className="flow-content flow-content--large bg-light event-card">
+                  <div className="a-self">
+                    <div className="small-space a-self">
+                      <Image
+                        quality={100}
+                        src="/img/stream.png"
+                        width={220}
+                        height={220}
+                        alt="speaker"
+                      />
+                      <h4 className="small-space text-center">
+                        Our Streaming Partner - StreamYard
+                      </h4>
+                      <p className="text-center">
+                        The easiest way to create professional live streams
+                      </p>
+                      <a
+                        href="https://streamyard.com/"
+                        className="btn small-space"
+                        target="_blank"
+                      >
+                        Check them out
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                <div className="flow-content flow-content--large bg-light event-card">
                   <div className="small-space a-self">
                     <Image
                       quality={100}
-                      src="/img/stream.png"
+                      src="/img/ebook.jpg"
                       width={220}
                       height={220}
                       alt="speaker"
                     />
                     <h4 className="small-space text-center">
-                      Our Streaming Partner - StreamYard
+                      UI Design Tactics - Thalion
                     </h4>
                     <p className="text-center">
-                      The easiest way to create professional live streams
+                      Use coupon code "dameet" for 50% off on the ebook.
                     </p>
                     <a
-                      href="https://streamyard.com/"
-                      className="btn small-space"
+                      href="https://thalion.gumroad.com/l/ui-design-tactics/dameet"
                       target="_blank"
+                      className="btn small-space"
                     >
-                      Check them out
+                      Check it out
                     </a>
                   </div>
                 </div>
               </div>
-              <div className="flow-content flow-content--large bg-light event-card">
-                <div className="small-space a-self">
-                  <Image
-                    quality={100}
-                    src="/img/ebook.jpg"
-                    width={220}
-                    height={220}
-                    alt="speaker"
-                  />
-                  <h4 className="small-space text-center">
-                    UI Design Tactics - Thalion
-                  </h4>
-                  <p className="text-center">
-                    Use coupon code "dameet" for 50% off on the ebook.
-                  </p>
-                  <a
-                    href="https://thalion.gumroad.com/l/ui-design-tactics/dameet"
-                    target="_blank"
-                    className="btn small-space"
-                  >
-                    Check it out
-                  </a>
-                </div>
-              </div>
-            </div>
-            {/* <div className="flow-content flow-content--large bg-light event-card small-space">
+              {/* <div className="flow-content flow-content--large bg-light event-card small-space">
               <div className="a-self">
                 <Image
                   quality={100}
@@ -121,10 +136,11 @@ const ShowFloor = () => {
                 </a>
               </div>
             </div> */}
-          </div>
+            </div>
+          )}
         </div>
-        <div className="margin-bottom"></div>
       </div>
+      <div className="margin-bottom"></div>
     </>
   );
 };
