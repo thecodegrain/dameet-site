@@ -4,7 +4,8 @@ import { useUser } from "@auth0/nextjs-auth0";
 
 const Sidebar = () => {
   const { user, error, isLoading } = useUser();
-  if (isLoading) return <div>Loading...</div>;
+  if (isLoading)
+    return <h4 className="a-self text-center large-space">Loading...</h4>;
   if (error) return <div>{error.message}</div>;
   return (
     <header className="sidebar-header bg-light">

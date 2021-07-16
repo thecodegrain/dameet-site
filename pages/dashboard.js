@@ -6,12 +6,11 @@ import { useUser } from "@auth0/nextjs-auth0";
 import Sidebar from "../components/Sidebar";
 
 const Webinar = () => {
-  const { user, error, isLoading } = useUser();
-  if (error) return <div>{error.message}</div>;
+  const { user, isLoading } = useUser();
 
   return (
     <>
-       <Head>
+      <Head>
         <html lang="en" />
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
         <meta name="googlebot" content="index,follow" />
@@ -37,10 +36,7 @@ const Webinar = () => {
         <div className="split2">
           <Sidebar />
           <div>
-            <div className="flow-content small-space">
-              {isLoading && <div>Loading...</div>}
-            </div>
-            {!user && (
+            {!user && !isLoading && (
               <section>
                 <div className="split">
                   <div className="flow-content">
