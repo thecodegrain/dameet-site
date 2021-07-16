@@ -71,8 +71,7 @@ const Mainstage = () => {
                             src="https://www.youtube.com/embed/toqDjKgU_Wc"
                             title="YouTube video player"
                             frameborder="0"
-                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                            allowfullscreen
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; fullscreen"
                           ></iframe>
                           <h2>No live sessions</h2>
                           <p>Join back later</p>
