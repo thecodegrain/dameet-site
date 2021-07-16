@@ -1,8 +1,14 @@
 import Head from "next/head";
 import Image from "next/image";
 import Sidebar from "../components/Sidebar";
+import { useUser } from "@auth0/nextjs-auth0";
+import Loading from "../components/Loading";
 
 const ShowFloor = () => {
+  const { isLoading } = useUser();
+  if (isLoading) {
+    return <Loading />;
+  }
   return (
     <>
       <Head>
