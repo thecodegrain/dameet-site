@@ -4,8 +4,7 @@ import { useUser } from "@auth0/nextjs-auth0";
 import Sidebar from "../components/Sidebar";
 
 const Mainstage = () => {
-  const { user, error, isLoading } = useUser();
-  if (error) return <div>{error.message}</div>;
+  const { user, isLoading } = useUser();
   return (
     <>
       <Head>
@@ -34,10 +33,7 @@ const Mainstage = () => {
         <div className="split2">
           <Sidebar />
           <div>
-            <div className="flow-content small-space">
-              {isLoading && <div>Loading...</div>}
-            </div>
-            {!user && (
+            {!user && !isLoading && (
               <section>
                 <div className="split">
                   <div className="flow-content">
@@ -52,43 +48,35 @@ const Mainstage = () => {
             )}
             {user && (
               <>
-                <section className="small-space">
-                  <div className="split">
-                    <div className="flow-content">
-                      <div>
-                        {/* <video src="/" width={400} height={400}></video> */}
-                        <div className="iframe-container__video">
-                          {/* <iframe
-                            className="iframe-video"
-                            src="https://www.youtube.com/embed/toqDjKgU_Wc"
-                            title="YouTube video player"
-                            frameborder="0"
-                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                            allowfullscreen
-                          ></iframe> */}
-                          <iframe
-                            className="iframe-video"
-                            src="https://www.youtube.com/embed/toqDjKgU_Wc"
-                            title="YouTube video player"
-                            frameborder="0"
-                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; fullscreen"
-                          ></iframe>
-                          <h2>No live sessions</h2>
-                          <p>Join back later</p>
-                        </div>
+                <div className="split small-space">
+                  <div className="flow-content">
+                    <div>
+                      <div className="iframe-container__video">
+                        <iframe
+                          className="iframe-video"
+                          src="https://www.youtube.com/embed/toqDjKgU_Wc" //replace the code after /embed
+                          title="YouTube video player"
+                          frameborder="0"
+                          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; fullscreen"
+                        ></iframe>
+                        <h2>No live sessions</h2>
+                        <p>Join back later</p>
                       </div>
                     </div>
                   </div>
-                </section>
+                </div>
+
+                {/* ! Replace this part */}
+
                 <section className="info-grid">
-                  <div className="flow-content event-card a-self__start">
-                    <h2>Session Info</h2>
+                  <div className="flow-content  a-self__start">
+                    <h3>Intro to Branding and Logo Designing</h3>
                     <div>
-                      <h3>July 17, 21</h3>
+                      <h4>By Shubhang Rajput</h4>
                       <h4 className="small-space">
-                        Session 1: Intro to Branding and Logo Designing
+                        {" "}
+                        July 17, 21 | 3: 00 PM (IST)
                       </h4>
-                      <p>Shubhang Rajput | 3: 00 PM (IST)</p>
                       <div>
                         <a className="btn small-space">Session notes</a>
                       </div>
