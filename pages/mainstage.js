@@ -77,7 +77,13 @@ const Mainstage = () => {
                       </div>
                     </div>
                   </div>
-                  <div className="flow-content flow-content--large">
+                  <div
+                    className="flow-content flow-content--large"
+                    style={{
+                      border: "#858080 solid 1px",
+                      borderRadius: "var(--br)",
+                    }}
+                  >
                     <div className="iframe-container__chat">
                       <iframe
                         className="iframe-chat"
