@@ -57,7 +57,7 @@ const Mainstage = () => {
                       <div className="iframe-container__video">
                         <iframe
                           className="iframe-video"
-                          src="https://www.youtube.com/embed/GtolG_CoEgE" //replace the code after /embed
+                          src="https://www.youtube.com/embed/gXM6P1NyNQ0" //replace the code after /embed
                           title="YouTube video player"
                           frameborder="0"
                           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; fullscreen"
@@ -71,15 +71,13 @@ const Mainstage = () => {
 
                 <section className="info-grid">
                   <div className="flow-content  a-self__start">
-                    <h3>
-                      Show your work: Get discovered and fly high as a developer
-                    </h3>
+                    <h3>Intro to App Development</h3>
                     <div>
-                      <h4>By Cris Pintea</h4>
-                      <h5> July 17, 21 | 5: 00 PM (IST)</h5>
+                      <h4>By Roshan Singh</h4>
+                      <h5> July 17, 21 | 6: 30 PM (IST)</h5>
                       <div>
                         <a
-                          href="https://codegrainpublic.notion.site/Show-your-work-ff90b8a7c1ca494f9f9389d7f04295bc"
+                          href="https://codegrainpublic.notion.site/Intro-to-App-Development-35a3a6337d564530a8cee86a1741e2ae"
                           target="_blank"
                           className="btn small-space"
                         >
@@ -99,7 +97,7 @@ const Mainstage = () => {
                       <iframe
                         className="iframe-chat"
                         frameborder="0"
-                        src="https://www.youtube.com/live_chat?v=GtolG_CoEgE&embed_domain=dameet.codegra.in&is_popout=1&v=toqDjKgU_Wc"
+                        src="https://www.youtube.com/live_chat?v=gXM6P1NyNQ0&embed_domain=dameet.codegra.in&is_popout=1&v=gXM6P1NyNQ0"
                       ></iframe>
                     </div>
                   </div>
