@@ -57,7 +57,7 @@ const Mainstage = () => {
                       <div className="iframe-container__video">
                         <iframe
                           className="iframe-video"
-                          src="https://www.youtube.com/embed/toqDjKgU_Wc" //replace the code after /embed
+                          src="https://www.youtube.com/embed/zCVx3jsR-mY" //replace the code after /embed
                           title="YouTube video player"
                           frameborder="0"
                           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; fullscreen"
@@ -97,7 +97,7 @@ const Mainstage = () => {
                       <iframe
                         className="iframe-chat"
                         frameborder="0"
-                        src="https://www.youtube.com/live_chat?v=toqDjKgU_Wc&embed_domain=dameet.codegra.in&is_popout=1&v=toqDjKgU_Wc"
+                        src="https://www.youtube.com/live_chat?v=zCVx3jsR-mY&embed_domain=dameet.codegra.in&is_popout=1&v=toqDjKgU_Wc"
                       ></iframe>
                     </div>
                   </div>
