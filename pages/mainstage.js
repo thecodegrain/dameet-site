@@ -57,7 +57,7 @@ const Mainstage = () => {
                       <div className="iframe-container__video">
                         <iframe
                           className="iframe-video"
-                          src="https://www.youtube.com/embed/17dmsITYoJU" //replace the code after /embed
+                          src="https://www.youtube.com/embed/yZFbtEb-jHM" //replace the code after /embed
                           title="YouTube video player"
                           frameborder="0"
                           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; fullscreen"
@@ -71,13 +71,13 @@ const Mainstage = () => {
 
                 <section className="info-grid">
                   <div className="flow-content  a-self__start">
-                    <h3>Web Development Basics</h3>
+                    <h3>How to get clients as a freelancer/beginner?</h3>
                     <div>
-                      <h4>By Janvi Poojary</h4>
-                      <h5> July 18, 21 | 3: 00 PM (IST)</h5>
+                      <h4>By Pranjal Doorwar</h4>
+                      <h5> July 18, 21 | 5: 00 PM (IST)</h5>
                       <div>
                         <a
-                          href="https://codegrainpublic.notion.site/Web-Development-Basics-7e77f9b7b3ac450a82beb14d787cfa99"
+                          href="https://codegrainpublic.notion.site/How-to-get-clients-as-a-freelancer-beginner-6f194267c5394ec9a7f7d76cff6df8b2"
                           target="_blank"
                           className="btn small-space"
                         >
@@ -97,7 +97,7 @@ const Mainstage = () => {
                       <iframe
                         className="iframe-chat"
                         frameborder="0"
-                        src="https://www.youtube.com/live_chat?v=17dmsITYoJU&embed_domain=dameet.codegra.in&is_popout=1&v=17dmsITYoJU"
+                        src="https://www.youtube.com/live_chat?v=yZFbtEb-jHM&embed_domain=dameet.codegra.in&is_popout=1&v=yZFbtEb-jHM"
                       ></iframe>
                     </div>
                   </div>
