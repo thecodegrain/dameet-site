@@ -3,6 +3,7 @@ import Image from "next/image";
 import Sidebar from "../components/Sidebar";
 import { useUser } from "@auth0/nextjs-auth0";
 import Loading from "../components/Loading";
+import UserNotLoggedIn from "../components/UserNotLoggedIn";
 
 const ShowFloor = () => {
   const { user, isLoading } = useUser();
@@ -37,19 +38,7 @@ const ShowFloor = () => {
       <div className="container__lg">
         <div className="split2">
           <Sidebar />
-          {!user && !isLoading && (
-            <section>
-              <div className="split">
-                <div className="flow-content">
-                  <h1>Hi, Stranger 👋</h1>
-                  <h5>Pls login to access the event!</h5>
-                  <a href="/api/auth/login" className="btn large-space">
-                    Log me in!!!
-                  </a>
-                </div>
-              </div>
-            </section>
-          )}
+          {!user && !isLoading && <UserNotLoggedIn />}
           {user && (
             <div>
               <section className="small-space">

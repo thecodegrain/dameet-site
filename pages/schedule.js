@@ -59,8 +59,7 @@ const Schedule = () => {
                       Intro to Branding and Logo Designing
                     </h4>
                     <p className="text-center">
-                      Shubhang Rajput |{" "}
-                      <span className="bold">3:00-4:30 PM (IST)</span>
+                      Shubhang Rajput | <span>3:00-4:30 PM (IST)</span>
                     </p>
                   </div>
                 </div>
@@ -76,8 +75,7 @@ const Schedule = () => {
                     Show your work: Get discovered and fly high as a developer
                   </h4>
                   <p className="text-center">
-                    Cris Pintea |{" "}
-                    <span className="bold">5:00-6:00 PM (IST)</span>
+                    Cris Pintea | <span>5:00-6:00 PM (IST)</span>
                   </p>
                 </div>
                 <div className="a-self">
@@ -92,8 +90,7 @@ const Schedule = () => {
                     Intro to App Development
                   </h4>
                   <p className="text-center">
-                    Roshan Singh |{" "}
-                    <span className="bold">6:30-8:00 PM (IST)</span>
+                    Roshan Singh | <span>6:30-8:00 PM (IST)</span>
                   </p>
                 </div>
                 <div className="a-self">
@@ -108,8 +105,7 @@ const Schedule = () => {
                     How & Why to start a side gig early on?
                   </h4>
                   <p className="text-center">
-                    Shubhang + Roshan |{" "}
-                    <span className="bold">8:15-9:00 PM (IST)</span>
+                    Shubhang + Roshan | <span>8:15-9:00 PM (IST)</span>
                   </p>
                 </div>
               </div>
@@ -128,8 +124,7 @@ const Schedule = () => {
                       Web Development Basics
                     </h4>
                     <p className="text-center">
-                      Janvi Poojary |{" "}
-                      <span className="bold">3:00-4:30 PM (IST)</span>
+                      Janvi Poojary | <span>3:00-4:30 PM (IST)</span>
                     </p>
                   </div>
                 </div>
@@ -145,8 +140,7 @@ const Schedule = () => {
                     How to get clients as a freelancer/beginner?
                   </h4>
                   <p className="text-center">
-                    Pranjal Doorwar |{" "}
-                    <span className="bold">5:00-6:30 PM (IST)</span>
+                    Pranjal Doorwar | <span>5:00-6:30 PM (IST)</span>
                   </p>
                 </div>
                 <div className="a-self">
@@ -161,8 +155,7 @@ const Schedule = () => {
                     Intro to User Experience
                   </h4>
                   <p className="text-center">
-                    Saish Gosavi |{" "}
-                    <span className="bold">7:00-8:00 PM (IST)</span>
+                    Saish Gosavi | <span>7:00-8:00 PM (IST)</span>
                   </p>
                 </div>
               </div>

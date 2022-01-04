@@ -2,6 +2,7 @@ import Head from "next/head";
 import { useUser } from "@auth0/nextjs-auth0";
 import Sidebar from "../components/Sidebar";
 import Loading from "../components/Loading";
+import UserNotLoggedIn from "../components/UserNotLoggedIn";
 
 const Mainstage = () => {
   const { user, isLoading } = useUser();
@@ -36,19 +37,7 @@ const Mainstage = () => {
         <div className="split2">
           <Sidebar />
           <div>
-            {!user && !isLoading && (
-              <section>
-                <div className="split">
-                  <div className="flow-content">
-                    <h1>Hi, Stranger 👋</h1>
-                    <h5>Pls login to access the event!</h5>
-                    <a href="/api/auth/login" className="btn large-space">
-                      Log me in!!!
-                    </a>
-                  </div>
-                </div>
-              </section>
-            )}
+            {!user && !isLoading && <UserNotLoggedIn />}
             {user && (
               <>
                 <div className="split small-space">
