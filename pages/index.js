@@ -50,10 +50,12 @@ export default function Home() {
       <section className="intro eq-space">
         <div className="container">
           <div className="split">
-            <div className="flow-content flow-content--large large-space">
+            <div className="flow-content flow-content--large small-space">
               <div>
                 <p className="h4">17-18 July 21</p>
-                <h1>The ultimate design & tech community event 🚀</h1>
+                <h1 className="small-space">
+                  The Ultimate Design and Tech Community Event
+                </h1>
               </div>
 
               <a href="/api/auth/login" className="btn">
@@ -89,7 +91,7 @@ export default function Home() {
                 new skill.
               </p>
 
-              <a href="/api/auth/login" className="btn large-space">
+              <a href="/api/auth/login" className="btn small-space">
                 Sign up now
               </a>
             </div>
@@ -272,7 +274,7 @@ export default function Home() {
         <div className="container">
           <div className="split">
             <div className="flow-content flow-content--med">
-              <h2>Frequently Asked Questions. 🤔 </h2>
+              <h2>Frequently Asked Questions.</h2>
 
               <div className="flow-content">
                 <div>

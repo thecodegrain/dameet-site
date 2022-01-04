@@ -6,7 +6,6 @@ const Footer = () => {
       <div className="container">
         <footer className="split">
           <div>
-            <p className="h4">17-18 July 21</p>
             <Link href="/">
               <a className="footer__logo">Da meet</a>
             </Link>
@@ -25,7 +24,7 @@ const Footer = () => {
                 className="bg-accent accent-bg"
                 style={{ color: "var(--clr-black)" }}
               >
-                #dameet2021
+                #dameet21
               </h3>
             </a>
           </div>

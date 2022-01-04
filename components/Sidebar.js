@@ -1,7 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import { useUser } from "@auth0/nextjs-auth0";
-import Loading from "../components/Loading";
+import Loading from "./Loading";
 
 const Sidebar = () => {
   const { user, error, isLoading } = useUser();

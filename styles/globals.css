@@ -56,7 +56,7 @@ h3,
 .h3,
 h4,
 .h4 {
-  line-height: 1.3;
+  line-height: 1.2;
 }
 
 .h4 {
@@ -75,6 +75,10 @@ img {
   display: block;
   border-radius: var(--br);
   object-fit: contain;
+}
+
+.intro img {
+  max-height: 550px;
 }
 
 body {
@@ -96,33 +100,33 @@ h6 {
 
 h1 {
   font-size: var(--fs-h1);
-  font-weight: var(--fw-bold);
+  font-weight: var(--fw-medium);
 }
 
 h2 {
   font-size: var(--fs-h2);
-  font-weight: var(--fw-bold);
+  font-weight: var(--fw-medium);
 }
 
 h3 {
   font-size: var(--fs-h3);
-  font-weight: var(--fw-semi-bold);
+  font-weight: var(--fw-medium);
 }
 
 h4 {
   font-size: var(--fs-h4);
-  font-weight: var(--fw-semi-bold);
+  font-weight: var(--fw-medium);
 }
 
 h5 {
   font-size: var(--fs-h5);
-  font-weight: var(--fw-semi-bold);
+  font-weight: var(--fw-medium);
 }
 
 a {
   text-decoration: none;
   font-weight: var(--fw-regular);
-  font-size: var(--fs-300);
+  font-size: var(--fs-body);
   color: var(--clr-neutral-900);
   cursor: pointer;
 }
@@ -132,7 +136,7 @@ a:focus {
   color: var(--clr-neutral-500);
 }
 
-/* !=====Utilites===== */
+/* !=====Utilities===== */
 
 .logo {
   font-size: var(--fs-h3);
@@ -184,6 +188,7 @@ a:focus {
   background: var(--clr-black);
   color: white;
   cursor: pointer;
+  letter-spacing: 1px;
 }
 
 .btn:hover,
@@ -210,7 +215,7 @@ a:focus {
 }
 
 .eq-space {
-  padding: 10rem 0;
+  padding: 7rem 0;
 }
 
 .margin-auto {
@@ -300,9 +305,6 @@ header {
   display: flex;
   flex-grow: 1;
 }
-.nav h1 {
-  align-self: center;
-}
 
 .nav__list {
   margin: 0;
@@ -329,6 +331,11 @@ header {
 .nav__btn {
   padding: var(--btn-nav-clamp-v) var(--btn-nav-clamp-h);
 }
+
+/* !===== INTRO section ===== */
+/* .intro {
+  margin-top: 5rem;
+} */
 
 /* !=====ABOUT section===== */
 
@@ -417,7 +424,7 @@ footer {
 
 .footer__logo {
   font-size: var(--fs-h1);
-  font-weight: var(--fw-bold);
+  font-weight: var(--fw-medium);
   color: var(--clr-neutral-200);
 }
 
@@ -654,12 +661,16 @@ footer {
     --fs-body: 0.875rem; /* 14px */
   }
 
+  body {
+    line-height: 1.4;
+  }
+
   .split {
     flex-direction: column;
   }
 
   .split > * + * {
-    margin: 4rem 0 0 0;
+    margin: 3rem 0 0 0;
   }
 
   .hidden {
@@ -667,8 +678,7 @@ footer {
   }
 
   .eq-space {
-    text-align: center;
-    padding: 5rem 0;
+    padding: 3rem 0;
   }
 
   .card-section {
@@ -705,7 +715,7 @@ footer {
   }
 
   .speaker-cta {
-    align-self: center;
+    align-self: start;
   }
 
   .sidebar__list {

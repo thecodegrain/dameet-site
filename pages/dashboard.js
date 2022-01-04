@@ -4,6 +4,7 @@ import Link from "next/link";
 import { useUser } from "@auth0/nextjs-auth0";
 import Sidebar from "../components/Sidebar";
 import Loading from "../components/Loading";
+import UserNotLoggedIn from "../components/UserNotLoggedIn";
 
 const Webinar = () => {
   const { user, isLoading } = useUser();
@@ -39,19 +40,7 @@ const Webinar = () => {
         <div className="split2">
           <Sidebar />
           <div>
-            {!user && !isLoading && (
-              <section>
-                <div className="split">
-                  <div className="flow-content">
-                    <h1>Hi, Stranger 👋</h1>
-                    <h5>Pls login to access the event!</h5>
-                    <a href="/api/auth/login" className="btn large-space">
-                      Log me in!!!
-                    </a>
-                  </div>
-                </div>
-              </section>
-            )}
+            {!user && !isLoading && <UserNotLoggedIn />}
             {user && (
               <>
                 <section className="small-space">
@@ -61,7 +50,7 @@ const Webinar = () => {
                         <h1>
                           Hi,{" "}
                           {user.name.includes("@") ? user.nickname : user.name}
-                          👋
+                          !!
                         </h1>
                       )}
                       <h5>Welcome to the club!!</h5>
